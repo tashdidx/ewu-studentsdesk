@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <Hero>
-      <div className="flex flex-col items-center justify-center p-4 lg:pt-24 pt-16 relative z-10 min-h-screen">
+      <div className="flex flex-col items-center justify-center p-4 lg:pt-24 pt-20 relative z-10 min-h-screen">
         {/* Content */}
         <div className="max-w-2xl w-full text-center lg:mb-10">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-2 drop-shadow-2xl bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         
         {/* All 4 Cards */}
-        <div className="grid z-50 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full max-w-6xl">
+        <div className="grid z-50 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full max-w-6xl pt-4 lg:pt-0">
           {cards.map((card) => (
             <GlassBlogCard key={card.href} {...card} />
           ))}
