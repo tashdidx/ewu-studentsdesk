@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
         `}
       </Script>
       <body
-        className={`${metropolis.variable} font-sans antialiased bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen flex flex-col`}
+        className={`${metropolis.variable} font-sans antialiased bg-black min-h-screen flex flex-col`}
       >
         
         <main className="flex-grow">
