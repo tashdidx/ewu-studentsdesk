@@ -76,47 +76,47 @@ export default function CourseHub() {
   return (
     <div
       ref={topRef}
-      className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black py-12 px-4"
+      className="min-h-screen bg-[#1a1a1a] py-8 px-4"
     >
       <div className="max-w-5xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-6 md:mb-8">
-          <div className="flex justify-center mb-3 md:mb-4">
-            <div className="bg-gradient-to-br from-violet-500 to-purple-600 p-3 md:p-4 rounded-full shadow-lg">
-              <FaBook className="w-6 h-6 md:w-8 md:h-8 text-white" />
+        <div className="text-center mb-4">
+          <div className="flex justify-center mb-2">
+            <div className="bg-gradient-to-br from-blue-500 to-indigo-600 p-2 rounded-full shadow-lg">
+              <FaBook className="w-5 h-5 text-white" />
             </div>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2 md:mb-3 bg-gradient-to-r from-violet-300 via-purple-300 to-violet-400 bg-clip-text text-transparent">
+          <h1 className="text-2xl md:text-3xl font-extrabold mb-1 text-white pt-10">
             Course Hub
           </h1>
-          <p className="text-gray-400 text-sm md:text-base lg:text-lg px-4">
+          <p className="text-gray-400 text-xs md:text-sm px-4">
             Explore course catalogs from all departments with detailed information
           </p>
         </div>
 
         {/* Search and Filter Section */}
-        <div className="bg-gradient-to-br from-slate-900/95 to-slate-800/95 backdrop-blur-md border-2 border-violet-500/30 shadow-lg shadow-violet-500/10 rounded-xl p-3 md:p-4 mb-6 md:mb-8">
+        <div className="bg-[#1a1a1a] border border-white/10 rounded-xl p-2.5 md:p-3 mb-4">
           {/* Search and Filter Row */}
-          <div className="flex flex-col md:flex-row gap-3 md:gap-4 mb-2 md:mb-3">
+          <div className="flex flex-col md:flex-row gap-2 mb-1.5">
             {/* Search Input */}
             <div className="relative flex-1">
-              <FaSearch className="absolute left-4 top-1/2 transform -translate-y-1/2 text-violet-400 w-5 h-5" />
+              <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-blue-400 w-4 h-4" />
               <input
                 type="text"
-                placeholder="🔍 Search by course code or name..."
-                className="w-full pl-10 md:pl-12 pr-3 md:pr-4 py-2.5 md:py-3 text-sm md:text-base bg-slate-800/80 border-2 border-violet-500/40 rounded-lg shadow-lg shadow-violet-500/10 focus:border-violet-400 focus:ring-2 focus:ring-violet-500/50 focus:outline-none text-white placeholder-violet-200/60 transition-all duration-200"
+                placeholder="Search by course code or name..."
+                className="w-full pl-9 pr-3 py-2 text-sm bg-[#252525] border border-white/10 rounded-lg focus:border-blue-400 focus:ring-2 focus:ring-blue-500/50 focus:outline-none text-white placeholder-gray-500 transition-all duration-200"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
             </div>
 
             {/* Department Filter */}
-            <div className="relative md:w-80">
-              <FaFilter className="absolute left-3 top-1/2 transform -translate-y-1/2 text-violet-400 w-3.5 h-3.5 md:w-4 md:h-4 pointer-events-none z-10" />
+            <div className="relative md:w-64">
+              <FaFilter className="absolute left-3 top-1/2 transform -translate-y-1/2 text-blue-400 w-3.5 h-3.5 pointer-events-none z-10" />
               <select
                 value={selectedDept}
                 onChange={(e) => setSelectedDept(e.target.value)}
-                className="w-full pl-8 pr-3 md:pr-4 py-2.5 md:py-3 text-sm md:text-base bg-slate-800/80 border-2 border-violet-500/40 rounded-lg shadow-lg shadow-violet-500/10 focus:border-violet-400 focus:ring-2 focus:ring-violet-500/50 focus:outline-none text-white transition-all duration-200 cursor-pointer appearance-none"
+                className="w-full pl-8 pr-3 py-2 text-sm bg-[#252525] border border-white/10 rounded-lg focus:border-blue-400 focus:ring-2 focus:ring-blue-500/50 focus:outline-none text-white transition-all duration-200 cursor-pointer appearance-none"
               >
                 {departments.map((dept) => (
                   <option key={dept} value={dept}>
@@ -128,7 +128,7 @@ export default function CourseHub() {
           </div>
 
           {/* Results Counter */}
-          <div className="text-xs md:text-sm text-violet-300">
+          <div className="text-xs text-blue-300">
             {filteredCourses.length} courses found
             {selectedDept !== "All" && ` in ${getDeptDisplayName(selectedDept)}`}
             {search && ` matching "${search}"`}
@@ -136,9 +136,9 @@ export default function CourseHub() {
         </div>
 
         {/* Course List */}
-        <div className="space-y-4">
+        <div className="space-y-2">
           {filteredCourses.length === 0 && (
-            <div className="text-center text-gray-400 text-sm md:text-lg py-8 md:py-12">
+            <div className="text-center text-gray-400 text-sm py-6">
               No courses found. Try a different search term.
             </div>
           )}
@@ -148,80 +148,80 @@ export default function CourseHub() {
             return (
               <div
                 key={uniqueKey}
-                className="bg-gradient-to-br from-slate-800 to-slate-900 border-2 border-violet-500/40 rounded-xl shadow-xl shadow-violet-500/10 overflow-hidden transition-all duration-300 hover:border-violet-400/60 hover:shadow-violet-500/20"
+                className="bg-[#1a1a1a] border border-white/10 rounded-lg overflow-hidden transition-all duration-300 hover:border-blue-500/50"
               >
               {/* Course Header - Clickable */}
               <button
                 onClick={() => toggleCourse(uniqueKey)}
-                className="w-full px-4 md:px-6 py-3 md:py-4 flex items-center justify-between hover:bg-violet-500/5 transition-colors duration-200"
+                className="w-full px-3 py-2.5 flex items-center justify-between hover:bg-white/5 transition-colors duration-200"
               >
-                <div className="flex items-center gap-2 md:gap-4">
-                  <span className="inline-block px-2.5 md:px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-lg font-bold bg-gradient-to-r from-violet-500 to-purple-500 text-white shadow-lg shadow-violet-500/30">
+                <div className="flex items-center gap-2">
+                  <span className="inline-block px-2 py-1 rounded-lg text-xs font-bold bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow">
                     {course.courseCode}
                   </span>
-                  <h3 className="text-sm md:text-lg font-semibold text-violet-200 text-left">
+                  <h3 className="text-xs md:text-sm font-semibold text-blue-200 text-left">
                     {course.courseName}
                   </h3>
                 </div>
-                <div className="text-violet-400 flex-shrink-0">
+                <div className="text-blue-400 flex-shrink-0">
                   {expandedCourse === uniqueKey ? (
-                    <FaChevronUp className="w-4 h-4 md:w-5 md:h-5" />
+                    <FaChevronUp className="w-3 h-3" />
                   ) : (
-                    <FaChevronDown className="w-4 h-4 md:w-5 md:h-5" />
+                    <FaChevronDown className="w-3 h-3" />
                   )}
                 </div>
               </button>
 
               {/* Course Details - Expandable */}
               {expandedCourse === uniqueKey && (
-                <div className="px-4 md:px-6 pb-4 md:pb-6 pt-2 md:pt-3 border-t border-violet-500/20 bg-slate-900/50">
+                <div className="px-3 pb-3 pt-1.5 border-t border-white/10 bg-[#252525]">
                   {/* Credit Hours */}
-                  <div className="mb-3 md:mb-4">
-                    <h4 className="text-xs md:text-sm font-bold text-violet-300 mb-1.5 md:mb-2 flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-violet-500 rounded-full"></span>
+                  <div className="mb-2">
+                    <h4 className="text-xs font-bold text-blue-300 mb-0.5 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                       Credit Hours
                     </h4>
-                    <p className="text-gray-300 text-xs md:text-sm pl-3 md:pl-4">
+                    <p className="text-gray-300 text-xs pl-3">
                       {course.creditHours}
                     </p>
                   </div>
 
                   {/* Prerequisites */}
-                  <div className="mb-3 md:mb-4">
-                    <h4 className="text-xs md:text-sm font-bold text-violet-300 mb-1.5 md:mb-2 flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-violet-500 rounded-full"></span>
+                  <div className="mb-2">
+                    <h4 className="text-xs font-bold text-blue-300 mb-0.5 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                       Prerequisites
                     </h4>
-                    <p className="text-gray-300 text-xs md:text-sm pl-3 md:pl-4">
+                    <p className="text-gray-300 text-xs pl-3">
                       {course.prerequisites}
                     </p>
                   </div>
 
                   {/* Objectives */}
-                  <div className="mb-3 md:mb-4">
-                    <h4 className="text-xs md:text-sm font-bold text-violet-300 mb-1.5 md:mb-2 flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-violet-500 rounded-full"></span>
+                  <div className="mb-2">
+                    <h4 className="text-xs font-bold text-blue-300 mb-0.5 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                       Course Objectives
                     </h4>
-                    <p className="text-gray-300 text-xs md:text-sm pl-3 md:pl-4 leading-relaxed">
+                    <p className="text-gray-300 text-xs pl-3 leading-relaxed">
                       {course.objectives}
                     </p>
                   </div>
 
                   {/* Course Outcomes */}
                   {course.outcomes && course.outcomes.length > 0 && course.outcomes[0] !== 'Not available' && (
-                    <div className="mb-4">
-                      <h4 className="text-sm font-bold text-violet-300 mb-2 flex items-center gap-2">
-                        <span className="w-2 h-2 bg-violet-500 rounded-full"></span>
+                    <div className="mb-2">
+                      <h4 className="text-xs font-bold text-blue-300 mb-1 flex items-center gap-1.5">
+                        <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                         Course Outcomes
                       </h4>
-                      <ul className="space-y-2 pl-4">
+                      <ul className="space-y-1 pl-3">
                         {course.outcomes.map((outcome, idx) => (
                           <li
                             key={idx}
-                            className="text-gray-300 text-sm flex items-start gap-2"
+                            className="text-gray-300 text-xs flex items-start gap-1.5"
                           >
-                            <span className="text-violet-400 mt-1">•</span>
+                            <span className="text-blue-400">•</span>
                             <span>{outcome}</span>
                           </li>
                         ))}
@@ -232,17 +232,17 @@ export default function CourseHub() {
                   {/* Course Contents */}
                   {course.courseContents && course.courseContents.length > 0 && course.courseContents[0] !== 'Not available' && (
                     <div>
-                      <h4 className="text-sm font-bold text-violet-300 mb-2 flex items-center gap-2">
-                        <span className="w-2 h-2 bg-violet-500 rounded-full"></span>
+                      <h4 className="text-xs font-bold text-blue-300 mb-1 flex items-center gap-1.5">
+                        <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                         Course Contents
                       </h4>
-                      <ul className="space-y-1.5 pl-4">
+                      <ul className="space-y-1 pl-3">
                         {course.courseContents.map((content, idx) => (
                           <li
                             key={idx}
-                            className="text-gray-300 text-sm flex items-start gap-2"
+                            className="text-gray-300 text-xs flex items-start gap-1.5"
                           >
-                            <span className="text-violet-400 mt-1">•</span>
+                            <span className="text-blue-400">•</span>
                             <span>{content}</span>
                           </li>
                         ))}
