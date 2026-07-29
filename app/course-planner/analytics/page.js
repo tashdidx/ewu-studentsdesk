@@ -1,8 +1,10 @@
 import Analytics from '../../../components/analytics';
+import Navigation from '@/components/Navigation'
 
 export default function AnalyticsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+    <div className="min-h-screen bg-[#1a1a1a]">
+      <Navigation />
       <Analytics />
     </div>
   );
