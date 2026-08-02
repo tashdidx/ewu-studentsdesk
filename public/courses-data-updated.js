@@ -8,6 +8,18 @@ export const courses = [
         "faculty": "MAR",
         "times": [
           {
+            "time": "M 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MIR",
+        "times": [
+          {
             "time": "W 10:10 AM - 11:40 AM"
           },
           {
@@ -16,56 +28,44 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
         "section": "3",
-        "faculty": "TBA",
+        "faculty": "AUR",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "T 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "MSHQ",
+        "faculty": "SJA",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "W 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "M 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "DMZM",
+        "faculty": "TZE",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "S 03:10 PM - 04:40 PM"
           },
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "T 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "DMZM",
+        "faculty": "TZE",
         "times": [
           {
             "time": "T 04:50 PM - 06:20 PM"
@@ -101,25 +101,25 @@ export const courses = [
       },
       {
         "section": "9",
-        "faculty": "TZE",
+        "faculty": "SGA",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "T 03:10 PM - 04:40 PM"
           },
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "TZE",
+        "faculty": "ARSA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "W 01:30 PM - 03:00 PM"
           },
           {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "M 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -128,10 +128,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "M 08:30 AM - 10:00 AM"
+            "time": "M 04:50 PM - 06:20 PM"
           },
           {
-            "time": "W 08:30 AM - 10:00 AM"
+            "time": "W 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -140,22 +140,22 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "W 10:10 AM - 11:40 AM"
+            "time": "W 04:50 PM - 06:20 PM"
           },
           {
-            "time": "M 10:10 AM - 11:40 AM"
+            "time": "M 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "13",
-        "faculty": "MIR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "M 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "W 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -164,10 +164,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "W 08:30 AM - 10:00 AM"
+            "time": "R 04:50 PM - 06:20 PM"
           },
           {
-            "time": "M 08:30 AM - 10:00 AM"
+            "time": "S 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -176,22 +176,22 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "M 10:10 AM - 11:40 AM"
+            "time": "S 04:50 PM - 06:20 PM"
           },
           {
-            "time": "W 10:10 AM - 11:40 AM"
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "16",
-        "faculty": "AADNAN",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "W 03:10 PM - 04:40 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           },
           {
-            "time": "M 03:10 PM - 04:40 PM"
+            "time": "S 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -200,10 +200,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "M 03:10 PM - 04:40 PM"
+            "time": "R 04:50 PM - 06:20 PM"
           },
           {
-            "time": "W 03:10 PM - 04:40 PM"
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -212,10 +212,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "W 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "M 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -224,58 +224,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "M 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "20",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "21",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "22",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "24",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "W 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -287,25 +239,37 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KMSK",
+        "faculty": "FZRN",
         "times": [
           {
-            "time": "W 04:50 PM - 06:20 PM"
+            "time": "R 04:50 PM - 06:20 PM"
           },
           {
-            "time": "M 04:50 PM - 06:20 PM"
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "MSHQ",
+        "faculty": "MAHCY",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "M 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "W 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -320,7 +284,7 @@ export const courses = [
         "faculty": "TJ",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
             "time": "T 10:10 AM - 01:10 PM"
@@ -329,13 +293,13 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "TJ",
+        "faculty": "DMIM",
         "times": [
           {
-            "time": "R 10:10 AM - 01:10 PM"
+            "time": "R 08:30 AM - 11:30 AM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -344,13 +308,10 @@ export const courses = [
         "faculty": "DAHF",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "M 04:50 PM - 07:50 PM"
           }
         ]
       },
@@ -359,67 +320,55 @@ export const courses = [
         "faculty": "DAHF",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "S 08:00 AM - 11:00 AM"
           },
           {
-            "time": "M 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "DHMAI",
+        "faculty": "MRJ",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
-            "time": "S 04:50 PM - 07:50 PM"
+            "time": "R 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "DMIM",
+        "faculty": "PC",
         "times": [
           {
-            "time": "M 10:10 AM - 01:10 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           },
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "W 03:10 PM - 06:20 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "MRJ",
+        "faculty": "RIFAT",
         "times": [
           {
-            "time": "T 01:30 PM - 04:30 PM"
+            "time": "T 08:00 AM - 11:00 AM"
           },
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "PC",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "PC",
+        "faculty": "MIR",
         "times": [
           {
             "time": "T 04:50 PM - 07:50 PM"
@@ -430,38 +379,53 @@ export const courses = [
         ]
       },
       {
-        "section": "10",
-        "faculty": "MAHCY",
+        "section": "9",
+        "faculty": "KMSK",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "S 08:00 AM - 11:00 AM"
           },
           {
-            "time": "R 10:10 AM - 01:10 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "MAMRD",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 06:10 PM"
           }
         ]
       },
       {
         "section": "11",
-        "faculty": "RIFAT",
+        "faculty": "DHMAI",
         "times": [
           {
-            "time": "M 10:10 AM - 01:10 PM"
+            "time": "S 01:30 PM - 03:00 PM"
           },
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "R 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "W 01:30 PM - 04:30 PM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "NISHAT",
+        "faculty": "MMSY & MI",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           },
           {
-            "time": "W 04:50 PM - 07:50 PM"
+            "time": "S 08:30 AM - 11:30 AM"
           }
         ]
       },
@@ -470,10 +434,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 04:50 PM - 07:50 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           },
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "S 04:50 PM - 07:50 PM"
           }
         ]
       },
@@ -482,130 +446,28 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "T 04:50 PM - 07:50 PM"
+            "time": "W 04:50 PM - 07:50 PM"
           },
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "15",
-        "faculty": "KMMU",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "KMMU",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "KMSK",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "MAMRD",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "19",
-        "faculty": "MIR",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "20",
         "faculty": "TBA",
         "times": [
           {
-            "time": "0/0"
+            "time": "R 10:10 AM - 11:40 AM"
           },
           {
-            "time": "W 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "21",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
             "time": "M 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "22",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:00 AM - 11:00 AM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "23",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 10:10 AM - 01:10 PM"
           }
         ]
       }
@@ -629,7 +491,7 @@ export const courses = [
         "faculty": "MHAK",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -638,16 +500,16 @@ export const courses = [
         "faculty": "MHAK",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "DSU",
+        "faculty": "MHAK",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -656,13 +518,13 @@ export const courses = [
         "faculty": "DSU",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "NAFIS",
+        "faculty": "DTS",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -671,15 +533,42 @@ export const courses = [
       },
       {
         "section": "7",
-        "faculty": "AASR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "AASR",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "AASR",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
         "faculty": "SDNA",
         "times": [
           {
@@ -688,68 +577,29 @@ export const courses = [
         ]
       },
       {
-        "section": "9",
-        "faculty": "MAHCY",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
         "section": "12",
-        "faculty": "TBA",
+        "faculty": "PC",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "13",
-        "faculty": "TBA",
+        "faculty": "MAHCY",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "14",
-        "faculty": "TBA",
+        "faculty": "MOON",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -758,7 +608,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "T 08:30 AM - 10:00 AM"
           },
           {
             "time": "R 08:30 AM - 10:00 AM"
@@ -770,10 +620,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -782,10 +629,22 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "R 10:10 AM - 11:40 AM"
           },
           {
+            "time": "S 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "18",
+        "faculty": "TBA",
+        "times": [
+          {
             "time": "R 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -800,7 +659,31 @@ export const courses = [
         "faculty": "RIFAT",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "M 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MOON",
+        "times": [
+          {
+            "time": "S 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
           },
           {
             "time": "S 04:50 PM - 06:50 PM"
@@ -808,26 +691,29 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
-        "faculty": "MAMRD",
+        "section": "4",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "M 04:50 PM - 06:50 PM"
           },
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
-        "section": "3",
-        "faculty": "MAMRD",
+        "section": "5",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           },
           {
-            "time": "S 08:00 AM - 10:00 AM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -839,235 +725,118 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DAKP",
+        "faculty": "DMRH",
         "times": [
           {
-            "time": "S 08:00 AM - 11:00 AM"
+            "time": "M 03:10 PM - 06:10 PM"
           },
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DAKP",
+        "faculty": "MKR",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "W 01:30 PM - 04:30 PM"
           },
           {
-            "time": "S 11:50 AM - 02:50 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "DSU",
+        "faculty": "IMRAN",
         "times": [
           {
-            "time": "W 10:10 AM - 01:10 PM"
+            "time": "W 04:50 PM - 07:50 PM"
           },
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "MKR",
+        "faculty": "FZRN",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "M 10:10 AM - 01:10 PM"
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "TBA",
+        "faculty": "SABBIR",
         "times": [
           {
-            "time": "S 01:30 PM - 04:30 PM"
+            "time": "R 08:00 AM - 11:00 AM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "SAJID",
+        "faculty": "PROMA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           },
           {
-            "time": "T 10:10 AM - 01:10 PM"
+            "time": "T 08:00 AM - 11:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "SDNA",
+        "faculty": "PROMA",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "T 11:50 AM - 02:50 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "SDNA",
+        "faculty": "SUDDIN",
         "times": [
           {
             "time": "SR 01:30 PM - 03:00 PM"
           },
           {
-            "time": "T 04:50 PM - 07:50 PM"
+            "time": "T 03:10 PM - 06:10 PM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "ARIJIT",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "SUDDIN",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "FZRN",
-        "times": [
-          {
-            "time": "T 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "FZRN",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "SABBIR",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "PROMA",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "M 08:00 AM - 11:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "15",
         "faculty": "TBA",
         "times": [
           {
-            "time": "W 08:00 AM - 11:00 AM"
+            "time": "W 01:30 PM - 03:30 PM"
           },
           {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "T 08:30 AM - 10:00 AM"
           },
           {
-            "time": "W 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 08:00 AM - 11:00 AM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 08:00 AM - 11:00 AM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -1079,52 +848,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "IMRAN",
-        "times": [
-          {
-            "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MYMA",
-        "times": [
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "KHALID",
-        "times": [
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "AUR",
-        "times": [
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TTB",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "KMSK",
+        "faculty": "AASR",
         "times": [
           {
             "time": "S 10:10 AM - 12:10 PM"
@@ -1132,16 +856,34 @@ export const courses = [
         ]
       },
       {
-        "section": "7",
-        "faculty": "NISHAT",
+        "section": "2",
+        "faculty": "FZRN",
         "times": [
           {
-            "time": "S 04:50 PM - 06:50 PM"
+            "time": "W 11:50 AM - 01:50 PM"
           }
         ]
       },
       {
-        "section": "8",
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 04:50 PM - 06:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "MAHCY",
+        "times": [
+          {
+            "time": "T 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
         "faculty": "RIFAT",
         "times": [
           {
@@ -1150,35 +892,26 @@ export const courses = [
         ]
       },
       {
-        "section": "9",
-        "faculty": "NAHID",
+        "section": "6",
+        "faculty": "KMSK",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
-        "section": "10",
-        "faculty": "ARMAN",
+        "section": "7",
+        "faculty": "MAMRD",
         "times": [
           {
-            "time": "T 04:50 PM - 06:50 PM"
+            "time": "T 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
-        "section": "11",
-        "faculty": "SABBIR",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "MIR",
+        "section": "8",
+        "faculty": "MYMA",
         "times": [
           {
             "time": "M 04:50 PM - 06:50 PM"
@@ -1186,20 +919,56 @@ export const courses = [
         ]
       },
       {
-        "section": "13",
-        "faculty": "MOON",
+        "section": "9",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "M 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 03:10 PM - 05:10 PM"
           }
         ]
       },
       {
         "section": "14",
-        "faculty": "ANTU",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "M 03:10 PM - 05:10 PM"
           }
         ]
       },
@@ -1208,7 +977,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "M 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -1217,7 +986,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 08:00 AM - 10:00 AM"
+            "time": "M 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -1226,7 +995,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "M 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -1235,7 +1004,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "M 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -1244,16 +1013,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "20",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "W 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -1283,7 +1043,7 @@ export const courses = [
             "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -1292,7 +1052,7 @@ export const courses = [
         "faculty": "DAKP",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
             "time": "R 01:30 PM - 03:30 PM"
@@ -1304,70 +1064,40 @@ export const courses = [
         "faculty": "ATIQ",
         "times": [
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "ATIQ & PC",
+        "faculty": "ATIQ",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "R 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "MYMA",
+        "faculty": "AASR",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 03:10 PM - 04:10 PM"
-          },
-          {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "MYMA",
-        "times": [
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "AASR",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "MMLI",
+        "faculty": "TBA",
         "times": [
           {
             "time": "M 04:50 PM - 06:50 PM"
@@ -1378,8 +1108,8 @@ export const courses = [
         ]
       },
       {
-        "section": "10",
-        "faculty": "MMLI",
+        "section": "8",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
@@ -1390,26 +1120,50 @@ export const courses = [
         ]
       },
       {
-        "section": "11",
-        "faculty": "PC",
+        "section": "9",
+        "faculty": "RIFAT",
         "times": [
           {
-            "time": "S 04:50 PM - 06:50 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "MIR",
+        "times": [
+          {
+            "time": "SR 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "W 03:10 PM - 05:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "MYMA",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "RIFAT",
+        "faculty": "MMLI",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "W 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -1419,9 +1173,6 @@ export const courses = [
         "times": [
           {
             "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
           },
           {
             "time": "R 08:30 AM - 10:00 AM"
@@ -1439,7 +1190,7 @@ export const courses = [
         "faculty": "SJ",
         "times": [
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -1463,10 +1214,10 @@ export const courses = [
         "faculty": "DZIM",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -1475,25 +1226,22 @@ export const courses = [
         "faculty": "DZIM",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "SHK",
+        "faculty": "RDA",
         "times": [
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -1502,22 +1250,25 @@ export const courses = [
         "faculty": "SHK",
         "times": [
           {
-            "time": "S 04:50 PM - 06:50 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "MKN",
+        "faculty": "SHK",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -1526,34 +1277,40 @@ export const courses = [
         "faculty": "MKN",
         "times": [
           {
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
             "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "DOF",
+        "faculty": "MKN",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "W 01:30 PM - 03:30 PM"
           },
           {
-            "time": "T 04:50 PM - 06:50 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "DOF",
+        "faculty": "SJA",
         "times": [
           {
-            "time": "R 04:50 PM - 06:50 PM"
+            "time": "S 04:50 PM - 06:20 PM"
           },
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "R 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -1562,61 +1319,46 @@ export const courses = [
         "faculty": "DSMU",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "M 04:50 PM - 06:50 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "DSMU",
+        "faculty": "SJA & DMSA",
         "times": [
           {
-            "time": "W 04:50 PM - 06:50 PM"
+            "time": "M 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "13",
-        "faculty": "SJA",
+        "faculty": "SGA",
         "times": [
           {
-            "time": "R 04:50 PM - 06:50 PM"
+            "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "14",
-        "faculty": "DMSA & SJA",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "15",
         "faculty": "TBA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 10:10 AM - 12:10 PM"
+            "time": "S 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -1628,13 +1370,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DSU",
+        "faculty": "TTB",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           },
           {
-            "time": "S 03:10 PM - 06:10 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -1646,79 +1388,73 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DTBI",
+        "faculty": "TJ",
         "times": [
           {
-            "time": "S 10:10 AM - 01:10 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "R 10:10 AM - 01:10 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DTS",
+        "faculty": "DAKP",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "S 10:10 AM - 01:10 PM"
           },
           {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
-            "time": "W 01:30 PM - 04:30 PM"
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "DTS",
+        "faculty": "DTBI",
         "times": [
           {
-            "time": "W 04:50 PM - 07:50 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "S 08:00 AM - 11:00 AM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "DHMAI",
+        "faculty": "FHUQ",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 04:50 PM - 07:50 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "DHMAI",
+        "faculty": "AASR",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "SR 01:30 PM - 03:00 PM"
           },
           {
-            "time": "W 04:50 PM - 07:50 PM"
+            "time": "W 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "TBA",
+        "faculty": "PC",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "SR 10:10 AM - 11:40 AM"
           },
           {
             "time": "R 08:00 AM - 10:00 AM"
@@ -1727,58 +1463,22 @@ export const courses = [
       },
       {
         "section": "7",
-        "faculty": "TTB",
+        "faculty": "PC",
         "times": [
           {
-            "time": "S 01:30 PM - 04:30 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           },
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "M 04:50 PM - 07:50 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "RABEA",
+        "faculty": "KMSK",
         "times": [
           {
-            "time": "T 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "RABEA",
-        "times": [
-          {
-            "time": "M 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 08:00 AM - 11:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "TBA & TTB",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
           },
           {
             "time": "W 04:50 PM - 07:50 PM"
@@ -1786,17 +1486,80 @@ export const courses = [
         ]
       },
       {
-        "section": "12",
-        "faculty": "TBA",
+        "section": "9",
+        "faculty": "MAMRD",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "T 08:00 AM - 11:00 AM"
           },
           {
-            "time": "R 08:00 AM - 11:00 AM"
+            "time": "SR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TTB",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:50 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "DMZM",
+        "times": [
+          {
+            "time": "S 04:50 PM - 06:50 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "DHMAI",
+        "times": [
+          {
+            "time": "S 08:00 AM - 11:00 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "TBA & MMSY",
+        "times": [
+          {
+            "time": "W 01:30 PM - 04:30 PM"
+          },
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "ARSA",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "W 04:50 PM - 07:50 PM"
           }
         ]
       }
@@ -1808,22 +1571,37 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MHR",
+        "faculty": "SJ",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "M 10:10 AM - 12:10 PM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "MHR",
+        "faculty": "SJ",
         "times": [
           {
-            "time": "W 08:00 AM - 10:00 AM"
+            "time": "W 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DZIM",
+        "times": [
+          {
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -1831,146 +1609,137 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "SJ",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
         "section": "4",
-        "faculty": "SJ",
+        "faculty": "RDA",
         "times": [
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "W 10:10 AM - 12:10 PM"
           },
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "RDA",
+        "faculty": "SJA",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           },
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "RDA",
+        "faculty": "SJA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "W 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "SHK",
+        "faculty": "KOUSHIK",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "W 10:10 AM - 12:10 PM"
           },
           {
-            "time": "W 04:50 PM - 06:50 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "MKN & PMSR",
+        "faculty": "MHR",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "M 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "KOUSHIK & PMSR",
+        "faculty": "DOF",
         "times": [
           {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "M 04:50 PM - 06:50 PM"
           },
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "SJA",
+        "faculty": "DOF",
         "times": [
           {
-            "time": "S 04:50 PM - 06:50 PM"
+            "time": "W 04:50 PM - 06:50 PM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "11",
-        "faculty": "SJA",
+        "faculty": "PMSR",
         "times": [
           {
-            "time": "R 03:10 PM - 04:10 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
-            "time": "T 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "TBA",
+        "faculty": "PMSR",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "ST 03:10 PM - 04:40 PM"
           },
           {
-            "time": "T 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "T 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "13",
-        "faculty": "TBA",
+        "faculty": "SSULTANA",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "M 04:50 PM - 06:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "SSULTANA",
+        "times": [
+          {
+            "time": "W 04:50 PM - 06:50 PM"
           },
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -1985,10 +1754,10 @@ export const courses = [
         "faculty": "DMRH",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "T 01:30 PM - 04:30 PM"
           },
           {
-            "time": "T 01:30 PM - 04:30 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -1997,10 +1766,10 @@ export const courses = [
         "faculty": "MKR",
         "times": [
           {
-            "time": "W 08:00 AM - 11:00 AM"
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "M 01:30 PM - 04:30 PM"
           },
           {
             "time": "R 10:10 AM - 11:40 AM"
@@ -2012,10 +1781,10 @@ export const courses = [
         "faculty": "MRJ",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "R 10:10 AM - 01:10 PM"
           },
           {
-            "time": "R 01:30 PM - 04:30 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -2024,64 +1793,61 @@ export const courses = [
         "faculty": "MRJ",
         "times": [
           {
-            "time": "T 04:50 PM - 07:50 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "W 01:30 PM - 04:30 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "DMSHN & MRJ",
+        "faculty": "KRI",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "T 11:50 AM - 02:50 PM"
           },
           {
-            "time": "S 01:30 PM - 04:30 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "KRI & DMSHN",
+        "faculty": "KRI",
         "times": [
           {
-            "time": "S 10:10 AM - 01:10 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "S 08:00 AM - 11:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "KRI",
+        "faculty": "NISHAT",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 04:30 PM"
           },
           {
-            "time": "M 01:30 PM - 04:30 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "KRI",
+        "faculty": "SKL",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "S 08:00 AM - 11:00 AM"
           },
           {
-            "time": "W 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -2090,10 +1856,10 @@ export const courses = [
         "faculty": "SKL",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 11:50 AM - 01:20 PM"
           },
           {
-            "time": "W 11:50 AM - 02:50 PM"
+            "time": "W 08:00 AM - 11:00 AM"
           }
         ]
       },
@@ -2102,10 +1868,10 @@ export const courses = [
         "faculty": "ANTU",
         "times": [
           {
-            "time": "M 01:30 PM - 04:30 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           },
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "W 10:10 AM - 01:10 PM"
           }
         ]
       },
@@ -2114,22 +1880,88 @@ export const courses = [
         "faculty": "ANTU",
         "times": [
           {
-            "time": "M 10:10 AM - 01:10 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "S 03:10 PM - 06:10 PM"
           }
         ]
       },
       {
         "section": "12",
+        "faculty": "NISHAT & DMSHN",
+        "times": [
+          {
+            "time": "S 01:30 PM - 04:30 PM"
+          },
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "DMSHN & KRI",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "S 03:10 PM - 06:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "14",
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 08:00 AM - 11:00 AM"
+            "time": "R 08:30 AM - 10:00 AM"
           },
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "R 11:50 AM - 02:50 PM"
+          },
+          {
+            "time": "S 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "15",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "ST 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "16",
+        "faculty": "SDNA",
+        "times": [
+          {
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "M 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "17",
+        "faculty": "SDNA",
+        "times": [
+          {
+            "time": "T 04:50 PM - 07:50 PM"
+          },
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -2141,19 +1973,43 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMRH",
+        "faculty": "DMIM",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "M 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
         "faculty": "DMIM",
+        "times": [
+          {
+            "time": "W 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DAHF",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 03:10 PM - 05:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NAFIS",
         "times": [
           {
             "time": "T 08:00 AM - 10:00 AM"
@@ -2164,74 +2020,50 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "DMIM",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DMIR & SAJID",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
         "section": "5",
-        "faculty": "TTB & DMIR",
+        "faculty": "MAMRD",
         "times": [
           {
-            "time": "T 04:50 PM - 06:50 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "NAFIS",
+        "faculty": "SAJID",
         "times": [
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "NAFIS",
+        "faculty": "DMIR & TTB",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           },
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "S 11:50 AM - 01:50 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "SAJID",
+        "faculty": "TTB & DMIR",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "T 11:50 AM - 01:50 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -2240,34 +2072,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "DAHF",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "M 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -2279,7 +2087,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DSHR & MOON",
+        "faculty": "DSHR & KRI",
         "times": [
           {
             "time": "ST 08:30 AM - 10:00 AM"
@@ -2291,52 +2099,49 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "KRI & NYA",
+        "faculty": "NISHAT & DSHR",
         "times": [
           {
-            "time": "T 04:50 PM - 06:50 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "KRI",
+        "faculty": "NYA & MOON",
         "times": [
           {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "T 03:10 PM - 05:10 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "MOON",
+        "faculty": "KRI",
         "times": [
           {
-            "time": "W 04:50 PM - 06:50 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           },
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "MOON",
+        "faculty": "NISHAT",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "TR 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "R 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -2345,22 +2150,22 @@ export const courses = [
         "faculty": "MOON",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "R 11:50 AM - 01:50 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "AUR",
+        "faculty": "MOON",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "W 03:10 PM - 05:10 PM"
           },
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -2369,34 +2174,37 @@ export const courses = [
         "faculty": "AUR",
         "times": [
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "T 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "MYMA",
+        "faculty": "AUR",
         "times": [
           {
             "time": "S 04:50 PM - 06:50 PM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "PMTI",
+        "faculty": "MYMA",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           },
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "S 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -2405,25 +2213,37 @@ export const courses = [
         "faculty": "PMTI",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "12",
+        "faculty": "DHMAI",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "M 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "13",
         "faculty": "TBA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "S 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "M 10:10 AM - 12:10 PM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -2438,10 +2258,10 @@ export const courses = [
         "faculty": "ALI",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "S 10:10 AM - 12:10 PM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -2450,10 +2270,10 @@ export const courses = [
         "faculty": "ALI",
         "times": [
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -2462,103 +2282,73 @@ export const courses = [
         "faculty": "DZIM",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           },
           {
-            "time": "W 04:50 PM - 06:50 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "4",
+        "faculty": "SHK",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
         "faculty": "MKN",
         "times": [
           {
             "time": "M 01:30 PM - 03:30 PM"
           },
           {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SHK",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "S 01:30 PM - 03:00 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "T 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "NISHAT",
+        "faculty": "KOUSHIK",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "NISHAT",
+        "faculty": "KOUSHIK",
         "times": [
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "AUR",
+        "faculty": "TAA & TBA",
         "times": [
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           },
           {
-            "time": "T 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "KOUSHIK",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "KOUSHIK",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "T 03:10 PM - 05:10 PM"
           }
         ]
       }
@@ -2573,10 +2363,13 @@ export const courses = [
         "faculty": "DHJ",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "T 08:00 AM - 10:00 AM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -2585,19 +2378,7 @@ export const courses = [
         "faculty": "DHJ",
         "times": [
           {
-            "time": "W 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DHJ",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
             "time": "R 01:30 PM - 03:30 PM"
@@ -2605,26 +2386,41 @@ export const courses = [
         ]
       },
       {
-        "section": "4",
-        "faculty": "SABBIR",
+        "section": "3",
+        "faculty": "NTN",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           },
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "M 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NTN",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "YS",
+        "faculty": "ARMAN",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "M 10:10 AM - 12:10 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -2633,73 +2429,49 @@ export const courses = [
         "faculty": "SABBIR",
         "times": [
           {
-            "time": "T 04:50 PM - 06:50 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           },
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "SKL",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "SKL",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "AADNAN",
+        "faculty": "TBA",
         "times": [
           {
             "time": "TR 04:50 PM - 06:20 PM"
           },
           {
-            "time": "W 04:50 PM - 06:20 PM"
+            "time": "W 10:10 AM - 12:10 PM"
           }
         ]
       },
       {
-        "section": "10",
-        "faculty": "AADNAN",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
+        "section": "9",
         "faculty": "TBA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "W 10:10 AM - 12:10 PM"
           },
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -2714,37 +2486,64 @@ export const courses = [
         "faculty": "KHALID",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "KHALID",
+        "faculty": "NAHID",
         "times": [
           {
-            "time": "R 04:50 PM - 06:50 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "NAHID",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "W 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -2759,58 +2558,49 @@ export const courses = [
         "faculty": "NYA",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "NYA",
-        "times": [
-          {
             "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
-        "section": "3",
-        "faculty": "KMSK",
+        "section": "2",
+        "faculty": "ATIQ",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SHK",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "FZRN",
+        "faculty": "SDNA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "KMSK",
+        "faculty": "FZRN",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "MAMRD",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "TBA",
+        "faculty": "FZRN",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
@@ -2825,13 +2615,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "DTS",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           },
           {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       },
@@ -2840,55 +2630,31 @@ export const courses = [
         "faculty": "DTS",
         "times": [
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "TBA",
+        "faculty": "IMRAN",
         "times": [
           {
             "time": "ST 10:10 AM - 11:40 AM"
           },
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "R 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "NAHID & TBA",
-        "times": [
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
         "faculty": "IMRAN",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "IMRAN",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
             "time": "ST 04:50 PM - 06:20 PM"
@@ -2896,17 +2662,38 @@ export const courses = [
         ]
       },
       {
-        "section": "7",
+        "section": "5",
+        "faculty": "ARMAN",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
         "faculty": "MIR",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "NAHID",
+        "times": [
+          {
+            "time": "TR 10:10 AM - 11:40 AM"
           },
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -2915,28 +2702,22 @@ export const courses = [
         "faculty": "NAHID",
         "times": [
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "T 04:50 PM - 06:50 PM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "MIR",
+        "faculty": "KMMU",
         "times": [
           {
-            "time": "W 03:10 PM - 04:40 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           },
           {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "R 04:50 PM - 06:50 PM"
           }
         ]
       }
@@ -2972,10 +2753,10 @@ export const courses = [
         "faculty": "MAR",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -2984,10 +2765,10 @@ export const courses = [
         "faculty": "MAR",
         "times": [
           {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           },
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "M 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -2996,10 +2777,10 @@ export const courses = [
         "faculty": "MAR",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -3008,10 +2789,10 @@ export const courses = [
         "faculty": "FHUQ",
         "times": [
           {
-            "time": "T 10:10 AM - 12:10 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           },
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "R 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -3020,13 +2801,13 @@ export const courses = [
         "faculty": "FHUQ",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "M 10:10 AM - 12:10 PM"
           },
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "S 11:50 AM - 01:20 PM"
           },
           {
-            "time": "S 11:20 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -3035,7 +2816,31 @@ export const courses = [
         "faculty": "KHALID",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "S 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "MAHCY",
+        "times": [
+          {
+            "time": "T 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "SR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "MAHCY",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
           },
           {
             "time": "T 01:30 PM - 03:30 PM"
@@ -3043,68 +2848,38 @@ export const courses = [
         ]
       },
       {
-        "section": "7",
-        "faculty": "RABEA",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "ARMAN",
-        "times": [
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
         "section": "9",
-        "faculty": "TBA",
+        "faculty": "SAJEEB",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "S 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "TBA",
+        "faculty": "SAJEEB",
         "times": [
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "11",
-        "faculty": "FHUQ",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -3122,7 +2897,7 @@ export const courses = [
             "time": "ST 01:30 PM - 03:00 PM"
           },
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "W 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -3134,73 +2909,46 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "RDA",
+        "faculty": "DSU",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "AASR",
+        "faculty": "DSU",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "AASR",
+        "faculty": "AMITM",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "AMITM",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 04:50 PM - 06:20 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "AMITM",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
         "faculty": "TBA",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -3212,13 +2960,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "YS & DSHR",
+        "faculty": "MMAHDI",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           },
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -3227,58 +2975,70 @@ export const courses = [
         "faculty": "MMAHDI",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "R 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "MMAHDI",
+        "faculty": "DHJ",
         "times": [
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "MMAHDI",
+        "faculty": "NTN",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           },
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "W 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "YS",
+        "faculty": "NTN",
         "times": [
           {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "AADNAN",
+        "faculty": "SAJID",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "T 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "SAJID",
+        "times": [
+          {
+            "time": "R 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -3293,10 +3053,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           },
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "M 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -3308,16 +3068,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "PROMA",
+        "faculty": "MMAHDI",
         "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
           {
             "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -3329,13 +3086,16 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "YS",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "W 04:50 PM - 06:50 PM"
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "R 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -3347,25 +3107,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DSHR & SAJID",
+        "faculty": "MMAHDI",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -3380,10 +3128,10 @@ export const courses = [
         "faculty": "DAWR & KMSK",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "M 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -3392,22 +3140,22 @@ export const courses = [
         "faculty": "MAMRD & DAWR",
         "times": [
           {
-            "time": "M 01:30 PM - 03:09 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "MRAR",
+        "faculty": "DAWR & KMSK",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "W 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -3416,25 +3164,34 @@ export const courses = [
         "faculty": "MRAR",
         "times": [
           {
-            "time": "T 04:50 PM - 06:50 PM"
+            "time": "R 04:50 PM - 06:50 PM"
           },
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "5",
+        "faculty": "SKL",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
         "faculty": "TTB",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "S 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -3449,28 +3206,10 @@ export const courses = [
         "faculty": "MRAR",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
-            "time": "S 04:50 PM - 06:50 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE453",
-    "title": "CSE453",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -3485,13 +3224,10 @@ export const courses = [
         "faculty": "ANTU",
         "times": [
           {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "TR 11:50 AM - 01:20 PM"
           },
           {
-            "time": "W 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -3503,13 +3239,16 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DTBI",
+        "faculty": "DRUI",
         "times": [
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -3518,64 +3257,82 @@ export const courses = [
         "faculty": "DRUI",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "DTBI",
+        "faculty": "MRAR",
         "times": [
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "ATIQ",
+        "faculty": "DTBI",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "ATIQ",
+        "faculty": "DTBI",
         "times": [
           {
-            "time": "W 04:50 PM - 06:50 PM"
+            "time": "S 03:10 PM - 05:10 PM"
           },
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "DRUI",
+        "faculty": "NAFIS",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
-            "time": "M 01:30 PM - 03:09 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "SAJID",
+        "times": [
+          {
+            "time": "R 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "ST 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "KMMU",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:50 PM"
           }
         ]
       }
@@ -3587,13 +3344,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "AMITM",
+        "faculty": "ATIQ",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           },
           {
-            "time": "T 10:10 AM - 12:10 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -3602,22 +3359,37 @@ export const courses = [
         "faculty": "AMITM",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "TBA",
+        "faculty": "AMITM",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 04:50 PM - 06:50 PM"
+            "time": "S 04:50 PM - 06:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "SKL",
+        "times": [
+          {
+            "time": "M 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -3629,13 +3401,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ARMAN",
+        "faculty": "DSU",
         "times": [
           {
             "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "SR 04:50 PM - 06:20 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -3644,25 +3416,34 @@ export const courses = [
         "faculty": "ARMAN",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
           },
           {
-            "time": "T 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "W 10:10 AM - 12:10 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "NAHID",
+        "faculty": "ARMAN",
         "times": [
           {
             "time": "R 04:50 PM - 06:50 PM"
           },
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NAHID",
+        "times": [
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       }
@@ -3674,28 +3455,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "RDA",
+        "faculty": "DMIM",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "RAKIB",
+        "faculty": "RDA",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "RAKIB",
+        "faculty": "RDA",
         "times": [
           {
             "time": "TR 10:10 AM - 11:40 AM"
@@ -3704,31 +3482,43 @@ export const courses = [
       },
       {
         "section": "4",
-        "faculty": "MAHCY",
+        "faculty": "MYMA",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "MAHCY",
+        "faculty": "MYMA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "TBA",
+        "faculty": "RAKIB",
         "times": [
           {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "T 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "R 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "RAKIB",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -3743,13 +3533,25 @@ export const courses = [
         "faculty": "DMRH",
         "times": [
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "S 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 10:10 AM - 12:10 PM"
           },
           {
             "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -3764,10 +3566,19 @@ export const courses = [
         "faculty": "MKR",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "T 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -3779,37 +3590,40 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DIPAYAN",
+        "faculty": "DSHR",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "REZVI",
+        "faculty": "DHJ",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "REZVI",
+        "faculty": "SABBIR",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "SAJID",
+        "faculty": "SABBIR",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -3818,7 +3632,34 @@ export const courses = [
         "faculty": "PROMA",
         "times": [
           {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "PROMA",
+        "times": [
+          {
             "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "DIPAYAN",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "REZVI",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -3840,165 +3681,24 @@ export const courses = [
     ]
   },
   {
-    "code": "CSE504",
-    "title": "CSE504",
+    "code": "CSE7104",
+    "title": "CSE7104",
     "sections": [
       {
         "section": "1",
-        "faculty": "DMSR",
+        "faculty": "NAFIS",
         "times": [
           {
-            "time": "A 09:00 AM - 12:00 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "CSE505",
-    "title": "CSE505",
-    "sections": [
+      },
       {
-        "section": "1",
-        "faculty": "TBA",
+        "section": "2",
+        "faculty": "NAFIS",
         "times": [
           {
-            "time": "T 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE520",
-    "title": "CSE520",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMRH",
-        "times": [
-          {
-            "time": "T 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE523",
-    "title": "CSE523",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE526",
-    "title": "CSE526",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE527",
-    "title": "CSE527",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "W 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE550",
-    "title": "CSE550",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE555",
-    "title": "CSE555",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "W 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE556",
-    "title": "CSE556",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 06:30 PM - 09:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE597",
-    "title": "CSE597",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "A 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CSE599",
-    "title": "CSE599",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "A 10:10 AM - 11:40 AM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -4046,295 +3746,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TJ",
+        "faculty": "KMSK",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
           },
           {
-            "time": "T 10:10 AM - 01:10 PM"
+            "time": "S 01:30 PM - 04:30 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TJ",
+        "faculty": "AUR",
         "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 10:10 AM - 01:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DAHF",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DAHF",
-        "times": [
-          {
-            "time": "M 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "DHMAI",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "DMIM",
-        "times": [
-          {
-            "time": "M 10:10 AM - 01:10 PM"
-          },
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "MRJ",
-        "times": [
-          {
-            "time": "T 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "PC",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "PC",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "MAHCY",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 10:10 AM - 01:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "RIFAT",
-        "times": [
-          {
-            "time": "M 10:10 AM - 01:10 PM"
-          },
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "NISHAT",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          },
           {
             "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
           },
           {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "KMMU",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "KMMU",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "KMSK",
-        "times": [
-          {
-            "time": "R 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "MAMRD",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "19",
-        "faculty": "MIR",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "20",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "0/0"
-          },
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "21",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "22",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "S 08:00 AM - 11:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "23",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 10:10 AM - 01:10 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -4349,232 +3779,22 @@ export const courses = [
         "faculty": "DAKP",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "W 10:10 AM - 12:10 PM"
           },
           {
-            "time": "S 08:00 AM - 11:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DAKP",
+        "faculty": "AMITM",
         "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 11:50 AM - 02:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DSU",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 10:10 AM - 01:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MKR",
-        "times": [
-          {
-            "time": "M 10:10 AM - 01:10 PM"
-          },
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "SAJID",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 10:10 AM - 01:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "SDNA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "SDNA",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "ARIJIT",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
           {
             "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "SUDDIN",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "FZRN",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "FZRN",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "SABBIR",
-        "times": [
-          {
-            "time": "S 04:50 PM - 07:50 PM"
-          },
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "PROMA",
-        "times": [
-          {
-            "time": "M 08:00 AM - 11:00 AM"
-          },
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "W 08:00 AM - 11:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 08:00 AM - 11:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 08:00 AM - 11:00 AM"
+            "time": "R 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -4586,187 +3806,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SJ",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ALI",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DZIM",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DZIM",
-        "times": [
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SHK",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "SHK",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "MKN",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "MKN",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "DOF",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "DOF",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
         "faculty": "DSMU",
         "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "DSMU",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
           {
             "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "SJA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "SJA & DMSA",
-        "times": [
-          {
-            "time": "S 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -4778,175 +3824,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MHAK",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MHAK",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MHAK",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DSU",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "DSU",
+        "faculty": "ANTU",
         "times": [
           {
             "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "NAFIS",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "AASR",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "SDNA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "MAHCY",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -4958,163 +3839,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MI",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DAKP",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ATIQ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "PC & ATIQ",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MYMA",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "MYMA",
-        "times": [
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "AASR",
-        "times": [
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
         "faculty": "MMLI",
         "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "MMLI",
-        "times": [
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          },
           {
             "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "PC",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "S 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "RIFAT",
-        "times": [
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "M 04:50 PM - 06:50 PM"
           }
         ]
       }
@@ -5129,166 +3860,10 @@ export const courses = [
         "faculty": "MHR",
         "times": [
           {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
             "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MHR",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
             "time": "W 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SJ",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "SJ",
-        "times": [
-          {
-            "time": "M 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "RDA",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "W 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "RDA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "SHK",
-        "times": [
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "PMSR & MKN",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "KOUSHIK & PMSR",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "SJA",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "SJA",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:10 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -5303,7 +3878,7 @@ export const courses = [
         "faculty": "IMRAN",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -5315,130 +3890,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ALI",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ALI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DZIM",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MKN",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SHK",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
         "faculty": "NISHAT",
-        "times": [
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "NISHAT",
-        "times": [
-          {
-            "time": "M 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "AUR",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "KOUSHIK",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "KOUSHIK",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:50 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -5450,157 +3908,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DTBI",
+        "faculty": "DMZM",
         "times": [
           {
-            "time": "S 10:10 AM - 01:10 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DTS",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "W 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DTS",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DHMAI",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "DHMAI",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "TTB",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "RABEA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "RABEA",
-        "times": [
-          {
-            "time": "M 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 08:00 AM - 11:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "TBA & TTB",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 08:00 AM - 11:00 AM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -5612,117 +3926,6 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DSHR & MOON",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "NYA & KRI",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "KRI",
-        "times": [
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MOON",
-        "times": [
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MOON",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MOON",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "AUR",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "AUR",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "MYMA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
         "faculty": "PMTI",
         "times": [
           {
@@ -5730,33 +3933,6 @@ export const courses = [
           },
           {
             "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "PMTI",
-        "times": [
-          {
-            "time": "R 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -5768,298 +3944,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MAR",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MAR",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MAR",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "FHUQ",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "FHUQ",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "S 11:20 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
         "faculty": "KHALID",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "M 04:50 PM - 06:50 PM"
           },
           {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "RABEA",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "ARMAN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "FHUQ",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE305",
-    "title": "ICE305",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMRH",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MKR",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "W 08:00 AM - 11:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MRJ",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MRJ",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MRJ & DMSHN",
-        "times": [
-          {
-            "time": "S 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "DMSHN & KRI",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "S 10:10 AM - 01:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "KRI",
-        "times": [
-          {
-            "time": "M 01:30 PM - 04:30 PM"
-          },
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "KRI",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "W 04:50 PM - 07:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "SKL",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "W 11:50 AM - 02:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "ANTU",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "M 01:30 PM - 04:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "ANTU",
-        "times": [
-          {
-            "time": "M 10:10 AM - 01:10 PM"
-          },
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "S 08:00 AM - 11:00 AM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -6074,187 +3965,10 @@ export const courses = [
         "faculty": "DMSA",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE311",
-    "title": "ICE311",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ALI",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ALI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DZIM",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MKN",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SHK",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "NISHAT",
-        "times": [
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "NISHAT",
-        "times": [
-          {
-            "time": "M 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
             "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "AUR",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "KOUSHIK",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "KOUSHIK",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:50 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE312",
-    "title": "ICE312",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "KHALID",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "KHALID",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "NAHID",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "W 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -6266,34 +3980,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KOUSHIK",
+        "faculty": "AUR & NYA",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "W 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE314",
-    "title": "ICE314",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SSULTANA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -6305,44 +3998,11 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "KHALID",
         "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
           {
             "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE370",
-    "title": "ICE370",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TTB",
-        "times": [
-          {
-            "time": "T 11:50 AM - 01:20 PM"
           },
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE399",
-    "title": "ICE399",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
           {
             "time": "R 04:50 PM - 06:50 PM"
           }
@@ -6356,619 +4016,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE450",
-    "title": "ICE450",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RDA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "RAKIB",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "RAKIB",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MAHCY",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MAHCY",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE453",
-    "title": "ICE453",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RDA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "RAKIB",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "RAKIB",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MAHCY",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MAHCY",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE456",
-    "title": "ICE456",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:00 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE469",
-    "title": "ICE469",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "NYA",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "NYA",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "KMSK",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "FZRN",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "KMSK",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MAMRD",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE473",
-    "title": "ICE473",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DIPAYAN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "REZVI",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
         "faculty": "REZVI",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "SAJID",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "PROMA",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE474",
-    "title": "ICE474",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE475",
-    "title": "ICE475",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DTS",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "W 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TBA & NAHID",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "IMRAN",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "IMRAN",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "MIR",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NAHID",
-        "times": [
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "MIR",
-        "times": [
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE476",
-    "title": "ICE476",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DTS",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "W 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TBA & NAHID",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "IMRAN",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "IMRAN",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "MIR",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NAHID",
-        "times": [
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "MIR",
-        "times": [
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ICE478",
-    "title": "ICE478",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DTBI",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DRUI",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DTBI",
-        "times": [
-          {
-            "time": "M 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ATIQ",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "ATIQ",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "DRUI",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -7011,8 +4062,8 @@ export const courses = [
     ]
   },
   {
-    "code": "CHE107",
-    "title": "CHE107",
+    "code": "CHE100",
+    "title": "CHE100",
     "sections": [
       {
         "section": "1",
@@ -7020,33 +4071,6 @@ export const courses = [
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "M 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ZUH",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "M 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SAMAD & DJKS",
-        "times": [
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -7061,7 +4085,7 @@ export const courses = [
         "faculty": "ZUH",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "W 04:50 PM - 06:50 PM"
           },
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -7070,13 +4094,13 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "ZUH & DMLN",
+        "faculty": "ZUH",
         "times": [
           {
-            "time": "T 04:50 PM - 06:50 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           },
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           }
         ]
       },
@@ -7085,7 +4109,7 @@ export const courses = [
         "faculty": "DNAK",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
             "time": "T 08:00 AM - 10:00 AM"
@@ -7109,10 +4133,10 @@ export const courses = [
         "faculty": "DNAK",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "W 08:00 AM - 10:00 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -7121,10 +4145,10 @@ export const courses = [
         "faculty": "DTMA",
         "times": [
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           },
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -7133,7 +4157,7 @@ export const courses = [
         "faculty": "DTMA",
         "times": [
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "W 10:10 AM - 12:10 PM"
           },
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -7145,10 +4169,13 @@ export const courses = [
         "faculty": "MUKTA",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:00 PM"
           },
           {
             "time": "T 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "T 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -7157,10 +4184,10 @@ export const courses = [
         "faculty": "MUKTA",
         "times": [
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "M 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -7172,64 +4199,61 @@ export const courses = [
             "time": "MW 08:30 AM - 10:00 AM"
           },
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       },
       {
         "section": "11",
-        "faculty": "ZUH",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 08:00 AM - 10:00 AM"
+            "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "DMLN & DNAK",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "13",
-        "faculty": "FARHAD",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
           },
           {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "14",
-        "faculty": "DJKS",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "T 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -7238,43 +4262,58 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           },
           {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "16",
-        "faculty": "SAMAD",
-        "times": [
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "DSIC",
+        "faculty": "TBA",
         "times": [
           {
             "time": "R 04:50 PM - 06:50 PM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "17",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "T 10:10 AM - 12:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "18",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 10:10 AM - 12:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "19",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -7286,7 +4325,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DTMA",
+        "faculty": "TBA & DTMA",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
@@ -7301,40 +4340,10 @@ export const courses = [
         "faculty": "ZUH",
         "times": [
           {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "M 04:50 PM - 06:50 PM"
           },
           {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DJKS & SAMAD",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CS116",
-    "title": "CS116",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RJANI",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -7346,25 +4355,40 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "IMD",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "SR 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TASFIA",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "S 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -7376,13 +4400,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "RJANI",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           },
           {
-            "time": "W 01:30 PM - 03:30 PM"
+            "time": "M 01:30 PM - 03:30 PM"
           }
         ]
       }
@@ -7397,34 +4421,55 @@ export const courses = [
         "faculty": "DPCS",
         "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "SDSS",
+        "faculty": "MAIS",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "W 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "MAIS",
+        "faculty": "SDSS",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CS312",
+    "title": "CS312",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -7439,10 +4484,13 @@ export const courses = [
         "faculty": "SDSS",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "S 08:00 AM - 10:00 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       },
@@ -7451,10 +4499,10 @@ export const courses = [
         "faculty": "SDSS",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -7472,7 +4520,10 @@ export const courses = [
             "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -7487,157 +4538,43 @@ export const courses = [
             "time": "R 08:00 AM - 10:00 AM"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "code": "DSA303",
+    "title": "DSA303",
+    "sections": [
       {
-        "section": "3",
-        "faculty": "FMAR",
+        "section": "1",
+        "faculty": "MAIS",
         "times": [
           {
-            "time": "S 01:30 PM - 03:30 PM"
-          },
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SAJ",
+        "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "DSA500",
-    "title": "DSA500",
+    "code": "DSA305",
+    "title": "DSA305",
     "sections": [
       {
-        "section": "11",
+        "section": "1",
         "faculty": "DSR",
         "times": [
           {
-            "time": "A 02:30 PM - 05:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "21",
-        "faculty": "DPCS",
-        "times": [
-          {
-            "time": "A 09:00 AM - 12:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "31",
-        "faculty": "SAH",
-        "times": [
-          {
-            "time": "F 09:00 AM - 12:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "41",
-        "faculty": "SAJIB",
-        "times": [
-          {
-            "time": "F 02:30 PM - 05:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "51",
-        "faculty": "REZAUL",
-        "times": [
-          {
-            "time": "A 09:00 AM - 12:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "61",
-        "faculty": "REZAUL",
-        "times": [
-          {
-            "time": "A 02:30 PM - 05:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "71",
-        "faculty": "SAH",
-        "times": [
-          {
-            "time": "F 02:30 PM - 05:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "DSA501",
-    "title": "DSA501",
-    "sections": [
-      {
-        "section": "11",
-        "faculty": "DPCS",
-        "times": [
-          {
-            "time": "F 09:00 AM - 12:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "DSA504",
-    "title": "DSA504",
-    "sections": [
-      {
-        "section": "11",
-        "faculty": "DRAZAD",
-        "times": [
-          {
-            "time": "F 02:30 PM - 05:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "51",
-        "faculty": "MND",
-        "times": [
-          {
-            "time": "A 02:30 PM - 05:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "DSA506",
-    "title": "DSA506",
-    "sections": [
-      {
-        "section": "31",
-        "faculty": "SAJIB",
-        "times": [
-          {
-            "time": "F 09:00 AM - 12:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "DSA509",
-    "title": "DSA509",
-    "sections": [
-      {
-        "section": "9",
-        "faculty": "A & B",
-        "times": [
-          {
-            "time": "1TBA"
-          },
-          {
-            "time": "1TBA"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -7652,7 +4589,7 @@ export const courses = [
         "faculty": "AP",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -7661,73 +4598,121 @@ export const courses = [
         "faculty": "DFK",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "ASAD",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "AKMN",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "BITU",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TD",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "KNI",
-        "times": [
-          {
             "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
-        "section": "9",
-        "faculty": "NY",
+        "section": "3",
+        "faculty": "TD",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TD",
+        "times": [
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "SUMAIYA",
+        "times": [
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "NY",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
@@ -7735,167 +4720,53 @@ export const courses = [
         ]
       },
       {
-        "section": "11",
-        "faculty": "AKMN",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "MEHEDI",
-        "times": [
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "SUMAIYA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "DMY",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
         "section": "15",
-        "faculty": "SUMAIYA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "S 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "16",
-        "faculty": "DSBK",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "22",
-        "faculty": "PMSA",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "23",
-        "faculty": "SHARIF",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "24",
-        "faculty": "SHARIF",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "25",
-        "faculty": "AMRK",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "26",
-        "faculty": "MEHEDI",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "27",
-        "faculty": "DLKS",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "28",
-        "faculty": "APURBO",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "29",
-        "faculty": "AKMN",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "30",
-        "faculty": "MMHASAN",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "31",
         "faculty": "TBA",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
-        "section": "32",
-        "faculty": "MOHEDUL",
+        "section": "17",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "18",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "19",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -7916,7 +4787,16 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "TD",
+        "faculty": "SIS",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "BITU",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -7924,58 +4804,7 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "KNI",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
         "section": "4",
-        "faculty": "TD",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "DLKS",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "ASHRAF",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "KCS",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
         "faculty": "BITU",
         "times": [
           {
@@ -7984,17 +4813,62 @@ export const courses = [
         ]
       },
       {
-        "section": "9",
-        "faculty": "TD",
+        "section": "5",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "DMMP",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
@@ -8003,16 +4877,7 @@ export const courses = [
       },
       {
         "section": "11",
-        "faculty": "MRHN",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "SUMAIYA",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -8020,14 +4885,74 @@ export const courses = [
         ]
       },
       {
-        "section": "19",
-        "faculty": "DMY",
+        "section": "12",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "TBA",
+        "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "15",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "16",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "17",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "18",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "19",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -8036,7 +4961,16 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "21",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -8048,42 +4982,6 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ASHRAF",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "KCS",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "APURBO",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "NHUDA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
         "faculty": "APURBO",
         "times": [
           {
@@ -8092,35 +4990,8 @@ export const courses = [
         ]
       },
       {
-        "section": "6",
-        "faculty": "DBPG",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "DBPG",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "DNCR",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "MOHEDUL",
+        "section": "2",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
@@ -8128,56 +4999,92 @@ export const courses = [
         ]
       },
       {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
         "section": "11",
-        "faculty": "DAKD",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "DAKD",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "SISLAM",
+        "faculty": "TBA",
         "times": [
           {
             "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "SISLAM",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "NHASAN",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "NHASAN",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -8189,70 +5096,16 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SIS",
+        "faculty": "AKMN",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "PB",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "AKHI",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "AKHI",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "PB",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "JUDDIN",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "ALAM",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "ALAM",
+        "faculty": "APURBO",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
@@ -8260,29 +5113,35 @@ export const courses = [
         ]
       },
       {
-        "section": "9",
-        "faculty": "JUDDIN",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
+        "section": "3",
         "faculty": "BITU",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
-        "section": "11",
-        "faculty": "DMSRA",
+        "section": "4",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
         "times": [
           {
             "time": "ST 01:30 PM - 03:00 PM"
@@ -8290,11 +5149,56 @@ export const courses = [
         ]
       },
       {
-        "section": "12",
-        "faculty": "DMSRA",
+        "section": "7",
+        "faculty": "TBA",
         "times": [
           {
             "time": "ST 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -8303,7 +5207,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -8312,43 +5216,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "PMSA",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "MRHN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "19",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -8363,25 +5231,16 @@ export const courses = [
         "faculty": "AKMN",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "IHS",
+        "faculty": "APURBO",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "IHS",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -8393,10 +5252,46 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "IMD",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MAT397",
+    "title": "MAT397",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -8408,16 +5303,19 @@ export const courses = [
     "sections": [
       {
         "section": "7",
-        "faculty": "NHUDA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
-        "section": "17",
-        "faculty": "AMRK",
+        "section": "24",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -8425,47 +5323,41 @@ export const courses = [
         ]
       },
       {
-        "section": "18",
-        "faculty": "ASRAF",
+        "section": "25",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "19",
-        "faculty": "ASRAF",
+        "section": "26",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "20",
-        "faculty": "DMAAK",
+        "section": "27",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "21",
-        "faculty": "DAMAK",
+        "section": "28",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "33",
-        "faculty": "SIS",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -8476,83 +5368,29 @@ export const courses = [
     "title": "MAT7102",
     "sections": [
       {
-        "section": "12",
-        "faculty": "MMHASAN",
+        "section": "24",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "13",
-        "faculty": "DSBK",
+        "section": "25",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
-        "section": "14",
-        "faculty": "ASAD",
+        "section": "26",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MAT7104",
-    "title": "MAT7104",
-    "sections": [
-      {
-        "section": "17",
-        "faculty": "FARHANA",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "FARHANA",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -8567,25 +5405,16 @@ export const courses = [
         "faculty": "SUMAIYA",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DNCR",
+        "faculty": "SUMAIYA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -8597,10 +5426,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "BITU",
+        "faculty": "APURBO",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -8612,13 +5441,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KNI",
+        "faculty": "SUMAIYA",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -8630,10 +5456,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MEHEDI",
+        "faculty": "AP",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -8645,31 +5471,76 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "NY",
+        "faculty": "TD",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MATH211",
-    "title": "MATH211",
+    "code": "MATH116",
+    "title": "MATH116",
     "sections": [
       {
         "section": "1",
-        "faculty": "MEHEDI",
+        "faculty": "TD",
         "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "T 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "R 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MATH212",
+    "title": "MATH212",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "AKMN",
+        "times": [
+          {
+            "time": "ST 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:00 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MATH214",
+    "title": "MATH214",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SIS",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MATH314",
+    "title": "MATH314",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "BITU",
+        "times": [
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -8684,58 +5555,7 @@ export const courses = [
         "faculty": "DFK",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MATH317",
-    "title": "MATH317",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "APURBO & BITU",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MATH318",
-    "title": "MATH318",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DFK",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MATH320",
-    "title": "MATH320",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMAAK",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -8765,10 +5585,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "AKMN",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MATH415",
+    "title": "MATH415",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DFK",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -8780,40 +5615,40 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MATH432",
+    "title": "MATH432",
+    "sections": [
+      {
+        "section": "1",
         "faculty": "SIS",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MATH480",
-    "title": "MATH480",
+    "code": "MATH478",
+    "title": "MATH478",
     "sections": [
       {
         "section": "1",
-        "faculty": "SUBROTO",
+        "faculty": "MAIS",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MATH499",
-    "title": "MATH499",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "A",
-        "times": [
-          {
-            "time": "1TBA"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -8825,31 +5660,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "GDM",
+        "faculty": "AROY",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "GDM",
+        "faculty": "AF",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "AROY",
-        "times": [
-          {
-            "time": "M 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "W 08:30 AM - 10:00 AM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -8864,13 +5687,13 @@ export const courses = [
         "faculty": "NAHMED",
         "times": [
           {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
             "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       },
@@ -8885,18 +5708,6 @@ export const courses = [
             "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
-      },
-      {
-        "section": "3",
-        "faculty": "AF & NAHMED",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
       }
     ]
   },
@@ -8909,13 +5720,13 @@ export const courses = [
         "faculty": "NFJ",
         "times": [
           {
-            "time": "M 10:10 AM - 12:10 PM"
-          },
-          {
             "time": "T 11:50 AM - 01:20 PM"
           },
           {
             "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -8924,22 +5735,10 @@ export const courses = [
         "faculty": "NFJ",
         "times": [
           {
+            "time": "S 08:00 AM - 10:00 AM"
+          },
+          {
             "time": "MW 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SHAFIQ",
-        "times": [
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -8951,7 +5750,193 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "MONGUR & GDM",
+        "times": [
+          {
+            "time": "R 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "GDM & MMHQ",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
         "faculty": "GDM & MONGUR",
+        "times": [
+          {
+            "time": "ST 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 10:10 AM - 12:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "DSAE",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "M 10:10 AM - 12:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "MONGUR",
+        "times": [
+          {
+            "time": "M 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "MONGUR",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "T 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "MMHQ",
+        "times": [
+          {
+            "time": "W 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "DMSS",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "NFJ",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "M 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "AROY",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "S 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "AROY",
+        "times": [
+          {
+            "time": "S 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "AF",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:50 PM"
+          },
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "AF",
+        "times": [
+          {
+            "time": "T 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "NAHMED",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "W 10:10 AM - 12:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "15",
+        "faculty": "NAHMED",
+        "times": [
+          {
+            "time": "R 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "16",
+        "faculty": "TBA & DMSS",
         "times": [
           {
             "time": "ST 01:30 PM - 03:00 PM"
@@ -8962,248 +5947,62 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
-        "faculty": "DSAE & NFJ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DSAE",
-        "times": [
-          {
-            "time": "M 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MONGUR & DSAE",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MONGUR",
-        "times": [
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MMHQ",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "DMSS",
+        "section": "17",
+        "faculty": "TBA",
         "times": [
           {
             "time": "M 04:50 PM - 06:50 PM"
           },
           {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NAHMED",
-        "times": [
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "AROY",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "AROY",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "NFJ & MONGUR",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "S 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "AF",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "AF",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:50 PM"
-          },
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "DSKD",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "F 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "DSKD",
-        "times": [
-          {
-            "time": "F 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "DMBB",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "A 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "DMBB",
-        "times": [
-          {
-            "time": "A 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "18",
-        "faculty": "DMKZN & DMNAA",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "A 01:30 PM - 03:30 PM"
+            "time": "M 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "19",
-        "faculty": "DMNAA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "A 04:50 PM - 06:50 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "W 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "20",
-        "faculty": "DMNAA & SAYEM",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "F 04:50 PM - 06:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "21",
-        "faculty": "SAYEM",
+        "faculty": "TBA",
         "times": [
           {
             "time": "R 01:30 PM - 03:30 PM"
           },
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "21",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 04:50 PM - 06:50 PM"
           }
         ]
       }
@@ -9215,37 +6014,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SHAFIQ",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "W 08:00 AM - 10:00 AM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TAREQ",
+        "faculty": "TBA",
         "times": [
-          {
-            "time": "T 10:10 AM - 12:10 PM"
-          },
           {
             "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TAREQ",
-        "times": [
-          {
-            "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -9257,19 +6044,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MONGUR",
+        "faculty": "DSAE",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "MMHQ",
+        "faculty": "MONGUR",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -9278,16 +6065,16 @@ export const courses = [
         "faculty": "MMHQ",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "DMSS",
+        "faculty": "MMHQ",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -9296,22 +6083,22 @@ export const courses = [
         "faculty": "DMSS",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "NAHMED",
+        "faculty": "DMSS",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "DAKR",
+        "faculty": "TBA",
         "times": [
           {
             "time": "ST 01:30 PM - 03:00 PM"
@@ -9320,7 +6107,7 @@ export const courses = [
       },
       {
         "section": "8",
-        "faculty": "DAKR",
+        "faculty": "TBA",
         "times": [
           {
             "time": "ST 04:50 PM - 06:20 PM"
@@ -9329,7 +6116,25 @@ export const courses = [
       },
       {
         "section": "9",
-        "faculty": "AFROZA",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -9337,8 +6142,8 @@ export const courses = [
         ]
       },
       {
-        "section": "10",
-        "faculty": "AFROZA",
+        "section": "12",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
@@ -9346,35 +6151,29 @@ export const courses = [
         ]
       },
       {
-        "section": "11",
-        "faculty": "DMKZN",
+        "section": "13",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
-        "section": "12",
-        "faculty": "SAYEM",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHY212",
-    "title": "PHY212",
-    "sections": [
-      {
-        "section": "1",
+        "section": "14",
         "faculty": "TBA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "15",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -9392,10 +6191,10 @@ export const courses = [
             "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "R 10:10 AM - 11:40 AM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       },
@@ -9410,18 +6209,6 @@ export const courses = [
             "time": "W 10:10 AM - 12:10 PM"
           }
         ]
-      },
-      {
-        "section": "3",
-        "faculty": "AF & NAHMED",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
       }
     ]
   },
@@ -9430,8 +6217,8 @@ export const courses = [
     "title": "STA102",
     "sections": [
       {
-        "section": "2",
-        "faculty": "DMKN",
+        "section": "1",
+        "faculty": "AAS",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -9439,14 +6226,32 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "MAIS",
+        "section": "2",
+        "faculty": "AAS",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SAJ",
+        "times": [
+          {
+            "time": "ST 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "SHH",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -9455,16 +6260,13 @@ export const courses = [
         "faculty": "SHH",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "SHH",
+        "faculty": "FMAR",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -9476,13 +6278,34 @@ export const courses = [
         "faculty": "MAIS",
         "times": [
           {
-            "time": "SR 04:50 PM - 06:20 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "DAK",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -9490,8 +6313,8 @@ export const courses = [
         ]
       },
       {
-        "section": "9",
-        "faculty": "DAK",
+        "section": "11",
+        "faculty": "TBA",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -9499,26 +6322,8 @@ export const courses = [
         ]
       },
       {
-        "section": "11",
-        "faculty": "ERSHAD",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
         "section": "12",
-        "faculty": "SALAM",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "SALAM",
+        "faculty": "TBA",
         "times": [
           {
             "time": "ST 03:10 PM - 04:40 PM"
@@ -9526,41 +6331,47 @@ export const courses = [
         ]
       },
       {
-        "section": "14",
-        "faculty": "AAS",
+        "section": "13",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "TBA",
+        "times": [
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "15",
-        "faculty": "MAIS",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "STA104",
-    "title": "STA104",
-    "sections": [
-      {
-        "section": "1",
         "faculty": "TBA",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "16",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "17",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -9575,7 +6386,7 @@ export const courses = [
         "faculty": "MRA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -9584,7 +6395,7 @@ export const courses = [
         "faculty": "MRA",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -9593,31 +6404,7 @@ export const courses = [
         "faculty": "DSR",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "AAS",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "STA204",
-    "title": "STA204",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -9629,7 +6416,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SAJ",
+        "faculty": "AAS",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -9641,7 +6428,7 @@ export const courses = [
         "faculty": "SHH",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -9650,10 +6437,7 @@ export const courses = [
         "faculty": "SAJ",
         "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -9665,31 +6449,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SAJ",
+        "faculty": "SHH",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DSR",
+        "faculty": "SAJ",
         "times": [
           {
             "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SHH",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -9713,10 +6488,7 @@ export const courses = [
         "faculty": "AAS",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -9725,7 +6497,10 @@ export const courses = [
         "faculty": "AAS",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -9737,22 +6512,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SAJ",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "T 04:50 PM - 06:50 PM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "R 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "ERSHAD",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -9785,6 +6560,15 @@ export const courses = [
       },
       {
         "section": "3",
+        "faculty": "PDS",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
         "faculty": "HP",
         "times": [
           {
@@ -9793,77 +6577,8 @@ export const courses = [
         ]
       },
       {
-        "section": "4",
-        "faculty": "PDS",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
+        "section": "5",
         "faculty": "SHAMMA",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG145",
-    "title": "ENG145",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ZOA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ZOA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG154",
-    "title": "ENG154",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRJK",
-        "times": [
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "KNF",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "NPS",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
@@ -9871,134 +6586,14 @@ export const courses = [
         ]
       },
       {
-        "section": "4",
-        "faculty": "MRJK",
+        "section": "6",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG191",
-    "title": "ENG191",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ARSHAD",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "S 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "AUHS",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG192",
-    "title": "ENG192",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ARSHAD",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG205",
-    "title": "ENG205",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SHKA",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "JTR",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG207",
-    "title": "ENG207",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "NSNI",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "NPS",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG208",
-    "title": "ENG208",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FSPI",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "NSNI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -10009,14 +6604,20 @@ export const courses = [
     "title": "ENG209",
     "sections": [
       {
+        "section": "1",
+        "faculty": "SHKA",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
         "section": "2",
         "faculty": "NHAM",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -10035,201 +6636,27 @@ export const courses = [
     ]
   },
   {
-    "code": "ENG211",
-    "title": "ENG211",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "AFA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "RZO",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG213",
-    "title": "ENG213",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "AUHS",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG222",
-    "title": "ENG222",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DBC",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DBC",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG230",
-    "title": "ENG230",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SDA",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SHZ",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MARIA",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "code": "ENG235",
     "title": "ENG235",
     "sections": [
       {
         "section": "1",
-        "faculty": "IJDT",
+        "faculty": "SOLIKA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
         "faculty": "IJDT",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG245",
-    "title": "ENG245",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ANISA",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "AUHS",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SHZ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG255",
-    "title": "ENG255",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RAYSA",
-        "times": [
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "HP",
         "times": [
           {
             "time": "T 08:30 AM - 10:00 AM"
           },
           {
             "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SOLIKA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -10240,23 +6667,20 @@ export const courses = [
     "title": "ENG301",
     "sections": [
       {
-        "section": "1",
-        "faculty": "RZO",
+        "section": "2",
+        "faculty": "MARIA",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
-        "section": "2",
-        "faculty": "SHZ",
+        "section": "3",
+        "faculty": "ARSHAD",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -10268,19 +6692,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TSK",
+        "faculty": "SFHQ",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TR",
+        "faculty": "TSK",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -10295,73 +6719,22 @@ export const courses = [
         "faculty": "SMAS",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "SFHQ",
+        "faculty": "NSNI",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG310",
-    "title": "ENG310",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "KTK",
-        "times": [
+            "time": "S 10:10 AM - 11:40 AM"
+          },
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "TNVA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SMR",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG313",
-    "title": "ENG313",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FSPI",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SOLIKA",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -10373,91 +6746,28 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KTK",
-        "times": [
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SDA",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "ARSHAD",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG316",
-    "title": "ENG316",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MTUR",
+        "faculty": "DFA",
         "times": [
           {
             "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "ENG320",
-    "title": "ENG320",
-    "sections": [
+      },
       {
-        "section": "1",
+        "section": "2",
         "faculty": "SMR",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "ENG340",
-    "title": "ENG340",
-    "sections": [
+      },
       {
-        "section": "1",
-        "faculty": "KK",
+        "section": "3",
+        "faculty": "SDA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG402",
-    "title": "ENG402",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FSPI",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -10469,82 +6779,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "AFA",
-        "times": [
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DFA",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG411",
-    "title": "ENG411",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMQ",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MFR",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG412",
-    "title": "ENG412",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "AJ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ROUF",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG413",
-    "title": "ENG413",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "KNF",
+        "faculty": "SNH",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -10553,37 +6788,13 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "KNF",
+        "faculty": "HAZ",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG426",
-    "title": "ENG426",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SNH",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SNH",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "S 01:30 PM - 03:00 PM"
           },
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -10595,16 +6806,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ARI",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "YAF",
+        "faculty": "AFA",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -10612,23 +6814,8 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "TNVA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG440",
-    "title": "ENG440",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DFA",
+        "section": "2",
+        "faculty": "ARI",
         "times": [
           {
             "time": "TR 03:10 PM - 04:40 PM"
@@ -10643,25 +6830,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SFHQ",
+        "faculty": "ARA",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG455",
-    "title": "ENG455",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DASA",
-        "times": [
+            "time": "R 08:30 AM - 10:00 AM"
+          },
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -10682,10 +6857,10 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "ARI",
+        "faculty": "FA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -10709,6 +6884,15 @@ export const courses = [
       },
       {
         "section": "5",
+        "faculty": "DASA",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
         "faculty": "ZOA",
         "times": [
           {
@@ -10717,44 +6901,53 @@ export const courses = [
         ]
       },
       {
-        "section": "6",
-        "faculty": "AFA",
+        "section": "7",
+        "faculty": "MIJ",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "ARI",
+        "faculty": "AFA",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "TR",
+        "faculty": "ARI",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "T 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "MRJK",
+        "faculty": "TR",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "11",
-        "faculty": "SMAS",
+        "faculty": "MRJK",
         "times": [
           {
             "time": "T 08:30 AM - 10:00 AM"
@@ -10766,7 +6959,7 @@ export const courses = [
       },
       {
         "section": "12",
-        "faculty": "SFHQ",
+        "faculty": "SMAS",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -10775,6 +6968,15 @@ export const courses = [
       },
       {
         "section": "13",
+        "faculty": "SFHQ",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "14",
         "faculty": "SMR",
         "times": [
           {
@@ -10783,89 +6985,20 @@ export const courses = [
         ]
       },
       {
-        "section": "14",
+        "section": "15",
         "faculty": "NSNI",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "KNF",
-        "times": [
-          {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "S 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "16",
-        "faculty": "SHKA",
-        "times": [
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "TSK",
-        "times": [
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "KK",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "19",
-        "faculty": "SDA",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "20",
-        "faculty": "ARA",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "21",
-        "faculty": "SHZ",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "22",
-        "faculty": "TBA",
+        "faculty": "KNF",
         "times": [
           {
             "time": "R 08:30 AM - 10:00 AM"
@@ -10876,20 +7009,23 @@ export const courses = [
         ]
       },
       {
-        "section": "23",
-        "faculty": "DASA",
+        "section": "17",
+        "faculty": "KNF",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
-        "section": "24",
-        "faculty": "IJDT",
+        "section": "18",
+        "faculty": "SHKA",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
             "time": "R 10:10 AM - 11:40 AM"
@@ -10897,35 +7033,122 @@ export const courses = [
         ]
       },
       {
-        "section": "25",
-        "faculty": "SOLIKA",
+        "section": "19",
+        "faculty": "TSK",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "20",
+        "faculty": "SSNM",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "21",
+        "faculty": "KK",
+        "times": [
+          {
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "22",
+        "faculty": "SDA",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "23",
+        "faculty": "SHZ",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "24",
+        "faculty": "ARA",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "25",
+        "faculty": "RZO",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "26",
+        "faculty": "NPS",
+        "times": [
+          {
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "27",
-        "faculty": "DASA",
+        "faculty": "IJDT",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "28",
-        "faculty": "FA",
+        "faculty": "SOLIKA",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "29",
+        "faculty": "MARIA",
+        "times": [
+          {
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -10937,28 +7160,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "SHKA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
         "faculty": "ANISA",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "4",
-        "faculty": "AUHS",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "FHI",
+        "section": "3",
+        "faculty": "KTK",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -10966,32 +7186,47 @@ export const courses = [
         ]
       },
       {
-        "section": "7",
-        "faculty": "BITHY",
+        "section": "4",
+        "faculty": "MARIA",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "AUHS",
+        "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "MEEM",
+        "faculty": "AUHS",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "SAMINA",
+        "faculty": "AUHS",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -11015,7 +7250,7 @@ export const courses = [
       },
       {
         "section": "12",
-        "faculty": "FARLINA",
+        "faculty": "TBA",
         "times": [
           {
             "time": "ST 03:10 PM - 04:40 PM"
@@ -11024,34 +7259,7 @@ export const courses = [
       },
       {
         "section": "13",
-        "faculty": "MJAN",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "MJAN",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "MZRM",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "MZRM",
+        "faculty": "KTJS",
         "times": [
           {
             "time": "ST 01:30 PM - 03:00 PM"
@@ -11059,52 +7267,43 @@ export const courses = [
         ]
       },
       {
-        "section": "17",
+        "section": "14",
+        "faculty": "MZRM",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "15",
         "faculty": "PDS",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "16",
+        "faculty": "PDS",
+        "times": [
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "17",
+        "faculty": "RAYSA",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "18",
-        "faculty": "ZORORUL",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "19",
-        "faculty": "NPS",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "20",
-        "faculty": "RAYSA",
-        "times": [
-          {
-            "time": "M 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "W 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "21",
         "faculty": "ARSHAD",
         "times": [
           {
@@ -11113,25 +7312,34 @@ export const courses = [
         ]
       },
       {
-        "section": "22",
+        "section": "19",
+        "faculty": "QFY",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "20",
         "faculty": "BITHY",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "23",
-        "faculty": "JF",
+        "section": "21",
+        "faculty": "QFY",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
-        "section": "24",
+        "section": "22",
         "faculty": "PARVEZ",
         "times": [
           {
@@ -11140,55 +7348,25 @@ export const courses = [
         ]
       },
       {
+        "section": "23",
+        "faculty": "MSAZ",
+        "times": [
+          {
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "24",
+        "faculty": "WAHID",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
         "section": "25",
-        "faculty": "SHAMMA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "26",
-        "faculty": "MRJK",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "27",
-        "faculty": "SHKA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "28",
-        "faculty": "DZ",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "30",
-        "faculty": "ZK",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "31",
         "faculty": "WAHID",
         "times": [
           {
@@ -11197,26 +7375,17 @@ export const courses = [
         ]
       },
       {
-        "section": "32",
-        "faculty": "SYEDA",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "33",
+        "section": "26",
         "faculty": "RIYA",
         "times": [
           {
-            "time": "SR 04:50 PM - 06:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "34",
-        "faculty": "FARLINA",
+        "section": "27",
+        "faculty": "TBA",
         "times": [
           {
             "time": "ST 04:50 PM - 06:20 PM"
@@ -11224,7 +7393,7 @@ export const courses = [
         ]
       },
       {
-        "section": "35",
+        "section": "28",
         "faculty": "FAIZA",
         "times": [
           {
@@ -11233,7 +7402,7 @@ export const courses = [
         ]
       },
       {
-        "section": "36",
+        "section": "29",
         "faculty": "CMR",
         "times": [
           {
@@ -11242,89 +7411,8 @@ export const courses = [
         ]
       },
       {
-        "section": "37",
-        "faculty": "MARIA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "38",
-        "faculty": "NKR",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "39",
-        "faculty": "AMAMUN",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "40",
-        "faculty": "AMAMUN",
-        "times": [
-          {
-            "time": "SR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "41",
-        "faculty": "NKR",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "42",
-        "faculty": "TR",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "43",
-        "faculty": "QFY",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "44",
-        "faculty": "RDNA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "45",
-        "faculty": "RDNA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "47",
-        "faculty": "WAHID",
+        "section": "30",
+        "faculty": "MJAN",
         "times": [
           {
             "time": "ST 11:50 AM - 01:20 PM"
@@ -11332,80 +7420,8 @@ export const courses = [
         ]
       },
       {
-        "section": "48",
-        "faculty": "DZ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "49",
-        "faculty": "MARIA",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "52",
-        "faculty": "SHAMMA",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "53",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ENG7102",
-    "title": "ENG7102",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ARA",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SMHK",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SMHK",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ZK",
+        "section": "31",
+        "faculty": "RDNA",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -11413,154 +7429,16 @@ export const courses = [
         ]
       },
       {
-        "section": "6",
-        "faculty": "ANISA",
+        "section": "32",
+        "faculty": "TMKN",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
-        "section": "8",
-        "faculty": "NSNI",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "ROUF",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "BITHY",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "MSAZ",
-        "times": [
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "SMH",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "SHKA",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "SMH",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "15",
-        "faculty": "KTK",
-        "times": [
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "ARA",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "17",
-        "faculty": "SPBS",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "18",
-        "faculty": "SMAS",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "20",
-        "faculty": "JTR",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "21",
-        "faculty": "JTR",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "22",
-        "faculty": "KK",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "23",
+        "section": "33",
         "faculty": "TBA",
         "times": [
           {
@@ -11572,7 +7450,199 @@ export const courses = [
         ]
       },
       {
-        "section": "24",
+        "section": "34",
+        "faculty": "SOLIKA",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "35",
+        "faculty": "TR",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ENG7102",
+    "title": "ENG7102",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FSPI",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FHI",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DZ",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TNVA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "RAYSA",
+        "times": [
+          {
+            "time": "ST 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "ANISA",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "YAF",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "BITHY",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "SMH",
+        "times": [
+          {
+            "time": "SR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "KTK",
+        "times": [
+          {
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "MEEM",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "NPS",
+        "times": [
+          {
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "TNVA",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "15",
+        "faculty": "KTJS",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "16",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "17",
+        "faculty": "MJAN",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "18",
+        "faculty": "MZRM",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "19",
+        "faculty": "JTR",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "20",
         "faculty": "HP",
         "times": [
           {
@@ -11584,8 +7654,47 @@ export const courses = [
         ]
       },
       {
+        "section": "21",
+        "faculty": "SSNM",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "22",
+        "faculty": "SAMINA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "23",
+        "faculty": "SSNM",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "24",
+        "faculty": "NPS",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
         "section": "25",
-        "faculty": "HP",
+        "faculty": "TBA",
         "times": [
           {
             "time": "S 11:50 AM - 01:20 PM"
@@ -11597,105 +7706,48 @@ export const courses = [
       },
       {
         "section": "26",
-        "faculty": "SAMINA",
+        "faculty": "SDA",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "27",
-        "faculty": "RZO",
+        "faculty": "MTUR",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "R 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "28",
-        "faculty": "IJDT",
+        "faculty": "SYEDA",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "29",
-        "faculty": "TMKN",
+        "faculty": "PDS",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "30",
-        "faculty": "RAYSA",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "31",
-        "faculty": "SDA",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "32",
-        "faculty": "MTUR",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "33",
-        "faculty": "PDS",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "34",
-        "faculty": "PDS",
-        "times": [
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "37",
         "faculty": "ADNAN",
         "times": [
           {
@@ -11704,7 +7756,7 @@ export const courses = [
         ]
       },
       {
-        "section": "38",
+        "section": "31",
         "faculty": "ADNAN",
         "times": [
           {
@@ -11713,25 +7765,46 @@ export const courses = [
         ]
       },
       {
-        "section": "40",
-        "faculty": "MFR",
+        "section": "32",
+        "faculty": "ZK",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "41",
+        "section": "33",
+        "faculty": "SPBS",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "34",
+        "faculty": "ZK",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "35",
         "faculty": "PARVEZ",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
-        "section": "42",
+        "section": "36",
         "faculty": "NMK",
         "times": [
           {
@@ -11740,16 +7813,34 @@ export const courses = [
         ]
       },
       {
-        "section": "43",
-        "faculty": "NMK",
+        "section": "37",
+        "faculty": "YAF",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
-        "section": "44",
+        "section": "38",
+        "faculty": "RIYA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "39",
+        "faculty": "NMK",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "40",
         "faculty": "SYEDA",
         "times": [
           {
@@ -11758,7 +7849,16 @@ export const courses = [
         ]
       },
       {
-        "section": "45",
+        "section": "41",
+        "faculty": "TMKN",
+        "times": [
+          {
+            "time": "ST 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "42",
         "faculty": "FHI",
         "times": [
           {
@@ -11767,7 +7867,7 @@ export const courses = [
         ]
       },
       {
-        "section": "46",
+        "section": "43",
         "faculty": "MEEM",
         "times": [
           {
@@ -11776,23 +7876,95 @@ export const courses = [
         ]
       },
       {
-        "section": "47",
-        "faculty": "TMKN",
+        "section": "45",
+        "faculty": "PL",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "46",
+        "faculty": "PL",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "47",
+        "faculty": "JF",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "48",
+        "faculty": "JF",
+        "times": [
+          {
+            "time": "ST 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "49",
+        "faculty": "ZORORUL",
+        "times": [
+          {
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "50",
+        "faculty": "ZORORUL",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "51",
+        "faculty": "RDNA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "52",
+        "faculty": "SPBS",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "53",
         "faculty": "MSAZ",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "54",
+        "faculty": "SAMINA",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -11807,16 +7979,25 @@ export const courses = [
         "faculty": "ZOA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "ZOA",
+        "faculty": "TR",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "MRJK",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -11828,7 +8009,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MRJK",
+        "faculty": "KNF",
         "times": [
           {
             "time": "T 10:10 AM - 11:40 AM"
@@ -11840,28 +8021,22 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "KNF",
+        "faculty": "SSNM",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "NPS",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
         "faculty": "MRJK",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -11876,10 +8051,10 @@ export const courses = [
         "faculty": "BITHY",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -11888,7 +8063,16 @@ export const courses = [
         "faculty": "SMH",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "JTR",
+        "times": [
+          {
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -11899,14 +8083,20 @@ export const courses = [
     "title": "ENG7170",
     "sections": [
       {
+        "section": "1",
+        "faculty": "SHKA",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
         "section": "2",
         "faculty": "NHAM",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -11915,10 +8105,10 @@ export const courses = [
         "faculty": "NHAM",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
           },
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -11930,25 +8120,31 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ARSHAD",
+        "faculty": "RZO",
         "times": [
           {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "AUHS",
+        "faculty": "RZO",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SHAMMA",
+        "times": [
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -11963,10 +8159,19 @@ export const courses = [
         "faculty": "ARSHAD",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
           },
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "R 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SHAMMA",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -11987,10 +8192,10 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "JTR",
+        "faculty": "HP",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -12002,22 +8207,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "NSNI",
+        "faculty": "NPS",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "NPS",
+        "faculty": "TSK",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -12028,20 +8230,23 @@ export const courses = [
     "title": "ENG7208",
     "sections": [
       {
-        "section": "1",
-        "faculty": "FSPI",
+        "section": "2",
+        "faculty": "MFR",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
-        "section": "2",
+        "section": "3",
         "faculty": "NSNI",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -12059,6 +8264,18 @@ export const courses = [
             "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
+      },
+      {
+        "section": "2",
+        "faculty": "IJDT",
+        "times": [
+          {
+            "time": "M 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "W 08:30 AM - 10:00 AM"
+          }
+        ]
       }
     ]
   },
@@ -12071,16 +8288,16 @@ export const courses = [
         "faculty": "AFA",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "RZO",
+        "faculty": "MARIA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -12092,31 +8309,28 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KTK",
+        "faculty": "DFA",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "SDA",
+        "faculty": "SMR",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "ARSHAD",
+        "faculty": "SDA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -12167,19 +8381,19 @@ export const courses = [
         "faculty": "SHZ",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "MARIA",
+        "faculty": "KTK",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -12191,13 +8405,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ANISA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -12206,16 +8417,16 @@ export const courses = [
         "faculty": "AUHS",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "SHZ",
+        "faculty": "ANISA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -12227,34 +8438,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "RAYSA",
+        "faculty": "TR",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "HP",
+        "faculty": "SMH",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SOLIKA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -12266,22 +8462,28 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "RZO",
+        "faculty": "SHZ",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "SHZ",
+        "faculty": "MARIA",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ARSHAD",
+        "times": [
+          {
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -12296,16 +8498,22 @@ export const courses = [
         "faculty": "SMAS",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "SFHQ",
+        "faculty": "NSNI",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -12320,25 +8528,25 @@ export const courses = [
         "faculty": "KTK",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TNVA",
+        "faculty": "SMR",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "SMR",
+        "faculty": "SHZ",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -12350,19 +8558,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TSK",
+        "faculty": "SFHQ",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TR",
+        "faculty": "TSK",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -12374,19 +8582,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "FSPI",
+        "faculty": "SOLIKA",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "SOLIKA",
+        "faculty": "RAYSA",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -12408,6 +8619,24 @@ export const courses = [
     ]
   },
   {
+    "code": "ENG7319",
+    "title": "ENG7319",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "code": "ENG7320",
     "title": "ENG7320",
     "sections": [
@@ -12416,7 +8645,10 @@ export const courses = [
         "faculty": "SMR",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -12440,7 +8672,16 @@ export const courses = [
         "faculty": "RAYSA",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "JTR",
+        "times": [
+          {
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -12452,10 +8693,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "IJDT",
+        "faculty": "SOLIKA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -12464,7 +8705,10 @@ export const courses = [
         "faculty": "IJDT",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -12476,16 +8720,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ARI",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "YAF",
+        "faculty": "AFA",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -12493,8 +8728,23 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "TNVA",
+        "section": "2",
+        "faculty": "ARI",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ENG7356",
+    "title": "ENG7356",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MIJ",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -12509,10 +8759,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KK",
+        "faculty": "FA",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -12521,10 +8771,7 @@ export const courses = [
         "faculty": "SMAS",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -12536,22 +8783,37 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "AFA",
+        "faculty": "SNH",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DFA",
+        "faculty": "HAZ",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ENG7410",
+    "title": "ENG7410",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DASA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -12575,7 +8837,10 @@ export const courses = [
         "faculty": "MFR",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -12599,7 +8864,7 @@ export const courses = [
         "faculty": "ROUF",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -12611,19 +8876,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KNF",
+        "faculty": "ZOA",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "TR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "KNF",
+        "faculty": "SFHQ",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -12638,7 +8903,25 @@ export const courses = [
         "faculty": "ARA",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ENG7422",
+    "title": "ENG7422",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DZ",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -12650,10 +8933,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SNH",
+        "faculty": "DFA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -12662,10 +8945,10 @@ export const courses = [
         "faculty": "SNH",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -12677,25 +8960,43 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DFA",
+        "faculty": "MIJ",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ENG7455",
-    "title": "ENG7455",
+    "code": "ENG7457",
+    "title": "ENG7457",
     "sections": [
       {
         "section": "1",
-        "faculty": "DASA",
+        "faculty": "ARI",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ENG7467",
+    "title": "ENG7467",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KK",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -12706,29 +9007,29 @@ export const courses = [
     "title": "ENG950",
     "sections": [
       {
-        "section": "31",
-        "faculty": "DASA",
-        "times": [
-          {
-            "time": "S 05:30 PM - 08:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "71",
+        "section": "11",
         "faculty": "FA",
         "times": [
           {
-            "time": "T 05:30 PM - 08:30 PM"
+            "time": "W 05:30 PM - 08:30 PM"
           }
         ]
       },
       {
-        "section": "91",
+        "section": "61",
         "faculty": "SNH",
         "times": [
           {
             "time": "A 05:30 PM - 08:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "81",
+        "faculty": "DASA",
+        "times": [
+          {
+            "time": "S 05:30 PM - 08:30 PM"
           }
         ]
       }
@@ -12739,64 +9040,103 @@ export const courses = [
     "title": "ENG951",
     "sections": [
       {
-        "section": "31",
-        "faculty": "AFA",
+        "section": "51",
+        "faculty": "KK",
         "times": [
           {
-            "time": "F 09:00 AM - 12:00 PM"
+            "time": "T 05:30 PM - 08:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "81",
+        "faculty": "MIJ",
+        "times": [
+          {
+            "time": "F 09:30 AM - 12:30 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ECO501",
-    "title": "ECO501",
+    "code": "JPN7101",
+    "title": "JPN7101",
     "sections": [
       {
         "section": "1",
-        "faculty": "DEH",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "F 06:00 PM - 09:00 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ECO528",
-    "title": "ECO528",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "BAM",
-        "times": [
-          {
-            "time": "A 09:00 AM - 12:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO565",
-    "title": "ECO565",
+    "code": "ECO502",
+    "title": "ECO502",
     "sections": [
       {
         "section": "1",
         "faculty": "DHN",
         "times": [
           {
-            "time": "A 12:10 PM - 03:10 PM"
+            "time": "A 03:00 PM - 06:00 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ECO585",
-    "title": "ECO585",
+    "code": "ECO532",
+    "title": "ECO532",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DHN",
+        "times": [
+          {
+            "time": "F 10:00 AM - 01:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO550",
+    "title": "ECO550",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "IH",
+        "times": [
+          {
+            "time": "M 06:30 PM - 09:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO584",
+    "title": "ECO584",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEH",
+        "times": [
+          {
+            "time": "F 10:00 AM - 01:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO625",
+    "title": "ECO625",
     "sections": [
       {
         "section": "1",
@@ -12810,63 +9150,36 @@ export const courses = [
     ]
   },
   {
-    "code": "ECO642",
-    "title": "ECO642",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MARF",
-        "times": [
-          {
-            "time": "F 09:00 AM - 12:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO699",
-    "title": "ECO699",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 06:30 PM - 09:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "code": "ECO7101",
     "title": "ECO7101",
     "sections": [
       {
         "section": "1",
-        "faculty": "IH",
+        "faculty": "MC",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "BAM",
+        "faculty": "AKH",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "IH",
+        "faculty": "AKH",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -12881,66 +9194,18 @@ export const courses = [
       },
       {
         "section": "5",
-        "faculty": "CYNTHIA",
+        "faculty": "UM",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "SADIA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "ABK",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "SANJANA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "STO",
-        "times": [
-          {
-            "time": "M 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "W 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "NTM",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
         "faculty": "MAAM",
         "times": [
           {
@@ -12949,29 +9214,80 @@ export const courses = [
         ]
       },
       {
-        "section": "12",
+        "section": "7",
+        "faculty": "MASM",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "MAAM",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
         "faculty": "TMNA",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "SADIA",
+        "times": [
+          {
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "SADMAN",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "SANJANA",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "13",
-        "faculty": "ABONTI",
+        "faculty": "SANJANA",
         "times": [
           {
-            "time": "M 08:30 AM - 10:00 AM"
+            "time": "R 08:30 AM - 10:00 AM"
           },
           {
-            "time": "W 08:30 AM - 10:00 AM"
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "14",
-        "faculty": "MSNR",
+        "faculty": "STO",
         "times": [
           {
             "time": "S 08:30 AM - 10:00 AM"
@@ -12983,123 +9299,87 @@ export const courses = [
       },
       {
         "section": "15",
-        "faculty": "STO",
+        "faculty": "NTM",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "16",
-        "faculty": "ABONTI",
+        "faculty": "STO",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "17",
-        "faculty": "SADMAN",
+        "faculty": "PPC",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "18",
-        "faculty": "SANJANA",
+        "faculty": "CYNTHIA",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "19",
-        "faculty": "MSNR",
+        "faculty": "CYNTHIA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "20",
-        "faculty": "AKH",
+        "faculty": "MAHRAB",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "21",
-        "faculty": "AKH",
+        "faculty": "MAHRAB",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "22",
-        "faculty": "MAHRAB",
+        "faculty": "SHARIKA",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "R 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "23",
-        "faculty": "MAHRAB",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "24",
-        "faculty": "SADMAN",
-        "times": [
-          {
-            "time": "R 10:10 AM - 11:10 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "25",
-        "faculty": "SHARIKA",
-        "times": [
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "26",
         "faculty": "SHARIKA",
         "times": [
           {
@@ -13111,53 +9391,77 @@ export const courses = [
         ]
       },
       {
-        "section": "27",
-        "faculty": "CYNTHIA",
+        "section": "24",
+        "faculty": "SADIA",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "25",
+        "faculty": "NTM",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "26",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "R 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "27",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "28",
-        "faculty": "PPC",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "29",
-        "faculty": "MAAM",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "30",
-        "faculty": "UM",
+        "faculty": "TAUSIF",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "31",
-        "faculty": "IMSR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -13169,19 +9473,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "PAG",
+        "faculty": "GQH",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "STO",
+        "faculty": "MSNR",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -13190,7 +9497,7 @@ export const courses = [
         "faculty": "IMSR",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -13199,64 +9506,67 @@ export const courses = [
         "faculty": "SADMAN",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "MSNR",
+        "faculty": "SADMAN",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "ABK",
+        "faculty": "MSNR",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "MASM",
+        "faculty": "ABONTI",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "NTM",
+        "faculty": "ABONTI",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "NTM",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "W 03:10 PM - 04:40 PM"
-          },
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
+        "times": [
           {
-            "time": "M 03:10 PM - 04:40 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -13271,22 +9581,16 @@ export const courses = [
         "faculty": "ERP",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "AFD",
+        "faculty": "STO",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -13304,39 +9608,6 @@ export const courses = [
         "faculty": "KMM",
         "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MASM",
-        "times": [
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TMNA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "SEH",
-        "times": [
-          {
             "time": "S 03:10 PM - 04:40 PM"
           },
           {
@@ -13345,11 +9616,41 @@ export const courses = [
         ]
       },
       {
-        "section": "8",
-        "faculty": "SADMAN",
+        "section": "5",
+        "faculty": "MASM",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TMNA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "SEH",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "SANJANA",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -13358,7 +9659,7 @@ export const courses = [
         "faculty": "TMNA",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           },
           {
             "time": "T 03:10 PM - 04:40 PM"
@@ -13370,16 +9671,19 @@ export const courses = [
         "faculty": "PPC",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "11",
-        "faculty": "SADIA",
+        "faculty": "PAG",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -13391,7 +9695,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "SMK",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -13410,6 +9714,33 @@ export const courses = [
     ]
   },
   {
+    "code": "ECO7200",
+    "title": "ECO7200",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SEH",
+        "times": [
+          {
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "PAG",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "code": "ECO7204",
     "title": "ECO7204",
     "sections": [
@@ -13418,7 +9749,7 @@ export const courses = [
         "faculty": "ERP",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -13427,7 +9758,10 @@ export const courses = [
         "faculty": "ERP",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -13445,7 +9779,7 @@ export const courses = [
         "faculty": "AFD",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -13454,16 +9788,22 @@ export const courses = [
         "faculty": "PAG",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "S 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "SYJ",
+        "faculty": "GQH",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "S 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -13472,7 +9812,10 @@ export const courses = [
         "faculty": "SEH",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -13481,7 +9824,10 @@ export const courses = [
         "faculty": "SYJ",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "S 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -13496,22 +9842,16 @@ export const courses = [
             "time": "R 01:30 PM - 03:00 PM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "ECO7220",
-    "title": "ECO7220",
-    "sections": [
+      },
       {
-        "section": "1",
-        "faculty": "SYJ",
+        "section": "10",
+        "faculty": "PAG",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "T 04:50 PM - 06:20 PM"
           },
           {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "S 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -13526,16 +9866,10 @@ export const courses = [
         "faculty": "ERP",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "PAG",
-        "times": [
+            "time": "T 01:30 PM - 03:00 PM"
+          },
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -13547,22 +9881,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "IH",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
         "faculty": "UM",
         "times": [
           {
             "time": "S 01:30 PM - 03:00 PM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "IH",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -13574,10 +9908,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SSM",
+        "faculty": "AKH",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SYJ",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -13589,10 +9932,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SYJ",
+        "faculty": "IH",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -13604,22 +9947,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "PKA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "GQH",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -13631,10 +9962,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SSM",
+        "faculty": "KMM",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -13649,7 +9983,10 @@ export const courses = [
         "faculty": "AKH",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -13667,15 +10004,6 @@ export const courses = [
             "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
-      },
-      {
-        "section": "2",
-        "faculty": "GQH",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
       }
     ]
   },
@@ -13685,10 +10013,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "IMSR",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -13703,10 +10031,22 @@ export const courses = [
         "faculty": "SSM",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO7353",
+    "title": "ECO7353",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "PKA",
+        "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -13721,22 +10061,7 @@ export const courses = [
         "faculty": "BAM",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO7357",
-    "title": "ECO7357",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MC",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -13751,52 +10076,22 @@ export const courses = [
         "faculty": "PPC",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO7382",
-    "title": "ECO7382",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MC",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO7406",
-    "title": "ECO7406",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "BAM",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO7414",
-    "title": "ECO7414",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "PKA",
-        "times": [
-          {
             "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO7375",
+    "title": "ECO7375",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DMMIS",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -13808,10 +10103,40 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "BB",
+        "faculty": "HIA",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "A 09:00 AM - 12:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO7449",
+    "title": "ECO7449",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "BKN",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO7450",
+    "title": "ECO7450",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "AMRH",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -13823,25 +10148,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "MC",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO7455",
-    "title": "ECO7455",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "PKA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -13856,7 +10166,7 @@ export const courses = [
         "faculty": "DHN",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -13871,7 +10181,16 @@ export const courses = [
         "faculty": "MC",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MC",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -13883,10 +10202,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "PKA",
+        "faculty": "ASHIK",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "A 03:00 PM - 06:00 PM"
           }
         ]
       }
@@ -13898,27 +10217,63 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DHN",
+        "faculty": "BKN",
         "times": [
           {
-            "time": "A 03:20 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SSM",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ECO7485",
-    "title": "ECO7485",
+    "code": "ECO7480",
+    "title": "ECO7480",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "BAM",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO7484",
+    "title": "ECO7484",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEH",
+        "times": [
+          {
+            "time": "F 10:00 AM - 01:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO7486",
+    "title": "ECO7486",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "PKA",
+        "times": [
+          {
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ECO7487",
+    "title": "ECO7487",
     "sections": [
       {
         "section": "1",
@@ -13937,7 +10292,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DHN",
+        "faculty": "BAM",
         "times": [
           {
             "time": "ST 11:50 AM - 01:20 PM"
@@ -13947,30 +10302,15 @@ export const courses = [
     ]
   },
   {
-    "code": "ECO7491",
-    "title": "ECO7491",
+    "code": "ECO7492",
+    "title": "ECO7492",
     "sections": [
       {
         "section": "1",
-        "faculty": "AMRH",
+        "faculty": "PKA",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ECO7495",
-    "title": "ECO7495",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "F 06:30 PM - 07:30 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -13985,7 +10325,19 @@ export const courses = [
         "faculty": "MASM",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SADMAN",
+        "times": [
+          {
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -14009,7 +10361,7 @@ export const courses = [
         "faculty": "TMD",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -14018,37 +10370,43 @@ export const courses = [
         "faculty": "ALIM",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "ATIQUE",
+        "faculty": "TAHSAN",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "AZA",
+        "faculty": "MSHIKDAR",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "ATIQUE",
+        "faculty": "TAHSAN",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -14084,10 +10442,7 @@ export const courses = [
         "faculty": "ALIM",
         "times": [
           {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -14096,10 +10451,10 @@ export const courses = [
         "faculty": "MAAHC",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "R 10:10 AM - 11:40 AM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -14108,10 +10463,7 @@ export const courses = [
         "faculty": "MAZB",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -14153,7 +10505,7 @@ export const courses = [
         "faculty": "MZHI",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -14177,10 +10529,13 @@ export const courses = [
       },
       {
         "section": "19",
-        "faculty": "AZA",
+        "faculty": "MSHIKDAR",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -14189,16 +10544,19 @@ export const courses = [
         "faculty": "MZHI",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "21",
-        "faculty": "TAHSAN",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -14258,19 +10616,25 @@ export const courses = [
       },
       {
         "section": "28",
-        "faculty": "TAHSAN",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "29",
-        "faculty": "FUAH",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "S 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -14279,10 +10643,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "S 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -14297,22 +10661,22 @@ export const courses = [
         "faculty": "UM",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "GQH",
+        "faculty": "KMA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "KMM",
+        "faculty": "CYNTHIA",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
@@ -14321,36 +10685,45 @@ export const courses = [
       },
       {
         "section": "4",
-        "faculty": "KMA",
+        "faculty": "AFD",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "SADIA",
+        "faculty": "MARF",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "PPC",
+        "faculty": "UM",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "7",
+        "faculty": "PPC",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "8",
         "faculty": "MARF",
         "times": [
           {
@@ -14359,20 +10732,8 @@ export const courses = [
         ]
       },
       {
-        "section": "8",
-        "faculty": "STO",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
         "section": "9",
-        "faculty": "AKH",
+        "faculty": "KMA",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
@@ -14384,19 +10745,19 @@ export const courses = [
         "faculty": "CYNTHIA",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "11",
-        "faculty": "CYNTHIA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -14408,13 +10769,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "GQH",
+        "faculty": "MASM",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -14423,7 +10781,22 @@ export const courses = [
         "faculty": "MAAM",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "STO",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -14432,10 +10805,7 @@ export const courses = [
         "faculty": "MSNR",
         "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -14444,37 +10814,22 @@ export const courses = [
         "faculty": "ABONTI",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "SANJANA",
+        "faculty": "SYJ",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "KMA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "ABONTI",
+        "faculty": "MSNR",
         "times": [
           {
             "time": "R 08:30 AM - 10:00 AM"
@@ -14485,20 +10840,8 @@ export const courses = [
         ]
       },
       {
-        "section": "9",
-        "faculty": "NTM",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "SANJANA",
+        "section": "8",
+        "faculty": "GQH",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -14506,11 +10849,53 @@ export const courses = [
         ]
       },
       {
-        "section": "11",
-        "faculty": "MOAK",
+        "section": "9",
+        "faculty": "ABONTI",
         "times": [
           {
             "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "NTM",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "SANJANA",
+        "times": [
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "S 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "SYJ",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "MAAM",
+        "times": [
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -14521,32 +10906,41 @@ export const courses = [
     "title": "MAT7211",
     "sections": [
       {
-        "section": "2",
-        "faculty": "TMNA",
+        "section": "1",
+        "faculty": "SSM",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KMM",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "KMM",
+        "faculty": "MOAK",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "UM",
+        "faculty": "SADIA",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -14555,148 +10949,94 @@ export const courses = [
         "faculty": "SADIA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "TBA",
+        "faculty": "MOAK",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "T 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "PAG",
+        "faculty": "TMNA",
         "times": [
           {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "MOAK",
+        "faculty": "BKN",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
-        "section": "10",
-        "faculty": "SEH",
+        "section": "9",
+        "faculty": "SSM",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "MASM",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MDS501",
-    "title": "MDS501",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DIAK",
-        "times": [
-          {
-            "time": "A 01:00 PM - 04:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MDS510",
-    "title": "MDS510",
+    "code": "MDS530",
+    "title": "MDS530",
     "sections": [
       {
         "section": "1",
         "faculty": "DZK",
         "times": [
           {
-            "time": "F 02:30 PM - 05:30 PM"
+            "time": "A 09:00 AM - 12:00 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MDS521",
-    "title": "MDS521",
+    "code": "MDS640",
+    "title": "MDS640",
     "sections": [
       {
         "section": "1",
-        "faculty": "BB",
+        "faculty": "DZK",
         "times": [
           {
-            "time": "A 09:30 AM - 12:30 PM"
+            "time": "A 12:10 PM - 03:10 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MDS531",
-    "title": "MDS531",
+    "code": "MDS660",
+    "title": "MDS660",
     "sections": [
       {
         "section": "1",
         "faculty": "DIAK",
         "times": [
           {
-            "time": "A 04:30 PM - 07:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MDS695",
-    "title": "MDS695",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 06:30 PM - 09:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MDS699",
-    "title": "MDS699",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 06:30 PM - 09:00 PM"
+            "time": "F 09:00 AM - 12:00 PM"
           }
         ]
       }
@@ -14708,46 +11048,97 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DAH & KNS",
+        "faculty": "DAH & DFP",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "TR 08:30 AM - 10:00 AM"
           },
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           },
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DMMUR",
+        "faculty": "ADRN & DAH",
         "times": [
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "KHA & DFP",
+        "faculty": "DMMUR",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "S 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "T 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "T 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "M 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "M 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "W 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -14762,10 +11153,10 @@ export const courses = [
         "faculty": "KHA",
         "times": [
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -14774,22 +11165,37 @@ export const courses = [
         "faculty": "DMRK",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "ADRN",
+        "faculty": "DMRK",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "T 11:50 AM - 01:20 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "M 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -14801,46 +11207,46 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "FMA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "S 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "T 04:50 PM - 06:50 PM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "RZS",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "W 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           },
           {
-            "time": "M 11:50 AM - 01:20 PM"
+            "time": "S 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "TBA",
+        "faculty": "FMA",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "M 01:30 PM - 03:00 PM"
           },
           {
-            "time": "M 04:50 PM - 06:50 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "W 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -14852,19 +11258,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ASHIFUR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "ASHIFUR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -14876,31 +11288,34 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ADRN & SMNP",
+        "faculty": "DMMUR",
         "times": [
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "T 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "HAB & DMMUR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "M 10:10 AM - 12:10 PM"
           },
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "M 10:10 AM - 12:10 PM"
           },
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -14909,13 +11324,16 @@ export const courses = [
         "faculty": "DMMUR",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
-            "time": "W 08:00 AM - 10:00 AM"
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "W 08:00 AM - 10:00 AM"
+            "time": "R 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "R 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -14927,10 +11345,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMMAH",
+        "faculty": "KNS",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "M 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "SR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KNS & DMMAH",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
           },
           {
             "time": "S 01:30 PM - 03:30 PM"
@@ -14938,14 +11368,14 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
+        "section": "3",
         "faculty": "KNS",
         "times": [
           {
             "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -14960,13 +11390,13 @@ export const courses = [
         "faculty": "RZS",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "W 01:30 PM - 03:00 PM"
           },
           {
             "time": "T 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "M 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -14975,13 +11405,28 @@ export const courses = [
         "faculty": "RZS",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "R 01:30 PM - 03:00 PM"
           },
           {
             "time": "W 08:00 AM - 10:00 AM"
           },
           {
+            "time": "S 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "RZS",
+        "times": [
+          {
             "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -14993,25 +11438,43 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMRK",
+        "faculty": "TBA & DMRK",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           },
           {
-            "time": "S 08:00 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DMRK & TBA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "T 10:10 AM - 12:10 PM"
+            "time": "S 04:50 PM - 06:20 PM"
           },
           {
-            "time": "SR 04:50 PM - 06:20 PM"
+            "time": "M 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "T 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "S 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -15023,19 +11486,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "ADRN",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "ADRN",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -15050,10 +11516,7 @@ export const courses = [
         "faculty": "SMNP & KHA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           },
           {
             "time": "S 01:30 PM - 03:30 PM"
@@ -15065,13 +11528,13 @@ export const courses = [
         "faculty": "SMNP",
         "times": [
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "TR 08:30 AM - 10:00 AM"
           },
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "S 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -15086,10 +11549,7 @@ export const courses = [
         "faculty": "DFP",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -15098,7 +11558,10 @@ export const courses = [
         "faculty": "DFP",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -15113,28 +11576,31 @@ export const courses = [
         "faculty": "DRAH",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "M 04:50 PM - 06:50 PM"
+          },
+          {
+            "time": "M 04:50 PM - 06:50 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DRAH",
+        "faculty": "SMNP & DRAH",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "T 10:10 AM - 12:10 PM"
           },
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -15149,10 +11615,10 @@ export const courses = [
         "faculty": "RNS",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "T 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -15161,7 +11627,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -15176,16 +11645,16 @@ export const courses = [
         "faculty": "MMAI",
         "times": [
           {
-            "time": "M 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "S 10:10 AM - 11:40 AM"
           },
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "W 10:10 AM - 11:40 AM"
+            "time": "R 08:00 AM - 10:00 AM"
           }
         ]
       },
@@ -15194,16 +11663,16 @@ export const courses = [
         "faculty": "MMAI",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "T 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "T 08:00 AM - 10:00 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "M 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "W 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -15215,13 +11684,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KNS",
+        "faculty": "ADRN",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
           },
           {
-            "time": "S 04:50 PM - 06:50 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -15230,10 +11699,10 @@ export const courses = [
         "faculty": "ADRN",
         "times": [
           {
-            "time": "M 01:30 PM - 03:30 PM"
+            "time": "T 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -15248,10 +11717,7 @@ export const courses = [
         "faculty": "RNS",
         "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -15260,7 +11726,10 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -15275,13 +11744,10 @@ export const courses = [
         "faculty": "HAB",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       },
@@ -15290,10 +11756,13 @@ export const courses = [
         "faculty": "HAB",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "S 08:00 AM - 10:00 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -15314,10 +11783,13 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "MMKR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -15329,16 +11801,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "A & B & C",
+        "faculty": "A",
         "times": [
           {
             "time": "1HAB"
           },
           {
-            "time": "1TBA"
-          },
-          {
-            "time": "1TBA"
+            "time": "2HAB"
           }
         ]
       }
@@ -15350,10 +11819,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DRAH & KNS",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           },
           {
             "time": "T 01:30 PM - 03:30 PM"
@@ -15389,31 +11858,37 @@ export const courses = [
         "faculty": "DMMAH",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           },
           {
             "time": "M 01:30 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DMMAH",
+        "times": [
+          {
+            "time": "W 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "SR 11:50 AM - 01:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "EEE418",
-    "title": "EEE418",
+    "code": "EEE417",
+    "title": "EEE417",
     "sections": [
       {
         "section": "1",
-        "faculty": "DMMAH & DAH",
+        "faculty": "KHA",
         "times": [
           {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -15449,10 +11924,10 @@ export const courses = [
         "faculty": "FMA",
         "times": [
           {
-            "time": "R 04:50 PM - 06:50 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           },
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -15485,7 +11960,7 @@ export const courses = [
         "faculty": "SMNP",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -15500,544 +11975,25 @@ export const courses = [
         "faculty": "DAH",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "EEE490",
-    "title": "EEE490",
+    "code": "EEE447",
+    "title": "EEE447",
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "DRAH",
         "times": [
           {
-            "time": "F 10:00 AM - 11:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "EEE7165",
-    "title": "EEE7165",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ASHIFUR",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ASHIFUR",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE100",
-    "title": "CE100",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRMK",
-        "times": [
-          {
-            "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "KASB",
-        "times": [
-          {
-            "time": "T 02:00 PM - 04:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "JTH",
-        "times": [
-          {
-            "time": "R 02:01 PM - 04:01 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TAJWAR",
-        "times": [
-          {
-            "time": "M 09:00 AM - 11:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE101",
-    "title": "CE101",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMNH",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MRMK",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TAJWAR",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DMTS",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE102",
-    "title": "CE102",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TAJWAR",
-        "times": [
-          {
-            "time": "W 10:10 AM - 12:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MNZ",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MNZ",
-        "times": [
-          {
-            "time": "R 03:31 PM - 05:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE103",
-    "title": "CE103",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRMK",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 12:00 PM - 02:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "TAJWAR",
-        "times": [
-          {
-            "time": "R 10:01 AM - 11:49 AM"
-          },
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE200",
-    "title": "CE200",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRMK",
-        "times": [
-          {
-            "time": "M 01:00 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "JTH",
-        "times": [
-          {
-            "time": "W 08:00 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE201",
-    "title": "CE201",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMTS & FYH",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "M 03:10 PM - 05:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "FYH",
-        "times": [
-          {
-            "time": "T 03:10 PM - 05:10 PM"
-          },
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MRMK",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 03:10 PM - 05:10 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE203",
-    "title": "CE203",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "JTH",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DMRN",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE208",
-    "title": "CE208",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SAIFUL",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "JTH",
-        "times": [
-          {
-            "time": "S 10:10 AM - 12:10 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE211",
-    "title": "CE211",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMNH & TAJWAR",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
             "time": "R 08:00 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "EIB",
-        "times": [
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "SR 08:00 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE213",
-    "title": "CE213",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FYH",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "FYH",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE261",
-    "title": "CE261",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "KASB",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 03:00 PM - 05:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SADIK",
-        "times": [
-          {
-            "time": "W 12:00 PM - 02:00 PM"
-          },
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE301",
-    "title": "CE301",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SADIK",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "M 08:00 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE311",
-    "title": "CE311",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMKT",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE315",
-    "title": "CE315",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SAIFUL",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "M 11:50 AM - 02:50 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE319",
-    "title": "CE319",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TAJWAR",
-        "times": [
-          {
-            "time": "S 12:00 PM - 02:00 PM"
-          },
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE331",
-    "title": "CE331",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SADIK",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 11:50 AM - 02:50 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE333",
-    "title": "CE333",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "JTH",
-        "times": [
-          {
-            "time": "MW 12:00 PM - 01:29 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE341",
-    "title": "CE341",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMKT",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 06:10 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE351",
-    "title": "CE351",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FYH",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE361",
-    "title": "CE361",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "KASB",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 08:00 AM - 11:00 AM"
           }
         ]
       }
@@ -16049,34 +12005,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DFD",
+        "faculty": "FYH",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE408",
-    "title": "CE408",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SAIFUL",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:50 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "JTH",
-        "times": [
-          {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -16088,10 +12020,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMNH",
+        "faculty": "TAJWAR",
         "times": [
           {
-            "time": "W 08:00 AM - 10:00 AM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -16103,10 +12035,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMTS",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -16118,10 +12050,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMNH",
+        "faculty": "ALHAZ",
         "times": [
           {
-            "time": "T 01:30 PM - 04:30 PM"
+            "time": "W 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -16136,7 +12068,7 @@ export const courses = [
         "faculty": "SAIFUL",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -16151,22 +12083,22 @@ export const courses = [
         "faculty": "SAIFUL",
         "times": [
           {
-            "time": "R 03:10 PM - 05:10 PM"
+            "time": "M 03:10 PM - 05:10 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "CE431",
-    "title": "CE431",
+    "code": "CE433",
+    "title": "CE433",
     "sections": [
       {
         "section": "1",
         "faculty": "JTH",
         "times": [
           {
-            "time": "MW 12:00 PM - 01:29 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -16178,25 +12110,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMKT",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE451",
-    "title": "CE451",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FYH",
-        "times": [
+            "time": "S 11:50 AM - 01:20 PM"
+          },
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -16211,10 +12131,10 @@ export const courses = [
         "faculty": "DMTS",
         "times": [
           {
-            "time": "W 03:10 PM - 06:20 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "M 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -16229,7 +12149,7 @@ export const courses = [
         "faculty": "KMSN",
         "times": [
           {
-            "time": "S 08:00 AM - 10:00 AM"
+            "time": "W 04:50 PM - 06:50 PM"
           }
         ]
       }
@@ -16244,7 +12164,7 @@ export const courses = [
         "faculty": "KMSN",
         "times": [
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "M 01:30 PM - 03:30 PM"
           }
         ]
       }
@@ -16256,28 +12176,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DFD",
+        "faculty": "MNZ",
         "times": [
           {
-            "time": "R 10:10 AM - 12:10 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "CE461",
-    "title": "CE461",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "KASB",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 08:00 AM - 11:00 AM"
+            "time": "W 01:30 PM - 03:30 PM"
           }
         ]
       }
@@ -16292,9 +12194,6 @@ export const courses = [
         "faculty": "KASB",
         "times": [
           {
-            "time": "LB-10"
-          },
-          {
             "time": "TR 08:30 AM - 10:00 AM"
           }
         ]
@@ -16307,10 +12206,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MRMK",
+        "faculty": "TAJWAR",
         "times": [
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "T 11:50 AM - 01:50 PM"
           }
         ]
       },
@@ -16325,19 +12224,10 @@ export const courses = [
       },
       {
         "section": "3",
-        "faculty": "JTH",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 02:01 PM - 04:01 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TAJWAR",
-        "times": [
-          {
-            "time": "M 09:00 AM - 11:00 AM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -16358,28 +12248,22 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "MRMK",
+        "faculty": "DMTS",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "TAJWAR",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DMTS",
-        "times": [
+            "time": "S 01:30 PM - 03:00 PM"
+          },
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -16391,7 +12275,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TAJWAR",
+        "faculty": "JTH",
         "times": [
           {
             "time": "W 10:10 AM - 12:10 PM"
@@ -16403,7 +12287,7 @@ export const courses = [
         "faculty": "MNZ",
         "times": [
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           }
         ]
       },
@@ -16412,7 +12296,7 @@ export const courses = [
         "faculty": "MNZ",
         "times": [
           {
-            "time": "R 03:31 PM - 05:30 PM"
+            "time": "S 04:50 PM - 06:50 PM"
           }
         ]
       }
@@ -16424,25 +12308,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MRMK",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 12:00 PM - 02:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
         "faculty": "TAJWAR",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 10:01 AM - 11:49 AM"
+            "time": "W 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -16454,19 +12326,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MRMK",
+        "faculty": "JTH",
         "times": [
           {
-            "time": "M 01:00 PM - 03:00 PM"
+            "time": "W 08:00 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "JTH",
+        "faculty": "ALHAZ",
         "times": [
           {
-            "time": "W 08:00 AM - 10:00 AM"
+            "time": "R 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -16478,13 +12350,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "FYH & DMTS",
+        "faculty": "DMTS",
         "times": [
           {
-            "time": "M 03:10 PM - 05:10 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           },
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -16493,22 +12365,10 @@ export const courses = [
         "faculty": "FYH",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "W 10:10 AM - 12:10 PM"
           },
           {
-            "time": "T 03:10 PM - 05:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MRMK",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 03:10 PM - 05:10 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -16520,7 +12380,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "JTH",
+        "faculty": "DMRN",
         "times": [
           {
             "time": "ST 03:10 PM - 04:40 PM"
@@ -16529,10 +12389,10 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "DMRN",
+        "faculty": "JTH",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -16544,19 +12404,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SAIFUL",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 11:50 AM - 01:50 PM"
+            "time": "T 11:50 AM - 01:50 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "JTH",
+        "faculty": "DMTS",
         "times": [
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "M 03:10 PM - 05:10 PM"
           }
         ]
       }
@@ -16574,19 +12434,31 @@ export const courses = [
             "time": "MW 10:10 AM - 11:40 AM"
           },
           {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "W 03:10 PM - 05:10 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "EIB",
+        "faculty": "ALHAZ",
         "times": [
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "R 08:00 AM - 10:00 AM"
           },
           {
-            "time": "SR 08:00 AM - 10:00 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ALHAZ",
+        "times": [
+          {
+            "time": "ST 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "W 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -16598,10 +12470,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "FYH",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -16610,7 +12482,10 @@ export const courses = [
         "faculty": "FYH",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -16625,22 +12500,37 @@ export const courses = [
         "faculty": "DMKT",
         "times": [
           {
-            "time": "M 08:00 AM - 10:00 AM"
+            "time": "R 01:30 PM - 03:00 PM"
           },
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "M 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "2",
+        "faculty": "ALHAZ",
+        "times": [
+          {
+            "time": "S 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
         "faculty": "JTH",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           },
           {
-            "time": "T 10:10 AM - 12:10 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       }
@@ -16655,10 +12545,13 @@ export const courses = [
         "faculty": "KASB",
         "times": [
           {
-            "time": "S 03:00 PM - 05:00 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           },
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       },
@@ -16667,10 +12560,178 @@ export const courses = [
         "faculty": "SADIK",
         "times": [
           {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "T 02:00 PM - 04:00 PM"
           },
           {
-            "time": "W 12:00 PM - 02:00 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7301",
+    "title": "CE7301",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "AKMI",
+        "times": [
+          {
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7311",
+    "title": "CE7311",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DMKT",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DMNH",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7315",
+    "title": "CE7315",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SAIFUL",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7319",
+    "title": "CE7319",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TAJWAR",
+        "times": [
+          {
+            "time": "S 08:00 AM - 10:00 AM"
+          },
+          {
+            "time": "SR 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7331",
+    "title": "CE7331",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SADIK",
+        "times": [
+          {
+            "time": "TR 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 10:10 AM - 12:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SADIK",
+        "times": [
+          {
+            "time": "M 10:10 AM - 12:10 PM"
+          },
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7341",
+    "title": "CE7341",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DMKT",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "W 10:10 AM - 01:10 PM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7351",
+    "title": "CE7351",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FYH",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CE7361",
+    "title": "CE7361",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KASB",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "M 11:50 AM - 02:50 PM"
           }
         ]
       }
@@ -16685,7 +12746,16 @@ export const courses = [
         "faculty": "DDB",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DDB",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -16697,34 +12767,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "KMGH",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
         "faculty": "ARSN",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "T 03:10 PM - 04:40 PM"
           },
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "ARSN",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -16739,6 +12788,18 @@ export const courses = [
         "faculty": "KMGH",
         "times": [
           {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NAZMUL",
+        "times": [
+          {
             "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
@@ -16751,31 +12812,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "KMGH",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "HNI",
-        "times": [
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "HNI",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -16787,10 +12827,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "ASHIK",
+        "faculty": "RAISA",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -16799,10 +12839,22 @@ export const courses = [
         "faculty": "ASHIK",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "T 03:10 PM - 04:40 PM"
           },
           {
             "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ASHIK",
+        "times": [
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -16814,25 +12866,43 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "NAZMUL",
+        "faculty": "RRN",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "NAZMUL",
+        "faculty": "AIA",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "INF7201",
+    "title": "INF7201",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "HNI",
+        "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "AIA",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -16847,7 +12917,10 @@ export const courses = [
         "faculty": "ARSN",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -16856,16 +12929,31 @@ export const courses = [
         "faculty": "ARSN",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "INF7206",
+    "title": "INF7206",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "HNI",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
-        "section": "3",
-        "faculty": "RAISA",
+        "section": "2",
+        "faculty": "HNI",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -16880,7 +12968,7 @@ export const courses = [
         "faculty": "RAISA",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -16889,7 +12977,7 @@ export const courses = [
         "faculty": "RAISA",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -16920,44 +13008,20 @@ export const courses = [
     ]
   },
   {
-    "code": "INF7209",
-    "title": "INF7209",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RRN",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ASHIK",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "ASHIK",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "code": "INF7210",
     "title": "INF7210",
     "sections": [
       {
         "section": "1",
+        "faculty": "MNM",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
         "faculty": "MNM",
         "times": [
           {
@@ -16968,51 +13032,24 @@ export const courses = [
     ]
   },
   {
-    "code": "INF7303",
-    "title": "INF7303",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "HNI",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "INF7304",
-    "title": "INF7304",
+    "code": "INF7301",
+    "title": "INF7301",
     "sections": [
       {
         "section": "1",
         "faculty": "DDB",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DMSL",
+        "faculty": "DDB",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -17030,22 +13067,13 @@ export const courses = [
             "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "INF7307",
-    "title": "INF7307",
-    "sections": [
+      },
       {
-        "section": "1",
-        "faculty": "MNM",
+        "section": "2",
+        "faculty": "RRN",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 08:00 AM - 10:00 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -17060,25 +13088,43 @@ export const courses = [
         "faculty": "RRN",
         "times": [
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           },
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 12:10 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "INF7401",
+    "title": "INF7401",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "HNI",
+        "times": [
+          {
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "AIA",
+        "faculty": "ARSN",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -17093,10 +13139,22 @@ export const courses = [
         "faculty": "DSMM",
         "times": [
           {
-            "time": "W 08:00 AM - 10:00 AM"
+            "time": "M 01:30 PM - 03:30 PM"
           },
           {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSMM",
+        "times": [
+          {
             "time": "MW 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "W 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -17111,10 +13169,10 @@ export const courses = [
         "faculty": "DMSL",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "S 10:10 AM - 12:10 PM"
           },
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -17123,10 +13181,67 @@ export const courses = [
         "faculty": "DMSL",
         "times": [
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "INF7404",
+    "title": "INF7404",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ASHIK",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ASHIK",
+        "times": [
+          {
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "W 01:30 PM - 03:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "INF7406",
+    "title": "INF7406",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DMSL",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RAISA",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -17141,7 +13256,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "F 10:00 AM - 01:00 PM"
+            "time": "Thesis"
           }
         ]
       }
@@ -17156,7 +13271,31 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 10:10 AM - 12:10 PM"
+            "time": "Internship"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ISL207",
+    "title": "ISL207",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "HNI",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "HNI",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -17171,40 +13310,16 @@ export const courses = [
         "faculty": "MNM",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ISL310",
-    "title": "ISL310",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RRN",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "AIA",
+        "faculty": "MNM",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -17235,51 +13350,48 @@ export const courses = [
     ]
   },
   {
-    "code": "ISL401",
-    "title": "ISL401",
+    "code": "ISL403",
+    "title": "ISL403",
     "sections": [
       {
         "section": "1",
-        "faculty": "AIA",
+        "faculty": "KMGH",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ISL403",
-    "title": "ISL403",
+    "code": "ISL405",
+    "title": "ISL405",
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "HNI",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "HNI",
-        "times": [
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "HNI",
+        "faculty": "ARSN",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 08:00 AM - 10:00 AM"
           }
         ]
       }
@@ -17291,6 +13403,18 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "DSMM",
+        "times": [
+          {
+            "time": "M 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
         "faculty": "DSMM",
         "times": [
           {
@@ -17312,10 +13436,10 @@ export const courses = [
         "faculty": "DMSL",
         "times": [
           {
-            "time": "M 10:10 AM - 12:10 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           },
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -17324,10 +13448,67 @@ export const courses = [
         "faculty": "DMSL",
         "times": [
           {
-            "time": "SR 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "R 10:10 AM - 12:10 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ISL408",
+    "title": "ISL408",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DMSL",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RAISA",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ISL409",
+    "title": "ISL409",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ASHIK",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 08:00 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ASHIK",
+        "times": [
+          {
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "W 01:30 PM - 03:30 PM"
           }
         ]
       }
@@ -17342,7 +13523,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "F 01:30 PM - 03:30 PM"
+            "time": "Thesis"
           }
         ]
       }
@@ -17357,7 +13538,613 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "F 10:00 AM - 01:20 PM"
+            "time": "Internship"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW102",
+    "title": "LAW102",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "AHABIB",
+        "times": [
+          {
+            "time": "A 11:40 AM - 02:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FRS",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW104",
+    "title": "LAW104",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NADIA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "OISHE",
+        "times": [
+          {
+            "time": "TR 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW105",
+    "title": "LAW105",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "FRS",
+        "times": [
+          {
+            "time": "SW 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW106",
+    "title": "LAW106",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NBF",
+        "times": [
+          {
+            "time": "MW 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SMUA",
+        "times": [
+          {
+            "time": "ST 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW107",
+    "title": "LAW107",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "FRS",
+        "times": [
+          {
+            "time": "SW 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW108",
+    "title": "LAW108",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NBF",
+        "times": [
+          {
+            "time": "TR 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MN",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW201",
+    "title": "LAW201",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MOF",
+        "times": [
+          {
+            "time": "A 01:30 PM - 04:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW202",
+    "title": "LAW202",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "NAA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW203",
+    "title": "LAW203",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "FRS",
+        "times": [
+          {
+            "time": "MR 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW204",
+    "title": "LAW204",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "TANBIR",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW205",
+    "title": "LAW205",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "SKMR",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW206",
+    "title": "LAW206",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SNEHADRI",
+        "times": [
+          {
+            "time": "TR 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW208",
+    "title": "LAW208",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "DMHN",
+        "times": [
+          {
+            "time": "ST 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW209",
+    "title": "LAW209",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "MHSL",
+        "times": [
+          {
+            "time": "MW 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW301",
+    "title": "LAW301",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TANBIR",
+        "times": [
+          {
+            "time": "ST 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW302",
+    "title": "LAW302",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SKMR",
+        "times": [
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW303",
+    "title": "LAW303",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "SMUA",
+        "times": [
+          {
+            "time": "TR 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW304",
+    "title": "LAW304",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NBF",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW305",
+    "title": "LAW305",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NAA",
+        "times": [
+          {
+            "time": "MR 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW306",
+    "title": "LAW306",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MHSL",
+        "times": [
+          {
+            "time": "T 05:15 PM - 06:30 PM"
+          },
+          {
+            "time": "R 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW307",
+    "title": "LAW307",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RMD",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW308",
+    "title": "LAW308",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SNEHADRI",
+        "times": [
+          {
+            "time": "TR 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW309",
+    "title": "LAW309",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DNTM",
+        "times": [
+          {
+            "time": "ST 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MN",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW310",
+    "title": "LAW310",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MN",
+        "times": [
+          {
+            "time": "TR 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MOF",
+        "times": [
+          {
+            "time": "A 04:10 PM - 06:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW311",
+    "title": "LAW311",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NAA",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FARZANA",
+        "times": [
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW312",
+    "title": "LAW312",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RMD",
+        "times": [
+          {
+            "time": "ST 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RMD",
+        "times": [
+          {
+            "time": "MW 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW401",
+    "title": "LAW401",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SAMIDUL",
+        "times": [
+          {
+            "time": "F 10:40 AM - 01:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MN",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW402",
+    "title": "LAW402",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MGB",
+        "times": [
+          {
+            "time": "F 10:40 AM - 01:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ATT",
+        "times": [
+          {
+            "time": "A 10:40 AM - 01:10 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW403",
+    "title": "LAW403",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DMHN",
+        "times": [
+          {
+            "time": "MW 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW404",
+    "title": "LAW404",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TANBIR",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TANBIR",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SMUA",
+        "times": [
+          {
+            "time": "MW 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW405",
+    "title": "LAW405",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MFQ",
+        "times": [
+          {
+            "time": "F 08:00 AM - 10:30 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "AHABIB",
+        "times": [
+          {
+            "time": "A 08:00 AM - 10:30 AM"
           }
         ]
       }
@@ -17368,11 +14155,38 @@ export const courses = [
     "title": "LAW406",
     "sections": [
       {
-        "section": "2",
+        "section": "1",
         "faculty": "TBA",
         "times": [
           {
-            "time": "A 06:40 PM - 09:10 PM"
+            "time": "A 04:10 PM - 06:40 PM"
+          },
+          {
+            "time": "A 06:51 PM - 09:51 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "LAW407",
+    "title": "LAW407",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MGB",
+        "times": [
+          {
+            "time": "F 08:00 AM - 10:30 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MFQ",
+        "times": [
+          {
+            "time": "F 10:40 AM - 01:10 PM"
           }
         ]
       }
@@ -17384,19 +14198,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "SHSR",
         "times": [
           {
-            "time": "F 03:00 PM - 06:00 PM"
+            "time": "F 03:00 PM - 05:30 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TBA",
+        "faculty": "SHSR",
         "times": [
           {
-            "time": "F 06:01 PM - 09:00 PM"
+            "time": "F 05:40 PM - 08:10 PM"
           }
         ]
       }
@@ -17408,7 +14222,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "OISHE",
         "times": [
           {
             "time": "A 10:50 AM - 01:20 PM"
@@ -17417,31 +14231,103 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "TBA",
+        "faculty": "OISHE",
         "times": [
           {
-            "time": "A 01:30 PM - 04:40 PM"
+            "time": "A 01:30 PM - 04:00 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ACT101",
-    "title": "ACT101",
+    "code": "ACT7101",
+    "title": "ACT7101",
     "sections": [
       {
         "section": "1",
         "faculty": "DACY",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DACY",
+        "faculty": "NHN",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NHN",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "THD",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "RHM",
+        "times": [
+          {
+            "time": "SR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TOMA",
+        "times": [
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "TOMA",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "NAMIRAH",
+        "times": [
+          {
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "NAMIRAH",
+        "times": [
+          {
+            "time": "SR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "NAMIRAH",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
@@ -17449,23 +14335,71 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "THD",
+        "section": "11",
+        "faculty": "FARIN",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
+            "time": "SR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "FARIN",
+        "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "13",
+        "faculty": "DMMNR",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ACT7201",
+    "title": "ACT7201",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MRDI",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ZMD",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ZMD",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "NHN",
+        "faculty": "ZMD",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -17474,19 +14408,16 @@ export const courses = [
         "faculty": "NHN",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "RHM",
+        "faculty": "NHN",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -17504,10 +14435,7 @@ export const courses = [
         "faculty": "TOMA",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -17519,162 +14447,12 @@ export const courses = [
             "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
-      },
-      {
-        "section": "10",
-        "faculty": "NAMIRAH",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "MRQ",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
       }
     ]
   },
   {
-    "code": "ACT201",
-    "title": "ACT201",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRDI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ZMD",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "ZMD",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ZMD",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "THD",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "THD",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "NHN",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NHN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "TOMA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "TOMA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "NAMIRAH",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "NAMIRAH",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "DMMNR",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "DMMNR",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ACT311",
-    "title": "ACT311",
+    "code": "ACT7301",
+    "title": "ACT7301",
     "sections": [
       {
         "section": "1",
@@ -17690,7 +14468,7 @@ export const courses = [
         "faculty": "RHM",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -17699,13 +14477,85 @@ export const courses = [
         "faculty": "DMJS",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "4",
         "faculty": "DMJS",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ACT7401",
+    "title": "ACT7401",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DACY",
+        "times": [
+          {
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MRDI",
+        "times": [
+          {
+            "time": "SR 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ACT7412",
+    "title": "ACT7412",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "THD",
+        "times": [
+          {
+            "time": "SR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "THD",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ACT7413",
+    "title": "ACT7413",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NCS",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NCS",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -17715,59 +14565,8 @@ export const courses = [
     ]
   },
   {
-    "code": "ACT411",
-    "title": "ACT411",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DACY",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MRDI",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MRDI",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ACT421",
-    "title": "ACT421",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "THD",
-        "times": [
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ACT425",
-    "title": "ACT425",
+    "code": "ACT7422",
+    "title": "ACT7422",
     "sections": [
       {
         "section": "1",
@@ -17790,306 +14589,45 @@ export const courses = [
     ]
   },
   {
-    "code": "ACT437",
-    "title": "ACT437",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ZMD",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ACT440",
-    "title": "ACT440",
+    "code": "ACT7435",
+    "title": "ACT7435",
     "sections": [
       {
         "section": "1",
         "faculty": "NCS",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ACT441",
-    "title": "ACT441",
+    "code": "ACT7439",
+    "title": "ACT7439",
     "sections": [
       {
         "section": "1",
-        "faculty": "NCS",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ACT478",
-    "title": "ACT478",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "NCS",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ACT7101",
-    "title": "ACT7101",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DACY",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DACY",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "THD",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "NHN",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "NHN",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "RHM",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "TOMA",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "TOMA",
-        "times": [
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "NAMIRAH",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "NAMIRAH",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "MRQ",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ACT7201",
-    "title": "ACT7201",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRDI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "ZMD",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "ZMD",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ZMD",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "THD",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "THD",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "NHN",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NHN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "TOMA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "TOMA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "NAMIRAH",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "NAMIRAH",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
         "faculty": "DMMNR",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "code": "ACT7445",
+    "title": "ACT7445",
+    "sections": [
       {
-        "section": "14",
-        "faculty": "DMMNR",
+        "section": "1",
+        "faculty": "DACY",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -18119,7 +14657,25 @@ export const courses = [
       },
       {
         "section": "3",
-        "faculty": "MAHN",
+        "faculty": "HSM",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "HSM",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "MSIF",
         "times": [
           {
             "time": "ST 03:10 PM - 04:40 PM"
@@ -18127,26 +14683,8 @@ export const courses = [
         ]
       },
       {
-        "section": "4",
-        "faculty": "MAHN",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SHARIFUL",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
         "section": "6",
-        "faculty": "SHARIFUL",
+        "faculty": "NFI",
         "times": [
           {
             "time": "ST 10:10 AM - 11:40 AM"
@@ -18155,10 +14693,10 @@ export const courses = [
       },
       {
         "section": "7",
-        "faculty": "DANZ",
+        "faculty": "NFI",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -18167,73 +14705,22 @@ export const courses = [
         "faculty": "DANZ",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "HSM",
+        "faculty": "DANZ",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "HSM",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "MFM",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "16",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "BUS231",
-    "title": "BUS231",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "KB",
+        "faculty": "SHARIFUL",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
@@ -18241,194 +14728,11 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
-        "faculty": "KB",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "FZK",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ASIFSAMI",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "ASIFSAMI",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "JMA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "JMA",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "DMFI",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "DMFI",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "BUS361",
-    "title": "BUS361",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MHSL",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MHSL",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MN",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MN",
-        "times": [
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TNZ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TNZ",
+        "section": "11",
+        "faculty": "SHARIFUL",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "NAA",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "BUS498",
-    "title": "BUS498",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "A 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "BUS499",
-    "title": "BUS499",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "A 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -18443,7 +14747,7 @@ export const courses = [
         "faculty": "KB",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -18461,10 +14765,7 @@ export const courses = [
         "faculty": "FZK",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -18473,10 +14774,7 @@ export const courses = [
         "faculty": "ASIFSAMI",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -18485,10 +14783,7 @@ export const courses = [
         "faculty": "ASIFSAMI",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -18497,7 +14792,7 @@ export const courses = [
         "faculty": "JMA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -18506,10 +14801,7 @@ export const courses = [
         "faculty": "JMA",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -18518,7 +14810,7 @@ export const courses = [
         "faculty": "DMFI",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -18527,7 +14819,7 @@ export const courses = [
         "faculty": "DMFI",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -18542,10 +14834,7 @@ export const courses = [
         "faculty": "MHSL",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -18569,19 +14858,16 @@ export const courses = [
       },
       {
         "section": "4",
-        "faculty": "MN",
+        "faculty": "SKMR",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "TNZ",
+        "faculty": "TANBIR",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
@@ -18590,22 +14876,40 @@ export const courses = [
       },
       {
         "section": "6",
-        "faculty": "TNZ",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
         "faculty": "NAA",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
+            "time": "TR 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "BUS7498",
+    "title": "BUS7498",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "F 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "BUS7499",
+    "title": "BUS7499",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "A 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -18620,316 +14924,13 @@ export const courses = [
         "faculty": "KB",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "KB",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
         "faculty": "MSHS",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "MSHS",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "USN",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "USN",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "TNI",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "TNI",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "KAWSAR",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "KAWSAR",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN101",
-    "title": "FIN101",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MNS",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DSBA",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DSBA",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "NBR",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MMUF",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MMUF",
-        "times": [
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "RJ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NJAHAN",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "NJAHAN",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "MRM",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "MFM",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "ZZH",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "ZZH",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "NBR",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN201",
-    "title": "FIN201",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DSBA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "LVD",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "NBR",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MMUF",
-        "times": [
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "RJ",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "RJ",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NJAHAN",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "MFM",
         "times": [
           {
             "time": "S 03:10 PM - 04:40 PM"
@@ -18940,227 +14941,71 @@ export const courses = [
         ]
       },
       {
-        "section": "10",
-        "faculty": "ZZH",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "ZZH",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "MFM",
+        "section": "3",
+        "faculty": "MSHS",
         "times": [
           {
             "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "FIN335",
-    "title": "FIN335",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MNS",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MNS",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MMUF",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
       },
       {
         "section": "4",
-        "faculty": "RJ",
+        "faculty": "USN",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "FIN350",
-    "title": "FIN350",
-    "sections": [
+      },
       {
-        "section": "1",
-        "faculty": "LVD",
+        "section": "5",
+        "faculty": "USN",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "SR 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "KAWSAR",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "KAWSAR",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN380",
-    "title": "FIN380",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ARIFUL",
-        "times": [
-          {
-            "time": "TR 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN408",
-    "title": "FIN408",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "QSS",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "2",
-        "faculty": "NJAHAN",
+        "section": "9",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN410",
-    "title": "FIN410",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "QSS",
-        "times": [
+            "time": "R 04:50 PM - 06:20 PM"
+          },
           {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN425",
-    "title": "FIN425",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "LVD",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MRM",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN430",
-    "title": "FIN430",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "LVD",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN435",
-    "title": "FIN435",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TAC",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DSBA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "FIN465",
-    "title": "FIN465",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TAC",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -19172,55 +15017,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MNS",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
         "faculty": "DSBA",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DSBA",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "NBR",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MMUF",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MMUF",
         "times": [
           {
             "time": "S 10:10 AM - 11:40 AM"
@@ -19231,11 +15028,68 @@ export const courses = [
         ]
       },
       {
+        "section": "2",
+        "faculty": "DSBA",
+        "times": [
+          {
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "LVD",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NBR",
+        "times": [
+          {
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NBR",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "MMUF",
+        "times": [
+          {
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
         "section": "7",
         "faculty": "RJ",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -19244,7 +15098,7 @@ export const courses = [
         "faculty": "NJAHAN",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -19259,10 +15113,10 @@ export const courses = [
       },
       {
         "section": "10",
-        "faculty": "MRM",
+        "faculty": "MFM",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -19271,7 +15125,7 @@ export const courses = [
         "faculty": "MFM",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -19280,7 +15134,7 @@ export const courses = [
         "faculty": "ZZH",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -19295,10 +15149,10 @@ export const courses = [
       },
       {
         "section": "14",
-        "faculty": "NBR",
+        "faculty": "MRM",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -19322,21 +15176,15 @@ export const courses = [
         "faculty": "LVD",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
         "faculty": "NBR",
         "times": [
           {
@@ -19345,14 +15193,20 @@ export const courses = [
         ]
       },
       {
+        "section": "4",
+        "faculty": "NBR",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
         "section": "5",
         "faculty": "MMUF",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -19361,7 +15215,7 @@ export const courses = [
         "faculty": "RJ",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -19370,7 +15224,7 @@ export const courses = [
         "faculty": "RJ",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -19379,7 +15233,7 @@ export const courses = [
         "faculty": "NJAHAN",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -19388,19 +15242,19 @@ export const courses = [
         "faculty": "MFM",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "ZZH",
+        "faculty": "MFM",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "M 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "W 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -19409,97 +15263,28 @@ export const courses = [
         "faculty": "ZZH",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "MFM",
+        "faculty": "ZZH",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "HRM301",
-    "title": "HRM301",
+    "code": "FIN7335",
+    "title": "FIN7335",
     "sections": [
       {
         "section": "1",
-        "faculty": "MARS",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MARS",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "ADAS",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ADAS",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SHARNA",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "SHARNA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "SHARNA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "HRM411",
-    "title": "HRM411",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RUA",
+        "faculty": "MNS",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -19508,25 +15293,16 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "TPE",
+        "faculty": "MNS",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           }
         ]
-      }
-    ]
-  },
-  {
-    "code": "HRM412",
-    "title": "HRM412",
-    "sections": [
+      },
       {
-        "section": "1",
-        "faculty": "LZ",
+        "section": "3",
+        "faculty": "MMUF",
         "times": [
           {
             "time": "ST 10:10 AM - 11:40 AM"
@@ -19534,80 +15310,29 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
-        "faculty": "TPE",
+        "section": "4",
+        "faculty": "RJ",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "HRM413",
-    "title": "HRM413",
+    "code": "FIN7350",
+    "title": "FIN7350",
     "sections": [
       {
         "section": "1",
-        "faculty": "RUA",
+        "faculty": "LVD",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "HRM415",
-    "title": "HRM415",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "LZ",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SHARNA",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "HRM416",
-    "title": "HRM416",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SVA",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "HRM417",
-    "title": "HRM417",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ADAS",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "R 10:10 AM - 11:40 AM"
           },
           {
             "time": "T 10:10 AM - 11:40 AM"
@@ -19617,27 +15342,12 @@ export const courses = [
     ]
   },
   {
-    "code": "HRM418",
-    "title": "HRM418",
+    "code": "FIN7380",
+    "title": "FIN7380",
     "sections": [
       {
         "section": "1",
-        "faculty": "LZ",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "HRM421",
-    "title": "HRM421",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SVA",
+        "faculty": "MNS",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
@@ -19647,15 +15357,129 @@ export const courses = [
     ]
   },
   {
-    "code": "HRM424",
-    "title": "HRM424",
+    "code": "FIN7408",
+    "title": "FIN7408",
     "sections": [
       {
         "section": "1",
-        "faculty": "ADAS",
+        "faculty": "QSS",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NJAHAN",
+        "times": [
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "FIN7410",
+    "title": "FIN7410",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "QSS",
+        "times": [
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "FIN7425",
+    "title": "FIN7425",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "LVD",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MRM",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "FIN7435",
+    "title": "FIN7435",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TAC",
+        "times": [
+          {
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSBA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "FIN7465",
+    "title": "FIN7465",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TAC",
+        "times": [
+          {
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "QSS",
+        "times": [
+          {
+            "time": "TR 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "FIN7475",
+    "title": "FIN7475",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MMUF",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -19670,7 +15494,7 @@ export const courses = [
         "faculty": "MARS",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -19679,88 +15503,13 @@ export const courses = [
         "faculty": "MARS",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "ADAS",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ADAS",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SHARNA",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "SHARNA",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "SHARNA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ISCM101",
-    "title": "ISCM101",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ASM",
-        "times": [
-          {
-            "time": "A 10:00 AM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "ITB301",
-    "title": "ITB301",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "JU",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "JU",
+        "faculty": "MARS",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
@@ -19768,17 +15517,53 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "MSHS",
+        "section": "4",
+        "faculty": "ADAS",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
-        "section": "4",
-        "faculty": "TNI",
+        "section": "5",
+        "faculty": "SHARNA",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "SHARNA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "FARIN",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HRM7411",
+    "title": "HRM7411",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RUA",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -19786,17 +15571,23 @@ export const courses = [
         ]
       },
       {
-        "section": "5",
-        "faculty": "TNI",
+        "section": "2",
+        "faculty": "TPE",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "code": "HRM7412",
+    "title": "HRM7412",
+    "sections": [
       {
-        "section": "6",
-        "faculty": "JMA",
+        "section": "1",
+        "faculty": "LZ",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -19804,29 +15595,125 @@ export const courses = [
         ]
       },
       {
-        "section": "7",
-        "faculty": "JMA",
+        "section": "2",
+        "faculty": "TPE",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "ITB451",
-    "title": "ITB451",
+    "code": "HRM7413",
+    "title": "HRM7413",
     "sections": [
       {
         "section": "1",
-        "faculty": "JU",
+        "faculty": "RUA",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HRM7415",
+    "title": "HRM7415",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "LZ",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "LZ",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HRM7416",
+    "title": "HRM7416",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SVA",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HRM7417",
+    "title": "HRM7417",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ADAS",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HRM7418",
+    "title": "HRM7418",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "LZ",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HRM7421",
+    "title": "HRM7421",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SVA",
+        "times": [
+          {
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HRM7424",
+    "title": "HRM7424",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ADAS",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -19841,319 +15728,13 @@ export const courses = [
         "faculty": "JU",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "JU",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
         "faculty": "MSHS",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TNI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TNI",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "JMA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "JMA",
-        "times": [
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MGT101",
-    "title": "MGT101",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MSHS",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "USN",
-        "times": [
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "USN",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "KAWSAR",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "KAWSAR",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "DMASUM",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "DMASUM",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NNABI",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "NNABI",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "RAZIB",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "RAZIB",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TMJ",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "TMJ",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MGT251",
-    "title": "MGT251",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FF",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SVA",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SVA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TPE",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MMHN",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MMHN",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "MSIF",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NFI",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "NFI",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MGT337",
-    "title": "MGT337",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMARIF",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DMARIF",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SAM",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "ASIFSAMI",
         "times": [
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -20161,44 +15742,8 @@ export const courses = [
         ]
       },
       {
-        "section": "5",
-        "faculty": "ASIFSAMI",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "AHNAF",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "AHNAF",
-        "times": [
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MGT480",
-    "title": "MGT480",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "JU",
+        "section": "3",
+        "faculty": "TNI",
         "times": [
           {
             "time": "TR 01:30 PM - 03:00 PM"
@@ -20206,26 +15751,26 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
-        "faculty": "FF",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "FF",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
         "section": "4",
-        "faculty": "RUA",
+        "faculty": "TNI",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TNI",
+        "times": [
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "JMA",
         "times": [
           {
             "time": "SR 01:30 PM - 03:00 PM"
@@ -20233,11 +15778,41 @@ export const courses = [
         ]
       },
       {
-        "section": "5",
-        "faculty": "MSIF",
+        "section": "7",
+        "faculty": "JMA",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ITB7453",
+    "title": "ITB7453",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TNI",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ITB7454",
+    "title": "ITB7454",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "JU",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -20252,13 +15827,67 @@ export const courses = [
         "faculty": "MSHS",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
         "faculty": "USN",
+        "times": [
+          {
+            "time": "SR 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "USN",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "KAWSAR",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "KAWSAR",
+        "times": [
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "SHARNA",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "SHARNA",
+        "times": [
+          {
+            "time": "TR 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
         "times": [
           {
             "time": "R 03:10 PM - 04:40 PM"
@@ -20269,52 +15898,43 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
-        "faculty": "USN",
+        "section": "9",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
-        "section": "4",
-        "faculty": "KAWSAR",
+        "section": "10",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "T 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
-        "section": "5",
-        "faculty": "KAWSAR",
+        "section": "11",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
-        "section": "6",
-        "faculty": "DMASUM",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "DMASUM",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
+        "section": "12",
         "faculty": "NNABI",
         "times": [
           {
@@ -20323,47 +15943,11 @@ export const courses = [
         ]
       },
       {
-        "section": "9",
+        "section": "13",
         "faculty": "NNABI",
         "times": [
           {
             "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "RAZIB",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "RAZIB",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "TMJ",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "TMJ",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -20387,7 +15971,7 @@ export const courses = [
         "faculty": "SVA",
         "times": [
           {
-            "time": "ST 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -20396,7 +15980,7 @@ export const courses = [
         "faculty": "SVA",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -20405,15 +15989,63 @@ export const courses = [
         "faculty": "TPE",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "5",
+        "faculty": "ADAS",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
         "faculty": "MMHN",
         "times": [
           {
@@ -20422,46 +16054,19 @@ export const courses = [
         ]
       },
       {
-        "section": "6",
+        "section": "11",
         "faculty": "MMHN",
         "times": [
           {
             "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
-      },
-      {
-        "section": "7",
-        "faculty": "MSIF",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "NFI",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "NFI",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
       }
     ]
   },
   {
-    "code": "MGT7337",
-    "title": "MGT7337",
+    "code": "MGT7338",
+    "title": "MGT7338",
     "sections": [
       {
         "section": "1",
@@ -20495,7 +16100,7 @@ export const courses = [
         "faculty": "ASIFSAMI",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -20504,7 +16109,10 @@ export const courses = [
         "faculty": "ASIFSAMI",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "T 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -20513,7 +16121,7 @@ export const courses = [
         "faculty": "AHNAF",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -20522,178 +16130,55 @@ export const courses = [
         "faculty": "AHNAF",
         "times": [
           {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MIS101",
-    "title": "MIS101",
+    "code": "MGT7480",
+    "title": "MGT7480",
     "sections": [
       {
         "section": "1",
-        "faculty": "BHE",
+        "faculty": "JU",
         "times": [
           {
-            "time": "M 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "W 11:50 AM - 01:20 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "BHE",
+        "faculty": "JU",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "MUNIRA",
+        "faculty": "FF",
         "times": [
           {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "MUNIRA",
+        "faculty": "FF",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "5",
-        "faculty": "TAJNIN",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TAJNIN",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "RUPA",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "RUPA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "ANMDS",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "10",
-        "faculty": "ANMDS",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "11",
-        "faculty": "DNJ",
-        "times": [
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "12",
-        "faculty": "DNJ",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "MDARN",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "MDARN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS305",
-    "title": "MIS305",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ASM",
+        "faculty": "RUA",
         "times": [
           {
             "time": "SR 10:10 AM - 11:40 AM"
@@ -20701,206 +16186,11 @@ export const courses = [
         ]
       },
       {
-        "section": "2",
-        "faculty": "MMRN",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "BHE",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "BHE",
-        "times": [
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MUNIRA",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
         "section": "6",
-        "faculty": "MUNIRA",
+        "faculty": "MSIF",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "DMAHM",
-        "times": [
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "DMAHM",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS401",
-    "title": "MIS401",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MMRN",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS402",
-    "title": "MIS402",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ASM",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS403",
-    "title": "MIS403",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MARN",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS404",
-    "title": "MIS404",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MMRN",
-        "times": [
-          {
-            "time": "ST 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS406",
-    "title": "MIS406",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MARN",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS410",
-    "title": "MIS410",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MARN",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS415",
-    "title": "MIS415",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ASM",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MIS421",
-    "title": "MIS421",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MARN",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -20912,13 +16202,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "BHE",
+        "faculty": "MARN",
         "times": [
           {
-            "time": "M 11:50 AM - 01:20 PM"
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "W 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -20927,16 +16217,124 @@ export const courses = [
         "faculty": "BHE",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "W 11:50 AM - 01:20 PM"
           },
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "M 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
+        "faculty": "BHE",
+        "times": [
+          {
+            "time": "M 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "W 01:30 PM - 03:09 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
         "faculty": "MUNIRA",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "W 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "8",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "S 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "M 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "MDARN",
         "times": [
           {
             "time": "M 03:10 PM - 04:40 PM"
@@ -20947,68 +16345,32 @@ export const courses = [
         ]
       },
       {
-        "section": "4",
-        "faculty": "MUNIRA",
+        "section": "13",
+        "faculty": "MDARN",
+        "times": [
+          {
+            "time": "M 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "W 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "14",
+        "faculty": "DNJN",
         "times": [
           {
             "time": "R 03:10 PM - 04:40 PM"
           },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TAJNIN",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "TAJNIN",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "RUPA",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "RUPA",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "ANMDS",
-        "times": [
           {
             "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
-        "section": "10",
-        "faculty": "ANMDS",
+        "section": "15",
+        "faculty": "DNJN",
         "times": [
           {
             "time": "S 04:50 PM - 06:20 PM"
@@ -21019,44 +16381,26 @@ export const courses = [
         ]
       },
       {
-        "section": "11",
-        "faculty": "DNJ",
+        "section": "16",
+        "faculty": "ANMDS",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "T 03:00 PM - 04:20 PM"
           },
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "S 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
-        "section": "12",
-        "faculty": "DNJ",
+        "section": "17",
+        "faculty": "ANMDS",
         "times": [
           {
             "time": "S 04:50 PM - 06:20 PM"
           },
           {
             "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "13",
-        "faculty": "MDARN",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "14",
-        "faculty": "MDARN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -21071,7 +16415,10 @@ export const courses = [
         "faculty": "ASM",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -21080,21 +16427,51 @@ export const courses = [
         "faculty": "MMRN",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "W 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "M 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "BHE",
+        "faculty": "MARN",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "M 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "4",
+        "faculty": "MARN",
+        "times": [
+          {
+            "time": "W 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "M 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "BHE",
+        "times": [
+          {
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
         "faculty": "BHE",
         "times": [
           {
@@ -21106,425 +16483,62 @@ export const courses = [
         ]
       },
       {
-        "section": "5",
-        "faculty": "MUNIRA",
-        "times": [
-          {
-            "time": "M 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "W 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MUNIRA",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
         "section": "7",
-        "faculty": "DMAHM",
+        "faculty": "MUNIRA",
         "times": [
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          },
           {
             "time": "M 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "W 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "8",
+        "faculty": "MUNIRA",
+        "times": [
+          {
+            "time": "W 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "M 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "9",
         "faculty": "DMAHM",
         "times": [
           {
-            "time": "M 04:50 PM - 06:20 PM"
+            "time": "M 03:10 PM - 04:40 PM"
           },
           {
-            "time": "W 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT101",
-    "title": "MKT101",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SAM",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MHZ",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DATR",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "SAMEET",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SAMEET",
-        "times": [
-          {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "SRMALIHA",
-        "times": [
-          {
-            "time": "TR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "SRMALIHA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "DMAN",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "DMAM",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT201",
-    "title": "MKT201",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DATR",
-        "times": [
-          {
-            "time": "SR 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SAMEET",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "SAMEET",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "SRMALIHA",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "SRMALIHA",
-        "times": [
-          {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "FZK",
-        "times": [
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "7",
-        "faculty": "RZ",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "9",
-        "faculty": "SAT",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "W 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "DMAM",
+        "faculty": "DMAHM",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT401",
-    "title": "MKT401",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SAM",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MHZ",
-        "times": [
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "W 04:50 PM - 06:20 PM"
           },
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "M 04:50 PM - 06:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MKT402",
-    "title": "MKT402",
+    "code": "MIS7401",
+    "title": "MIS7401",
     "sections": [
       {
         "section": "1",
-        "faculty": "MAH",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MAH",
-        "times": [
-          {
-            "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT404",
-    "title": "MKT404",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "FZK",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DMHF",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT408",
-    "title": "MKT408",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RZ",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT410",
-    "title": "MKT410",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MFF",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MFF",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT412",
-    "title": "MKT412",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMHF",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "FZK",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT414",
-    "title": "MKT414",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MFF",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DMAN",
-        "times": [
-          {
-            "time": "SR 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "MKT416",
-    "title": "MKT416",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MAH",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MHZ",
+        "faculty": "MMRN",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
@@ -21534,30 +16548,93 @@ export const courses = [
     ]
   },
   {
-    "code": "MKT418",
-    "title": "MKT418",
+    "code": "MIS7402",
+    "title": "MIS7402",
     "sections": [
       {
         "section": "1",
-        "faculty": "MAH",
+        "faculty": "ASM",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "SR 01:30 PM - 03:00 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "MKT424",
-    "title": "MKT424",
+    "code": "MIS7404",
+    "title": "MIS7404",
     "sections": [
       {
         "section": "1",
-        "faculty": "PNS",
+        "faculty": "MMRN",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MIS7406",
+    "title": "MIS7406",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MUNIRA",
+        "times": [
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MIS7415",
+    "title": "MIS7415",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ASM",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MIS7421",
+    "title": "MIS7421",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MARN",
+        "times": [
+          {
+            "time": "ST 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MIS7426",
+    "title": "MIS7426",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -21581,33 +16658,12 @@ export const courses = [
         "faculty": "MHZ",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "DATR",
-        "times": [
-          {
-            "time": "SR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "SAMEET",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
         "faculty": "SAMEET",
         "times": [
           {
@@ -21616,38 +16672,101 @@ export const courses = [
         ]
       },
       {
+        "section": "4",
+        "faculty": "SAMEET",
+        "times": [
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "SRMALIHA",
+        "times": [
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
         "section": "6",
         "faculty": "SRMALIHA",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "SRMALIHA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "DMAN",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "DMAM",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "11",
+        "faculty": "PNS",
         "times": [
           {
             "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "DMAN",
+        "times": [
+          {
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -21659,10 +16778,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DATR",
+        "faculty": "SAT",
         "times": [
           {
-            "time": "SR 03:10 PM - 04:40 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -21671,7 +16790,7 @@ export const courses = [
         "faculty": "SAMEET",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -21680,7 +16799,7 @@ export const courses = [
         "faculty": "SAMEET",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -21689,7 +16808,7 @@ export const courses = [
         "faculty": "SRMALIHA",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -21698,28 +16817,28 @@ export const courses = [
         "faculty": "SRMALIHA",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "6",
-        "faculty": "FZK",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "T 08:30 AM - 10:00 AM"
           },
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "7",
-        "faculty": "RZ",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -21728,12 +16847,171 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 08:30 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "9",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
+        "section": "10",
+        "faculty": "DMHF",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MKT7401",
+    "title": "MKT7401",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MHZ",
+        "times": [
+          {
+            "time": "SR 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MHZ",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SAM",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MKT7402",
+    "title": "MKT7402",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MAH",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MAH",
+        "times": [
+          {
+            "time": "TR 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MKT7404",
+    "title": "MKT7404",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FZK",
+        "times": [
+          {
+            "time": "SR 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DMHF",
+        "times": [
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MKT7408",
+    "title": "MKT7408",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MKT7410",
+    "title": "MKT7410",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MFF",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MFF",
+        "times": [
+          {
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "S 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MKT7412",
+    "title": "MKT7412",
+    "sections": [
+      {
+        "section": "1",
         "faculty": "SAT",
         "times": [
           {
@@ -21742,59 +17020,59 @@ export const courses = [
         ]
       },
       {
-        "section": "10",
-        "faculty": "DMAM",
+        "section": "2",
+        "faculty": "FZK",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "EHS303",
-    "title": "EHS303",
+    "code": "MKT7414",
+    "title": "MKT7414",
     "sections": [
       {
         "section": "1",
-        "faculty": "MRWS",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "EHS304",
-    "title": "EHS304",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "ASIB",
+        "faculty": "MFF",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
+      },
+      {
+        "section": "2",
+        "faculty": "DMAN",
+        "times": [
+          {
+            "time": "SR 08:30 AM - 10:00 AM"
+          }
+        ]
       }
     ]
   },
   {
-    "code": "EHS305",
-    "title": "EHS305",
+    "code": "MKT7416",
+    "title": "MKT7416",
     "sections": [
       {
         "section": "1",
-        "faculty": "TT",
+        "faculty": "MAH",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MHZ",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           },
           {
             "time": "T 10:10 AM - 11:40 AM"
@@ -21804,12 +17082,27 @@ export const courses = [
     ]
   },
   {
-    "code": "EHS307",
-    "title": "EHS307",
+    "code": "MKT7418",
+    "title": "MKT7418",
     "sections": [
       {
         "section": "1",
-        "faculty": "ASIB",
+        "faculty": "MAH",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MKT7424",
+    "title": "MKT7424",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "PNS",
         "times": [
           {
             "time": "MW 03:10 PM - 04:40 PM"
@@ -21819,41 +17112,4850 @@ export const courses = [
     ]
   },
   {
-    "code": "EHS403",
-    "title": "EHS403",
+    "code": "MKT7430",
+    "title": "MKT7430",
     "sections": [
       {
         "section": "1",
-        "faculty": "MEI",
+        "faculty": "SAT",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "EHS7303",
-    "title": "EHS7303",
+    "code": "PHRM101",
+    "title": "PHRM101",
     "sections": [
       {
         "section": "1",
-        "faculty": "MRWS",
+        "faculty": "NGST",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
+            "time": "S 10:10 AM - 11:25 AM"
           },
           {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "EHS7304",
-    "title": "EHS7304",
+    "code": "PHRM101-L",
+    "title": "PHRM101-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM102",
+    "title": "PHRM102",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM103",
+    "title": "PHRM103",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM103-L",
+    "title": "PHRM103-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM201",
+    "title": "PHRM201",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM201-L",
+    "title": "PHRM201-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM202",
+    "title": "PHRM202",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM203",
+    "title": "PHRM203",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM203-L",
+    "title": "PHRM203-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM204",
+    "title": "PHRM204",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM205",
+    "title": "PHRM205",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM205-L",
+    "title": "PHRM205-L",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM206",
+    "title": "PHRM206",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM206-L",
+    "title": "PHRM206-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM207",
+    "title": "PHRM207",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM207-L",
+    "title": "PHRM207-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM208",
+    "title": "PHRM208",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM208-L",
+    "title": "PHRM208-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM209",
+    "title": "PHRM209",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM210",
+    "title": "PHRM210",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM210-L",
+    "title": "PHRM210-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM211",
+    "title": "PHRM211",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM301",
+    "title": "PHRM301",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM302",
+    "title": "PHRM302",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM303",
+    "title": "PHRM303",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM304",
+    "title": "PHRM304",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM304-L",
+    "title": "PHRM304-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM305",
+    "title": "PHRM305",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM305-L",
+    "title": "PHRM305-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM306",
+    "title": "PHRM306",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM306-L",
+    "title": "PHRM306-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM307",
+    "title": "PHRM307",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "M 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM308",
+    "title": "PHRM308",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "W 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM308-L",
+    "title": "PHRM308-L",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM309",
+    "title": "PHRM309",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM309-L",
+    "title": "PHRM309-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM310",
+    "title": "PHRM310",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM311",
+    "title": "PHRM311",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM312",
+    "title": "PHRM312",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM401",
+    "title": "PHRM401",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM402",
+    "title": "PHRM402",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM402-L",
+    "title": "PHRM402-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM403",
+    "title": "PHRM403",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM404",
+    "title": "PHRM404",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 09:00 AM - 01:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM405",
+    "title": "PHRM405",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM406",
+    "title": "PHRM406",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM406-L",
+    "title": "PHRM406-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM407",
+    "title": "PHRM407",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM409",
+    "title": "PHRM409",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 05:15 PM - 06:30 PM"
+          },
+          {
+            "time": "T 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM409-L",
+    "title": "PHRM409-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM410",
+    "title": "PHRM410",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DRKD",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DRKD",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 05:15 PM - 06:30 PM"
+          },
+          {
+            "time": "T 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM411",
+    "title": "PHRM411",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "W 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM412",
+    "title": "PHRM412",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM413",
+    "title": "PHRM413",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM413-L",
+    "title": "PHRM413-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM414",
+    "title": "PHRM414",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "MW 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "MR 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7101",
+    "title": "PHRM7101",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7101-L",
+    "title": "PHRM7101-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7102",
+    "title": "PHRM7102",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7103",
+    "title": "PHRM7103",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7103-L",
+    "title": "PHRM7103-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7104",
+    "title": "PHRM7104",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7201",
+    "title": "PHRM7201",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7201-L",
+    "title": "PHRM7201-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7202",
+    "title": "PHRM7202",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7203",
+    "title": "PHRM7203",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7203-L",
+    "title": "PHRM7203-L",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7204",
+    "title": "PHRM7204",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7209",
+    "title": "PHRM7209",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7301",
+    "title": "PHRM7301",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7301-L",
+    "title": "PHRM7301-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7302",
+    "title": "PHRM7302",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7302-L",
+    "title": "PHRM7302-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7303",
+    "title": "PHRM7303",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7303-L",
+    "title": "PHRM7303-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7304",
+    "title": "PHRM7304",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7304-L",
+    "title": "PHRM7304-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7401",
+    "title": "PHRM7401",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7401-L",
+    "title": "PHRM7401-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7402",
+    "title": "PHRM7402",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7403",
+    "title": "PHRM7403",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7404",
+    "title": "PHRM7404",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7405",
+    "title": "PHRM7405",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7409",
+    "title": "PHRM7409",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7501",
+    "title": "PHRM7501",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANWAR",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7501-L",
+    "title": "PHRM7501-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7502",
+    "title": "PHRM7502",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7502-L",
+    "title": "PHRM7502-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7503",
+    "title": "PHRM7503",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "M 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7504",
+    "title": "PHRM7504",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "W 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7504-L",
+    "title": "PHRM7504-L",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "NGST",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7505",
+    "title": "PHRM7505",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7505-L",
+    "title": "PHRM7505-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7601",
+    "title": "PHRM7601",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7601-L",
+    "title": "PHRM7601-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "R 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RG",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7602",
+    "title": "PHRM7602",
+    "sections": [
+      {
+        "section": "2",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7602-L",
+    "title": "PHRM7602-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7603",
+    "title": "PHRM7603",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ZISLAM",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7604",
+    "title": "PHRM7604",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SUSMITA",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7604-L",
+    "title": "PHRM7604-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "W 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "M 11:35 AM - 12:50 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7605",
+    "title": "PHRM7605",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "NN",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "W 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7605-L",
+    "title": "PHRM7605-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "JOYA",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "M 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RIPA",
+        "times": [
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7609",
+    "title": "PHRM7609",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7701",
+    "title": "PHRM7701",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ABIDA",
+        "times": [
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7702",
+    "title": "PHRM7702",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7703",
+    "title": "PHRM7703",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DEEA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "R 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7704",
+    "title": "PHRM7704",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 09:00 AM - 01:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7705",
+    "title": "PHRM7705",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "W 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "W 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7706",
+    "title": "PHRM7706",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DRKD",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "T 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DRKD",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 05:15 PM - 06:30 PM"
+          },
+          {
+            "time": "T 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7801",
+    "title": "PHRM7801",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:25 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 05:15 PM - 06:30 PM"
+          },
+          {
+            "time": "T 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7801-L",
+    "title": "PHRM7801-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "S 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7802",
+    "title": "PHRM7802",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "M 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FARUK",
+        "times": [
+          {
+            "time": "MW 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7803",
+    "title": "PHRM7803",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 01:00 PM - 02:15 PM"
+          },
+          {
+            "time": "T 01:00 PM - 02:15 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "KAST",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "3",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "S 08:45 AM - 10:00 AM"
+          },
+          {
+            "time": "T 08:45 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7806",
+    "title": "PHRM7806",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MNR",
+        "times": [
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          },
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "W 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7807",
+    "title": "PHRM7807",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "R 11:35 AM - 12:50 PM"
+          },
+          {
+            "time": "M 02:25 PM - 03:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "FKH",
+        "times": [
+          {
+            "time": "M 10:10 AM - 11:25 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:25 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM7808",
+    "title": "PHRM7808",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "MW 03:50 PM - 05:05 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "ANIK",
+        "times": [
+          {
+            "time": "MR 08:45 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 03:50 PM - 05:05 PM"
+          },
+          {
+            "time": "R 02:25 PM - 03:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM951",
+    "title": "PHRM951",
+    "sections": [
+      {
+        "section": "11",
+        "faculty": "SNR",
+        "times": [
+          {
+            "time": "T 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "31",
+        "faculty": "DRJA",
+        "times": [
+          {
+            "time": "W 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "51",
+        "faculty": "NZH",
+        "times": [
+          {
+            "time": "R 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "01",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 08:00 AM - 10:30 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM9510-L",
+    "title": "PHRM9510-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "M 05:15 PM - 06:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM952",
+    "title": "PHRM952",
+    "sections": [
+      {
+        "section": "11",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "W 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "21",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "A 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "61",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "A 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "81",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 02:00 PM - 03:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "91",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 09:00 AM - 01:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "01",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "T 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "02",
+        "faculty": "DCFH",
+        "times": [
+          {
+            "time": "W 07:00 PM - 09:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM9521-L",
+    "title": "PHRM9521-L",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 05:55 PM - 07:10 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM953",
+    "title": "PHRM953",
+    "sections": [
+      {
+        "section": "11",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 09:00 AM - 01:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "21",
+        "faculty": "DARI",
+        "times": [
+          {
+            "time": "S 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "22",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "T 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "31",
+        "faculty": "FR",
+        "times": [
+          {
+            "time": "M 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "91",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 10:40 AM - 01:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "01",
+        "faculty": "DSAI",
+        "times": [
+          {
+            "time": "F 10:40 AM - 01:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "02",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "S 07:00 PM - 09:30 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHRM954",
+    "title": "PHRM954",
+    "sections": [
+      {
+        "section": "01",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 10:40 AM - 01:40 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "EHS306",
+    "title": "EHS306",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "KNN",
+        "times": [
+          {
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "EHS402",
+    "title": "EHS402",
     "sections": [
       {
         "section": "1",
@@ -21867,45 +21969,33 @@ export const courses = [
     ]
   },
   {
-    "code": "EHS7305",
-    "title": "EHS7305",
+    "code": "EHS404",
+    "title": "EHS404",
     "sections": [
       {
         "section": "1",
-        "faculty": "TT",
+        "faculty": "DMJAA",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "TR 04:50 PM - 06:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "EHS7307",
-    "title": "EHS7307",
+    "code": "EHS406",
+    "title": "EHS406",
     "sections": [
       {
         "section": "1",
-        "faculty": "ASIB",
+        "faculty": "KNN",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "EHS7403",
-    "title": "EHS7403",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MEI",
-        "times": [
+            "time": "S 03:10 PM - 04:40 PM"
+          },
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "R 03:00 PM - 04:40 PM"
           }
         ]
       }
@@ -21920,7 +22010,10 @@ export const courses = [
         "faculty": "NAB",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -21935,79 +22028,40 @@ export const courses = [
         "faculty": "MRWS",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "T 08:30 AM - 10:00 AM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "S 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "KNN",
+        "faculty": "MRWS",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "KNN",
+        "faculty": "MEI",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
         "faculty": "MEI",
         "times": [
           {
             "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MRWS",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "GEN7204",
-    "title": "GEN7204",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -22019,18 +22073,6 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
         "faculty": "RN",
         "times": [
           {
@@ -22039,7 +22081,7 @@ export const courses = [
         ]
       },
       {
-        "section": "3",
+        "section": "2",
         "faculty": "KNH",
         "times": [
           {
@@ -22048,7 +22090,7 @@ export const courses = [
         ]
       },
       {
-        "section": "4",
+        "section": "3",
         "faculty": "KNH",
         "times": [
           {
@@ -22057,7 +22099,7 @@ export const courses = [
         ]
       },
       {
-        "section": "5",
+        "section": "4",
         "faculty": "JAKIA",
         "times": [
           {
@@ -22097,27 +22139,6 @@ export const courses = [
             "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
-      },
-      {
-        "section": "4",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "T 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 08:30 AM - 10:00 AM"
-          }
-        ]
       }
     ]
   },
@@ -22130,10 +22151,7 @@ export const courses = [
         "faculty": "DMLR",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -22142,10 +22160,7 @@ export const courses = [
         "faculty": "DMLR",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -22169,34 +22184,7 @@ export const courses = [
         "faculty": "RTK",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -22235,10 +22223,7 @@ export const courses = [
         "faculty": "DAMA",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -22247,10 +22232,7 @@ export const courses = [
         "faculty": "DAMA",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -22265,19 +22247,16 @@ export const courses = [
         "faculty": "TT",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TBA",
+        "faculty": "TT",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -22292,7 +22271,7 @@ export const courses = [
         "faculty": "DAAB",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -22302,15 +22281,6 @@ export const courses = [
         "times": [
           {
             "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -22325,10 +22295,7 @@ export const courses = [
         "faculty": "DMME",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -22361,10 +22328,7 @@ export const courses = [
         "faculty": "DPAC",
         "times": [
           {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -22400,18 +22364,6 @@ export const courses = [
             "time": "R 03:10 PM - 04:40 PM"
           }
         ]
-      },
-      {
-        "section": "2",
-        "faculty": "DPAC",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
       }
     ]
   },
@@ -22424,10 +22376,10 @@ export const courses = [
         "faculty": "DMZS",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "R 08:30 AM - 10:00 AM"
           },
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "S 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -22457,7 +22409,10 @@ export const courses = [
         "faculty": "DPAC",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -22479,18 +22434,30 @@ export const courses = [
     ]
   },
   {
-    "code": "PHS402",
-    "title": "PHS402",
+    "code": "PHS401",
+    "title": "PHS401",
     "sections": [
       {
         "section": "1",
         "faculty": "DAJF",
         "times": [
           {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
+            "time": "TR 08:30 AM - 10:00 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PHS403",
+    "title": "PHS403",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DMHK",
+        "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -22505,10 +22472,10 @@ export const courses = [
         "faculty": "AMINULI",
         "times": [
           {
-            "time": "W 08:30 AM - 10:00 AM"
+            "time": "M 08:30 AM - 10:00 AM"
           },
           {
-            "time": "M 08:30 AM - 10:00 AM"
+            "time": "W 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -22523,10 +22490,10 @@ export const courses = [
         "faculty": "AMINULI",
         "times": [
           {
-            "time": "M 10:10 AM - 11:10 AM"
+            "time": "W 10:10 AM - 11:40 AM"
           },
           {
-            "time": "W 10:10 AM - 11:40 AM"
+            "time": "M 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -22538,199 +22505,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "DMJAA",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHS7301",
-    "title": "PHS7301",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DPAC",
-        "times": [
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHS7302",
-    "title": "PHS7302",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMZS",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHS7303",
-    "title": "PHS7303",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DPAC",
-        "times": [
-          {
-            "time": "R 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "S 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DPAC",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHS7304",
-    "title": "PHS7304",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMZS",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHS7305",
-    "title": "PHS7305",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMZS",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHS7306",
-    "title": "PHS7306",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DPAC",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PHS7307",
-    "title": "PHS7307",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RTK",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "POP501",
-    "title": "POP501",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DLN",
-        "times": [
-          {
-            "time": "F 03:00 PM - 06:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "POP504",
-    "title": "POP504",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMHK",
-        "times": [
-          {
-            "time": "R 06:00 PM - 09:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "POP508",
-    "title": "POP508",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRWS",
-        "times": [
-          {
-            "time": "T 06:00 PM - 09:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "POP606",
-    "title": "POP606",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMZS",
-        "times": [
-          {
-            "time": "F 09:30 AM - 12:30 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -22757,18 +22535,6 @@ export const courses = [
             "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
       }
     ]
   },
@@ -22781,34 +22547,19 @@ export const courses = [
         "faculty": "DAJF",
         "times": [
           {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TBA",
+        "faculty": "MBH",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -22823,7 +22574,10 @@ export const courses = [
         "faculty": "HTM",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -22832,249 +22586,6 @@ export const courses = [
         "faculty": "HTM",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "POP950",
-    "title": "POP950",
-    "sections": [
-      {
-        "section": "11",
-        "faculty": "DLN",
-        "times": [
-          {
-            "time": "F 03:00 PM - 06:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "41",
-        "faculty": "DMHK",
-        "times": [
-          {
-            "time": "R 06:00 PM - 09:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "71",
-        "faculty": "MRWS",
-        "times": [
-          {
-            "time": "T 06:00 PM - 09:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "POP960",
-    "title": "POP960",
-    "sections": [
-      {
-        "section": "41",
-        "faculty": "DMZS",
-        "times": [
-          {
-            "time": "F 09:30 AM - 12:30 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS102",
-    "title": "PPHS102",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "QMR",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "QMR",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS103",
-    "title": "PPHS103",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MRWS",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "KNN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS104",
-    "title": "PPHS104",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "NAZMIN",
-        "times": [
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "NAZMIN",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS105",
-    "title": "PPHS105",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "QMR",
-        "times": [
-          {
-            "time": "MW 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS106",
-    "title": "PPHS106",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "RTK",
-        "times": [
-          {
-            "time": "MW 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MSML",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
             "time": "S 08:30 AM - 10:00 AM"
           },
           {
@@ -23085,39 +22596,12 @@ export const courses = [
     ]
   },
   {
-    "code": "PPHS202",
-    "title": "PPHS202",
+    "code": "PPHS204",
+    "title": "PPHS204",
     "sections": [
       {
         "section": "1",
-        "faculty": "RTK",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
-          },
-          {
-            "time": "R 04:50 PM - 06:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS203",
-    "title": "PPHS203",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "NAZMIN",
+        "faculty": "DMHK",
         "times": [
           {
             "time": "MW 01:30 PM - 03:00 PM"
@@ -23126,37 +22610,10 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "NAZMIN",
-        "times": [
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS205",
-    "title": "PPHS205",
-    "sections": [
-      {
-        "section": "1",
         "faculty": "DMHK",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DMHK",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -23171,10 +22628,7 @@ export const courses = [
         "faculty": "DMZS",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "SR 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -23183,7 +22637,10 @@ export const courses = [
         "faculty": "QMR",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -23204,13 +22661,13 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "SHM",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
+            "time": "S 04:50 PM - 06:20 PM"
           },
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -23225,22 +22682,10 @@ export const courses = [
         "faculty": "MBH",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "T 08:30 AM - 10:00 AM"
           },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MBH",
-        "times": [
           {
             "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -23255,7 +22700,10 @@ export const courses = [
         "faculty": "SHM",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "T 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -23270,7 +22718,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "F 01:00 PM - 02:00 PM"
+            "time": "A 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -23285,7 +22733,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "A 01:00 PM - 01:30 PM"
+            "time": "A 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -23309,7 +22757,10 @@ export const courses = [
         "faculty": "MAMUN",
         "times": [
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -23324,25 +22775,25 @@ export const courses = [
         "faculty": "QMR",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "S 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "QMR",
-        "times": [
-          {
             "time": "ST 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
+        "section": "2",
+        "faculty": "DPAC",
+        "times": [
+          {
+            "time": "T 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "R 04:50 PM - 06:20 PM"
+          }
+        ]
+      },
+      {
         "section": "3",
-        "faculty": "TBA",
+        "faculty": "DAAH",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -23351,25 +22802,10 @@ export const courses = [
       },
       {
         "section": "4",
-        "faculty": "TBA",
+        "faculty": "DAAH",
         "times": [
           {
-            "time": "R 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -23384,7 +22820,7 @@ export const courses = [
         "faculty": "MRWS",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       },
@@ -23408,10 +22844,7 @@ export const courses = [
         "faculty": "NAZMIN",
         "times": [
           {
-            "time": "S 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
+            "time": "SR 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -23420,7 +22853,7 @@ export const courses = [
         "faculty": "NAZMIN",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -23432,10 +22865,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TBA",
+        "faculty": "QMR",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
@@ -23444,7 +22877,10 @@ export const courses = [
         "faculty": "QMR",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -23471,18 +22907,6 @@ export const courses = [
             "time": "ST 01:30 PM - 03:00 PM"
           }
         ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "S 08:30 AM - 10:00 AM"
-          }
-        ]
       }
     ]
   },
@@ -23492,64 +22916,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MRWS",
+        "faculty": "KNN",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "S 11:50 AM - 01:20 PM"
           },
           {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "KNN",
+        "faculty": "ASIB",
         "times": [
           {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "KNN",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "M 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "W 03:10 PM - 04:40 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MEI",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MRWS",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -23564,19 +22946,10 @@ export const courses = [
         "faculty": "RTK",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "S 04:50 PM - 06:20 PM"
+            "time": "T 10:10 AM - 11:40 AM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -23591,7 +22964,10 @@ export const courses = [
         "faculty": "NAZMIN",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "R 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "S 03:10 PM - 04:40 PM"
           }
         ]
       },
@@ -23610,114 +22986,6 @@ export const courses = [
     ]
   },
   {
-    "code": "PPHS7205",
-    "title": "PPHS7205",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMHK",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "DMHK",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS7306",
-    "title": "PPHS7306",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "DMZS",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "QMR",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS7307",
-    "title": "PPHS7307",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SHM",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "SHM",
-        "times": [
-          {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PPHS7408",
-    "title": "PPHS7408",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MBH",
-        "times": [
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "MBH",
-        "times": [
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "code": "PSS301",
     "title": "PSS301",
     "sections": [
@@ -23726,10 +22994,10 @@ export const courses = [
         "faculty": "MAMUN",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "S 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -23741,25 +23009,43 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "MAMUN",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "T 04:50 PM - 06:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "PSS306",
-    "title": "PSS306",
+    "code": "PSS303",
+    "title": "PSS303",
     "sections": [
       {
         "section": "1",
         "faculty": "HTM",
         "times": [
           {
-            "time": "SR 08:30 AM - 10:00 AM"
+            "time": "MW 04:50 PM - 06:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PSS307",
+    "title": "PSS307",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MAMUN",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -23774,21 +23060,6 @@ export const courses = [
         "faculty": "TT",
         "times": [
           {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PSS402",
-    "title": "PSS402",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "HTM",
-        "times": [
-          {
             "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
@@ -23796,108 +23067,18 @@ export const courses = [
     ]
   },
   {
-    "code": "PSS405",
-    "title": "PSS405",
+    "code": "PSS403",
+    "title": "PSS403",
     "sections": [
       {
         "section": "1",
         "faculty": "MAMUN",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PSS7301",
-    "title": "PSS7301",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MAMUN",
-        "times": [
-          {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "T 04:50 PM - 06:20 PM"
           },
           {
-            "time": "R 03:10 PM - 04:40 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PSS7302",
-    "title": "PSS7302",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MAMUN",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PSS7305",
-    "title": "PSS7305",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "HTM",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PSS7401",
-    "title": "PSS7401",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "TT",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PSS7402",
-    "title": "PSS7402",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "HTM",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "PSS7405",
-    "title": "PSS7405",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MAMUN",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "R 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -23909,43 +23090,7 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "RPN",
-        "times": [
-          {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "RPN",
-        "times": [
-          {
-            "time": "SR 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "RHN",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "ST 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "MZAN",
+        "faculty": "DFM",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -23953,8 +23098,8 @@ export const courses = [
         ]
       },
       {
-        "section": "6",
-        "faculty": "SBZ",
+        "section": "2",
+        "faculty": "HELAL",
         "times": [
           {
             "time": "T 11:50 AM - 01:20 PM"
@@ -23965,50 +23110,98 @@ export const courses = [
         ]
       },
       {
-        "section": "7",
+        "section": "3",
         "faculty": "MASOOM",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "ST 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "4",
+        "faculty": "RHN",
+        "times": [
+          {
+            "time": "MW 08:30 AM - 10:00 AM"
+          }
+        ]
+      },
+      {
+        "section": "5",
+        "faculty": "IMF",
+        "times": [
+          {
+            "time": "T 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "6",
+        "faculty": "SBZ",
+        "times": [
+          {
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "7",
+        "faculty": "DKK",
+        "times": [
+          {
+            "time": "SR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "8",
-        "faculty": "USRA",
+        "faculty": "DKK",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "9",
-        "faculty": "DKK",
+        "faculty": "USRA",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "T 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "10",
-        "faculty": "DKK",
+        "faculty": "USRA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "S 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
-        "section": "11",
+        "section": "14",
         "faculty": "TBA",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
+            "time": "W 11:50 AM - 01:20 PM"
           },
           {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "M 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -24020,13 +23213,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "HELAL",
+        "faculty": "MASOOM",
         "times": [
           {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -24035,7 +23225,7 @@ export const courses = [
         "faculty": "HELAL",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -24050,7 +23240,7 @@ export const courses = [
         "faculty": "MASOOM",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       },
@@ -24059,7 +23249,10 @@ export const courses = [
         "faculty": "SBZ",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "S 03:10 PM - 04:40 PM"
+          },
+          {
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -24074,7 +23267,10 @@ export const courses = [
         "faculty": "RHN",
         "times": [
           {
-            "time": "SR 01:30 PM - 03:00 PM"
+            "time": "R 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "S 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -24089,10 +23285,10 @@ export const courses = [
         "faculty": "MZAN",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "T 03:10 PM - 04:40 PM"
           },
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -24104,19 +23300,55 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "MZAN",
+        "times": [
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "SOC7203",
+    "title": "SOC7203",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "HELAL",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "SOC7205",
+    "title": "SOC7205",
+    "sections": [
+      {
+        "section": "1",
         "faculty": "DARK",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "MASOOM",
+        "faculty": "DARK",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -24131,7 +23363,10 @@ export const courses = [
         "faculty": "RPN",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "S 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -24140,34 +23375,25 @@ export const courses = [
         "faculty": "SBZ",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "M 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "W 11:50 AM - 01:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7209",
-    "title": "SOC7209",
+    "code": "SOC7208",
+    "title": "SOC7208",
     "sections": [
       {
         "section": "1",
         "faculty": "IMF",
         "times": [
           {
-            "time": "S 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "IMF",
-        "times": [
-          {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -24182,10 +23408,7 @@ export const courses = [
         "faculty": "RPN",
         "times": [
           {
-            "time": "S 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -24200,22 +23423,7 @@ export const courses = [
         "faculty": "MOU",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "SOC7219",
-    "title": "SOC7219",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MASOOM",
-        "times": [
-          {
-            "time": "ST 08:30 AM - 10:00 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -24227,10 +23435,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "HELAL",
+        "faculty": "MASOOM",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "RPN",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -24245,18 +23462,48 @@ export const courses = [
         "faculty": "IMF",
         "times": [
           {
-            "time": "W 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "M 10:10 AM - 11:40 AM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7302",
-    "title": "SOC7302",
+    "code": "SOC7301",
+    "title": "SOC7301",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MOU",
+        "times": [
+          {
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "SOC7303",
+    "title": "SOC7303",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "MZAN",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "SOC7304",
+    "title": "SOC7304",
     "sections": [
       {
         "section": "1",
@@ -24270,33 +23517,36 @@ export const courses = [
     ]
   },
   {
-    "code": "SOC7304",
-    "title": "SOC7304",
+    "code": "SOC7305",
+    "title": "SOC7305",
     "sections": [
       {
         "section": "1",
-        "faculty": "MOU",
+        "faculty": "RPN",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "T 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7305",
-    "title": "SOC7305",
+    "code": "SOC7307",
+    "title": "SOC7307",
     "sections": [
       {
         "section": "1",
-        "faculty": "HELAL",
+        "faculty": "IMF",
         "times": [
           {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "T 08:30 AM - 10:00 AM"
           },
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "R 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -24311,22 +23561,37 @@ export const courses = [
         "faculty": "MZAN",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7310",
-    "title": "SOC7310",
+    "code": "SOC7311",
+    "title": "SOC7311",
     "sections": [
       {
         "section": "1",
-        "faculty": "DARK",
+        "faculty": "DFM",
         "times": [
           {
-            "time": "MW 08:30 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "SOC7312",
+    "title": "SOC7312",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "RHN",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -24341,25 +23606,28 @@ export const courses = [
         "faculty": "RHN",
         "times": [
           {
-            "time": "SR 10:10 AM - 11:40 AM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7317",
-    "title": "SOC7317",
+    "code": "SOC7316",
+    "title": "SOC7316",
     "sections": [
       {
         "section": "1",
-        "faculty": "IMF",
+        "faculty": "HELAL",
         "times": [
           {
-            "time": "T 04:50 PM - 06:20 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "T 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -24374,30 +23642,30 @@ export const courses = [
         "faculty": "DFM",
         "times": [
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "TR 10:10 AM - 11:40 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7320",
-    "title": "SOC7320",
+    "code": "SOC7402",
+    "title": "SOC7402",
     "sections": [
       {
         "section": "1",
         "faculty": "MOU",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7401",
-    "title": "SOC7401",
+    "code": "SOC7403",
+    "title": "SOC7403",
     "sections": [
       {
         "section": "1",
@@ -24419,22 +23687,37 @@ export const courses = [
         "faculty": "DARK",
         "times": [
           {
-            "time": "TR 08:30 AM - 10:00 AM"
+            "time": "MW 08:30 AM - 10:00 AM"
           }
         ]
       }
     ]
   },
   {
-    "code": "SOC7409",
-    "title": "SOC7409",
+    "code": "SOC7407",
+    "title": "SOC7407",
     "sections": [
       {
         "section": "1",
-        "faculty": "MZAN",
+        "faculty": "AIMU",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "SOC7412",
+    "title": "SOC7412",
+    "sections": [
+      {
+        "section": "1",
+        "faculty": "DARK",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -24449,19 +23732,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "A 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "2",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "A 01:00 PM - 01:30 PM"
           }
         ]
       }
@@ -24476,55 +23747,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "A 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 08:30 AM - 10:00 AM"
-          },
-          {
-            "time": "R 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "TR 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "8",
-        "faculty": "TBA",
-        "times": [
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "R 11:50 AM - 01:20 PM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "SOC7415",
-    "title": "SOC7415",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "MOU",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "A 10:30 AM - 01:20 PM"
           }
         ]
       }
@@ -24536,52 +23759,28 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMRB",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "A 10:10 AM - 12:10 PM"
+            "time": "T 04:50 PM - 06:50 PM"
+          },
+          {
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "SNE",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "W 10:10 AM - 12:10 PM"
           },
           {
-            "time": "SR 01:30 PM - 03:00 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "DMMTI",
-        "times": [
-          {
-            "time": "T 10:10 AM - 11:40 AM"
-          },
-          {
-            "time": "R 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "TAN",
-        "times": [
-          {
-            "time": "W 01:30 PM - 03:30 PM"
-          },
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -24596,7 +23795,7 @@ export const courses = [
         "faculty": "MANI",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "TR 04:50 PM - 06:20 PM"
           },
           {
             "time": "S 08:00 AM - 10:00 AM"
@@ -24608,22 +23807,22 @@ export const courses = [
         "faculty": "NAZMUS",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           },
           {
-            "time": "TR 04:50 PM - 06:20 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "TAN",
+        "faculty": "DMRB",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "ST 04:50 PM - 06:20 PM"
           },
           {
-            "time": "W 10:10 AM - 12:10 PM"
+            "time": "A 10:10 AM - 12:10 PM"
           }
         ]
       }
@@ -24635,25 +23834,37 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DSN",
+        "faculty": "DSN & MTQI",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "TR 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 10:10 AM - 12:10 PM"
+            "time": "S 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "2",
+        "faculty": "DTNA & DSN",
+        "times": [
+          {
+            "time": "S 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "ST 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
         "faculty": "DKBA",
         "times": [
           {
-            "time": "T 08:00 AM - 10:00 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           },
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "T 08:30 AM - 10:00 AM"
           }
         ]
       }
@@ -24680,7 +23891,7 @@ export const courses = [
         "faculty": "MANI",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "TR 11:50 AM - 01:20 PM"
           },
           {
             "time": "R 01:30 PM - 03:30 PM"
@@ -24698,40 +23909,28 @@ export const courses = [
         "faculty": "DMMK",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "MANI",
+        "faculty": "DTNA",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
       {
         "section": "3",
-        "faculty": "DTNA",
+        "faculty": "TASMIA",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "GEB306",
-    "title": "GEB306",
-    "sections": [
-      {
-        "section": "1",
-        "faculty": "SNE",
-        "times": [
-          {
-            "time": "ST 04:50 PM - 06:20 PM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -24743,13 +23942,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "DMHH",
+        "times": [
+          {
+            "time": "W 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "M 01:30 PM - 03:00 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
         "faculty": "DMMB",
         "times": [
           {
-            "time": "W 10:10 AM - 11:40 AM"
+            "time": "W 11:50 AM - 01:20 PM"
           },
           {
-            "time": "M 10:10 AM - 11:40 AM"
+            "time": "M 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -24773,10 +23984,10 @@ export const courses = [
         "faculty": "NAHSAN",
         "times": [
           {
-            "time": "R 03:10 PM - 04:40 PM"
+            "time": "R 04:50 PM - 06:20 PM"
           },
           {
-            "time": "A 10:10 AM - 11:40 AM"
+            "time": "A 04:50 PM - 06:20 PM"
           }
         ]
       }
@@ -24791,7 +24002,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "Project"
+            "time": "Research"
           }
         ]
       }
@@ -24803,6 +24014,15 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "MTR",
+        "times": [
+          {
+            "time": "MW 10:10 AM - 11:40 AM"
+          }
+        ]
+      },
+      {
+        "section": "2",
         "faculty": "DMMK",
         "times": [
           {
@@ -24815,40 +24035,16 @@ export const courses = [
         "faculty": "DMRB",
         "times": [
           {
-            "time": "S 03:10 PM - 04:40 PM"
-          },
-          {
-            "time": "T 03:10 PM - 04:40 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "DMMTI",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "5",
-        "faculty": "TAIBUR",
-        "times": [
-          {
-            "time": "MW 08:30 AM - 10:00 AM"
-          }
-        ]
-      },
-      {
-        "section": "6",
-        "faculty": "MTR",
-        "times": [
-          {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -24869,10 +24065,10 @@ export const courses = [
       },
       {
         "section": "2",
-        "faculty": "MTQI",
+        "faculty": "RFM",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "MW 01:30 PM - 03:00 PM"
           }
         ]
       },
@@ -24890,7 +24086,7 @@ export const courses = [
         "faculty": "NAZMUS",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "TR 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -24902,16 +24098,13 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMMB",
+        "faculty": "RFM",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "ST 01:30 PM - 03:00 PM"
           },
           {
-            "time": "W 12:00 PM - 02:00 PM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "T 10:10 AM - 12:10 PM"
           }
         ]
       },
@@ -24920,7 +24113,7 @@ export const courses = [
         "faculty": "ZF",
         "times": [
           {
-            "time": "M 10:10 AM - 11:40 AM"
+            "time": "M 11:50 AM - 01:20 PM"
           },
           {
             "time": "MW 08:30 AM - 10:00 AM"
@@ -24929,25 +24122,25 @@ export const courses = [
       },
       {
         "section": "3",
-        "faculty": "RFM",
+        "faculty": "TASMIA",
         "times": [
           {
             "time": "MW 11:50 AM - 01:20 PM"
           },
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "S 10:10 AM - 12:10 PM"
           }
         ]
       },
       {
         "section": "4",
-        "faculty": "TASMIA",
+        "faculty": "DMMB",
         "times": [
           {
-            "time": "S 01:30 PM - 03:30 PM"
+            "time": "M 01:30 PM - 03:30 PM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -24971,16 +24164,25 @@ export const courses = [
         "faculty": "DTNA",
         "times": [
           {
-            "time": "MW 01:30 PM - 03:00 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "code": "GEB7106",
+    "title": "GEB7106",
+    "sections": [
       {
-        "section": "3",
-        "faculty": "TASMIA",
+        "section": "1",
+        "faculty": "DMHH",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "S 01:30 PM - 03:00 PM"
+          },
+          {
+            "time": "T 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -24995,13 +24197,10 @@ export const courses = [
         "faculty": "DABT",
         "times": [
           {
-            "time": "T 10:10 AM - 11:40 AM"
+            "time": "R 10:10 AM - 12:10 PM"
           },
           {
-            "time": "A 10:10 AM - 12:10 PM"
-          },
-          {
-            "time": "R 10:10 AM - 11:40 AM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -25016,6 +24215,18 @@ export const courses = [
             "time": "TR 03:10 PM - 04:40 PM"
           }
         ]
+      },
+      {
+        "section": "3",
+        "faculty": "DABT",
+        "times": [
+          {
+            "time": "MW 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "A 10:10 AM - 12:10 PM"
+          }
+        ]
       }
     ]
   },
@@ -25025,19 +24236,19 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "TASMIA",
+        "faculty": "NAZMUS",
         "times": [
           {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "MW 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "NAZMUS",
+        "faculty": "TASMIA",
         "times": [
           {
-            "time": "MW 04:50 PM - 06:20 PM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -25049,19 +24260,22 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "SNE",
+        "faculty": "NAZMUS",
         "times": [
           {
-            "time": "MW 10:10 AM - 11:40 AM"
+            "time": "SR 04:50 PM - 06:20 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "TASMIA",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "TR 03:10 PM - 04:40 PM"
+            "time": "T 10:10 AM - 11:40 AM"
+          },
+          {
+            "time": "R 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -25073,40 +24287,28 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DKBA",
+        "faculty": "MTR",
         "times": [
           {
-            "time": "S 01:30 PM - 03:00 PM"
+            "time": "ST 11:50 AM - 01:20 PM"
           },
           {
-            "time": "M 08:00 AM - 10:00 AM"
-          },
-          {
-            "time": "T 01:30 PM - 03:00 PM"
+            "time": "F 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "RFM",
+        "faculty": "DKBA",
         "times": [
           {
-            "time": "T 01:30 PM - 03:30 PM"
+            "time": "W 08:30 AM - 10:00 AM"
           },
           {
-            "time": "ST 11:50 AM - 01:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "3",
-        "faculty": "MTR",
-        "times": [
-          {
-            "time": "TR 11:50 AM - 01:20 PM"
+            "time": "T 01:30 PM - 03:00 PM"
           },
           {
-            "time": "F 01:30 PM - 03:30 PM"
+            "time": "R 01:30 PM - 03:00 PM"
           }
         ]
       }
@@ -25121,7 +24323,7 @@ export const courses = [
         "faculty": "ZF",
         "times": [
           {
-            "time": "ST 10:10 AM - 11:40 AM"
+            "time": "TR 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -25133,28 +24335,25 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DMMB",
+        "faculty": "DABT",
         "times": [
           {
-            "time": "A 08:00 AM - 10:00 AM"
+            "time": "ST 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 11:50 AM - 01:20 PM"
-          },
-          {
-            "time": "T 11:50 AM - 01:20 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           }
         ]
       },
       {
         "section": "2",
-        "faculty": "DABT",
+        "faculty": "MTQI",
         "times": [
           {
-            "time": "R 12:10 PM - 02:10 PM"
+            "time": "S 08:00 AM - 10:00 AM"
           },
           {
-            "time": "MW 11:50 AM - 01:20 PM"
+            "time": "MW 10:10 AM - 11:40 AM"
           }
         ]
       },
@@ -25163,7 +24362,7 @@ export const courses = [
         "faculty": "MTQI",
         "times": [
           {
-            "time": "TR 01:30 PM - 03:00 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           },
           {
             "time": "S 10:10 AM - 12:10 PM"
@@ -25178,10 +24377,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DSN",
+        "faculty": "DTNA & DSN",
         "times": [
           {
-            "time": "F 10:10 AM - 12:10 PM"
+            "time": "R 01:30 PM - 03:30 PM"
           },
           {
             "time": "MW 11:50 AM - 01:20 PM"
@@ -25193,10 +24392,13 @@ export const courses = [
         "faculty": "DTNA",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "S 11:50 AM - 01:20 PM"
           },
           {
-            "time": "R 01:30 PM - 03:30 PM"
+            "time": "T 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "T 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -25208,6 +24410,30 @@ export const courses = [
     "sections": [
       {
         "section": "1",
+        "faculty": "TASMIA",
+        "times": [
+          {
+            "time": "S 01:30 PM - 03:30 PM"
+          },
+          {
+            "time": "MW 03:10 PM - 04:40 PM"
+          }
+        ]
+      },
+      {
+        "section": "2",
+        "faculty": "MANI",
+        "times": [
+          {
+            "time": "MW 04:50 PM - 06:20 PM"
+          },
+          {
+            "time": "S 10:10 AM - 12:10 PM"
+          }
+        ]
+      },
+      {
+        "section": "3",
         "faculty": "DMRI",
         "times": [
           {
@@ -25215,18 +24441,6 @@ export const courses = [
           },
           {
             "time": "TR 04:50 PM - 06:20 PM"
-          }
-        ]
-      },
-      {
-        "section": "4",
-        "faculty": "DMHH",
-        "times": [
-          {
-            "time": "ST 01:30 PM - 03:00 PM"
-          },
-          {
-            "time": "S 10:10 AM - 12:00 PM"
           }
         ]
       }
@@ -25241,10 +24455,10 @@ export const courses = [
         "faculty": "NAHSAN",
         "times": [
           {
-            "time": "A 11:50 AM - 01:20 PM"
+            "time": "R 03:10 PM - 04:40 PM"
           },
           {
-            "time": "R 04:50 PM - 06:20 PM"
+            "time": "A 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -25259,7 +24473,7 @@ export const courses = [
         "faculty": "RFM",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "ST 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -25289,7 +24503,10 @@ export const courses = [
         "faculty": "MTQI",
         "times": [
           {
-            "time": "MW 03:10 PM - 04:40 PM"
+            "time": "T 11:50 AM - 01:20 PM"
+          },
+          {
+            "time": "R 11:50 AM - 01:20 PM"
           }
         ]
       }
@@ -25301,10 +24518,10 @@ export const courses = [
     "sections": [
       {
         "section": "1",
-        "faculty": "DABT",
+        "faculty": "RFM",
         "times": [
           {
-            "time": "ST 11:50 AM - 01:20 PM"
+            "time": "MW 03:10 PM - 04:40 PM"
           }
         ]
       }
@@ -25319,7 +24536,7 @@ export const courses = [
         "faculty": "DMHH",
         "times": [
           {
-            "time": "TR 10:10 AM - 11:40 AM"
+            "time": "ST 10:10 AM - 11:40 AM"
           }
         ]
       }
@@ -25341,12 +24558,21 @@ export const courses = [
     ]
   },
   {
-    "code": "LGF870",
-    "title": "LGF870",
+    "code": "LGF880",
+    "title": "LGF880",
     "sections": [
       {
         "section": "11",
-        "faculty": "SHFI",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "A 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "12",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 02:30 PM - 05:00 PM"
@@ -25354,26 +24580,17 @@ export const courses = [
         ]
       },
       {
-        "section": "12",
-        "faculty": "INK",
-        "times": [
-          {
-            "time": "F 10:40 AM - 01:10 PM"
-          }
-        ]
-      },
-      {
         "section": "21",
-        "faculty": "MARB",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "A 04:20 PM - 06:50 PM"
+            "time": "S 06:40 PM - 09:10 PM"
           }
         ]
       },
       {
         "section": "22",
-        "faculty": "MMNA",
+        "faculty": "TBA",
         "times": [
           {
             "time": "S 06:40 PM - 09:10 PM"
@@ -25382,34 +24599,7 @@ export const courses = [
       },
       {
         "section": "31",
-        "faculty": "MGS",
-        "times": [
-          {
-            "time": "F 08:00 AM - 10:30 AM"
-          }
-        ]
-      },
-      {
-        "section": "32",
-        "faculty": "FZTR",
-        "times": [
-          {
-            "time": "A 07:00 PM - 09:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "41",
-        "faculty": "SMUI",
-        "times": [
-          {
-            "time": "S 06:40 PM - 09:10 PM"
-          }
-        ]
-      },
-      {
-        "section": "42",
-        "faculty": "TJK",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 02:30 PM - 05:00 PM"
@@ -25417,17 +24607,8 @@ export const courses = [
         ]
       },
       {
-        "section": "51",
-        "faculty": "MZRN",
-        "times": [
-          {
-            "time": "A 07:00 PM - 09:30 PM"
-          }
-        ]
-      },
-      {
-        "section": "52",
-        "faculty": "DMNEA",
+        "section": "32",
+        "faculty": "TBA",
         "times": [
           {
             "time": "A 04:20 PM - 06:50 PM"
@@ -25435,8 +24616,44 @@ export const courses = [
         ]
       },
       {
+        "section": "41",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "A 04:20 PM - 06:50 PM"
+          }
+        ]
+      },
+      {
+        "section": "42",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "A 07:00 PM - 09:30 PM"
+          }
+        ]
+      },
+      {
+        "section": "51",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 08:00 AM - 10:30 AM"
+          }
+        ]
+      },
+      {
+        "section": "52",
+        "faculty": "TBA",
+        "times": [
+          {
+            "time": "F 08:00 AM - 10:30 AM"
+          }
+        ]
+      },
+      {
         "section": "61",
-        "faculty": "SMHI",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 10:40 AM - 01:10 PM"
@@ -25445,25 +24662,10 @@ export const courses = [
       },
       {
         "section": "62",
-        "faculty": "MMZI",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "F 08:00 AM - 10:30 AM"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "code": "LGF890",
-    "title": "LGF890",
-    "sections": [
-      {
-        "section": "11",
-        "faculty": "ASM",
-        "times": [
-          {
-            "time": "F 10:10 AM - 11:00 AM"
+            "time": "F 10:40 AM - 01:10 PM"
           }
         ]
       }
@@ -25475,7 +24677,7 @@ export const courses = [
     "sections": [
       {
         "section": "11",
-        "faculty": "QSS",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 09:00 AM - 12:00 PM"
@@ -25484,7 +24686,7 @@ export const courses = [
       },
       {
         "section": "12",
-        "faculty": "MNS",
+        "faculty": "TBA",
         "times": [
           {
             "time": "M 06:30 PM - 09:30 PM"
@@ -25498,8 +24700,8 @@ export const courses = [
     "title": "FIN952",
     "sections": [
       {
-        "section": "31",
-        "faculty": "TAC",
+        "section": "11",
+        "faculty": "TBA",
         "times": [
           {
             "time": "S 06:30 PM - 09:30 PM"
@@ -25507,8 +24709,8 @@ export const courses = [
         ]
       },
       {
-        "section": "51",
-        "faculty": "MRM",
+        "section": "41",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 09:00 AM - 12:00 PM"
@@ -25523,7 +24725,7 @@ export const courses = [
     "sections": [
       {
         "section": "11",
-        "faculty": "RUA",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 09:00 AM - 12:00 PM"
@@ -25535,7 +24737,7 @@ export const courses = [
         "faculty": "TBA",
         "times": [
           {
-            "time": "A 06:30 PM - 09:30 PM"
+            "time": "M 06:30 PM - 09:30 PM"
           }
         ]
       }
@@ -25546,20 +24748,20 @@ export const courses = [
     "title": "HRM952",
     "sections": [
       {
-        "section": "11",
-        "faculty": "MARS",
+        "section": "21",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "S 06:30 PM - 09:30 PM"
+            "time": "M 06:30 PM - 09:30 PM"
           }
         ]
       },
       {
-        "section": "71",
-        "faculty": "DSRC",
+        "section": "31",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "M 06:30 PM - 09:30 PM"
+            "time": "A 06:30 PM - 09:30 PM"
           }
         ]
       }
@@ -25571,7 +24773,7 @@ export const courses = [
     "sections": [
       {
         "section": "01",
-        "faculty": "FARUQ",
+        "faculty": "TBA",
         "times": [
           {
             "time": "T 06:30 PM - 09:30 PM"
@@ -25580,10 +24782,10 @@ export const courses = [
       },
       {
         "section": "02",
-        "faculty": "FARUQ",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "A 06:30 PM - 09:30 PM"
+            "time": "M 06:30 PM - 09:30 PM"
           }
         ]
       }
@@ -25595,16 +24797,16 @@ export const courses = [
     "sections": [
       {
         "section": "11",
-        "faculty": "ASM",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "M 06:30 PM - 09:30 PM"
+            "time": "A 03:00 PM - 06:00 PM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "MMRN",
+        "faculty": "TBA",
         "times": [
           {
             "time": "S 06:30 PM - 09:30 PM"
@@ -25619,16 +24821,16 @@ export const courses = [
     "sections": [
       {
         "section": "11",
-        "faculty": "SAT",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "M 06:30 PM - 09:30 PM"
+            "time": "S 06:30 PM - 09:30 PM"
           }
         ]
       },
       {
         "section": "12",
-        "faculty": "DSRI",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 03:00 PM - 06:00 PM"
@@ -25642,20 +24844,20 @@ export const courses = [
     "title": "MKT952",
     "sections": [
       {
-        "section": "51",
+        "section": "11",
         "faculty": "TBA",
         "times": [
           {
-            "time": "A 03:00 PM - 06:00 PM"
+            "time": "A 06:30 PM - 09:30 PM"
           }
         ]
       },
       {
-        "section": "91",
-        "faculty": "PNS",
+        "section": "71",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "M 06:30 PM - 09:30 PM"
+            "time": "F 06:30 PM - 09:30 PM"
           }
         ]
       }
@@ -25667,7 +24869,7 @@ export const courses = [
     "sections": [
       {
         "section": "11",
-        "faculty": "DMARIF",
+        "faculty": "TBA",
         "times": [
           {
             "time": "M 06:30 PM - 09:30 PM"
@@ -25676,7 +24878,7 @@ export const courses = [
       },
       {
         "section": "12",
-        "faculty": "AKMM",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 03:00 PM - 06:00 PM"
@@ -25690,17 +24892,17 @@ export const courses = [
     "title": "SCM952",
     "sections": [
       {
-        "section": "11",
-        "faculty": "NASRIN",
+        "section": "31",
+        "faculty": "TBA",
         "times": [
           {
-            "time": "A 03:01 PM - 05:59 PM"
+            "time": "F 06:30 PM - 09:30 PM"
           }
         ]
       },
       {
-        "section": "41",
-        "faculty": "MZU",
+        "section": "71",
+        "faculty": "TBA",
         "times": [
           {
             "time": "F 09:00 AM - 12:00 PM"
