@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Input and output file paths
-const inputPath = path.join(__dirname, 'public/list', 'updated_15-5-26.csv');
-const outputPath = path.join(__dirname, 'public/list', 'cleaned_15-5-26.csv');
+const inputPath = path.join(__dirname, 'public/list', 'updated_2-8-26.csv');
+const outputPath = path.join(__dirname, 'public/list', 'cleaned_2-8-26.csv');
 
 function formatNewCSV() {
   try {

@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const Papa = require('papaparse');
 
-const csvPath = path.join(__dirname, 'public/list', 'cleaned_15-5-26.csv');
+const csvPath = path.join(__dirname, 'public/list', 'cleaned_2-8-26.csv');
 const outputPath = path.join(__dirname, 'public', 'courses-data-updated.js');
 
 
