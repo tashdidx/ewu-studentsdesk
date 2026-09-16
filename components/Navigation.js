@@ -2,15 +2,13 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FaHome, FaBookOpen, FaCalendarAlt, FaCalculator, FaBars, FaTimes } from 'react-icons/fa';
+import { FaHome, FaCalendarAlt, FaCalculator, FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
   const navItems = [
-   
-    { href: '/course-planner', label: 'Course Planner' },
     { href: '/routine-generator', label: 'Routine Generator' },
     { href: '/cgpa-calculator', label: 'CGPA Calculator' },
     { href: '/course-hub', label: 'Course Hub' },

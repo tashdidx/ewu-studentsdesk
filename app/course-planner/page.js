@@ -1,14 +1,5 @@
-import CoursePlanner from '@/components/course-planner'
-import React from 'react'
-import Navigation from '@/components/Navigation'
+import { notFound } from 'next/navigation'
 
-function page() {
-  return (
-    <div className="min-h-screen bg-[#1a1a1a]">
-      <Navigation />
-      <CoursePlanner/>
-    </div>
-  )
+export default function CoursePlannerPage() {
+  notFound()
 }
-
-export default page

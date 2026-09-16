@@ -1,11 +1,10 @@
 "use client"
 import { GlassBlogCard } from "../components/GlassBlogCard";
 import { Hero } from "../components/ui/hero";
-import { FaBookOpen, FaCalendarAlt, FaCalculator, FaBook } from "react-icons/fa";
+import { FaCalendarAlt, FaCalculator, FaBook } from "react-icons/fa";
 
 export default function Home() {
   const cards = [
-    { href: "/course-planner", icon: FaBookOpen, title: "Course Planner", description: "Plan your courses, avoid time conflicts, and review sections easily.", color: "text-blue-300" },
     { href: "/routine-generator", icon: FaCalendarAlt, title: "Routine Generator", description: "Generate, view, and print your weekly class routine in style.", color: "text-emerald-300" },
     { href: "/cgpa-calculator", icon: FaCalculator, title: "CGPA Calculator", description: "Calculate your term and total CGPA with ease and accuracy.", color: "text-purple-300" },
     { href: "/course-hub", icon: FaBook, title: "Course Hub", description: "Explore detailed course catalogs with prerequisites, objectives, and outcomes.", color: "text-violet-300" },
@@ -26,8 +25,8 @@ export default function Home() {
           <div className="mx-auto w-24 h-0.5 bg-gradient-to-r from-gray-600 via-gray-400 to-gray-600 rounded-full"></div>
         </div>
         
-        {/* All 4 Cards */}
-        <div className="grid z-50 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full max-w-6xl pt-4 lg:pt-0">
+        {/* Feature cards */}
+        <div className="grid z-50 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 w-full max-w-5xl pt-4 lg:pt-0">
           {cards.map((card) => (
             <GlassBlogCard key={card.href} {...card} />
           ))}

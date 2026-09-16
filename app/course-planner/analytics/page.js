@@ -1,13 +1,7 @@
-import Analytics from '../../../components/analytics';
-import Navigation from '@/components/Navigation'
+import { notFound } from 'next/navigation';
 
 export default function AnalyticsPage() {
-  return (
-    <div className="min-h-screen bg-[#1a1a1a]">
-      <Navigation />
-      <Analytics />
-    </div>
-  );
+  notFound();
 }
 
 export const metadata = {
